@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Baloo+Bhaina+2:wght@400;500;600&display=swap');
+
+:root {
+    --bgColor: #141414;
+    --mainTextColor: #fff;
+    --TextColor2: #808080;
+}
+
+.container {
+    height: 332px;
+    background-color: var(--bgColor);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5em;
+    align-items: center;
+}
+
+.columnOneBody {
+    margin-right: 100px;
+}
+
+.columnOneText{ 
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: var(--mainTextColor);
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.columnTwoBody {
+    margin-left: 50px;
+    margin-right: 50px;
+    align-self: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.columnTwoText{ 
+    font-family: 'ABeeZee', sans-serif;
+    color: var(--TextColor2);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    
+}
