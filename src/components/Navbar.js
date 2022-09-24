@@ -24,10 +24,13 @@ function Navbar() {
 
   return (
     <header className={colorChange ? 'colorChange' : 'header'}>
-        <a href="/" className='logo'>Sabatour</a>
+        <a className='logoBody' href="/">
+          <div className='logo'>SABA</div>
+          <div className='logo'>TOUR.</div>
+        </a>
         <nav ref={navRef} className='nav-middle'>
             <a href="/">Home</a>
-            <a href="/#">Destinations</a>
+            <a href="/destinations">Destinations</a>
             <a href="/tour-guide">Tour Guide</a>
             <a href="/#">About Us</a>
             <div className="btn-position">

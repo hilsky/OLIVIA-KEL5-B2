@@ -9,11 +9,17 @@
 .container {
     height: 332px;
     background-color: var(--bgColor);
+
+}
+
+.columnBody {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 5em;
+    padding-left: 4em;
+    padding-right: 4em;
     align-items: center;
+    justify-content: center;
 }
 
 .columnOneBody {
@@ -25,23 +31,95 @@
     color: var(--mainTextColor);
     font-weight: 100;
     font-size: 32px;
+    margin: -20px;
 }
 
 .columnTwoBody {
+    margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
     align-self: flex-start;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    text-align: center;
 }
+
+.columnTwoHeaderBody {
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    align-self: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.columnTwoHeader {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: var(--mainTextColor);
+    font-weight: 100;
+    font-size: 25px;
+}
+
+
 
 .columnTwoText{ 
     font-family: 'ABeeZee', sans-serif;
     color: var(--TextColor2);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 12px;
     margin-bottom: 10px;
     text-decoration: none;
     
+}
+
+.belowBody {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    color: var(--mainTextColor);
+}
+
+.rowOneBody {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.iconCopy {
+    color: var(--TextColor2);
+    height: 15px;
+    width: 15px;
+}
+
+.rowText {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 3px;
+}
+
+
+.iconSocialMedia {
+    width: 25px;
+    height: 25px;
+    color: var(--TextColor2);
+    margin-right: 5px;
 }

@@ -16,7 +16,7 @@
 }
 
 .mainBody {
-   align-self: center;
+    align-self: center;
     background-repeat: no-repeat;
 }
 
@@ -51,7 +51,7 @@
     position: absolute;
     color: var(--secondaryTextColor);
     bottom: -15rem;
-    right: -3rem;
+    right: -2rem;
     
 }
 
@@ -78,7 +78,7 @@
     background-color: #fff;
     height: max-content;
     width: 1260px;
-    position: sticky;
+    position: relative;
     margin-top: -70px;
     padding-left: 3em;
     padding-right: 3em;

@@ -33,21 +33,22 @@ const Dashboard  = () => {
        
 
         return (
-            <div>
+            <div className={styles.mainBody}>
                 <div className={styles['container']}>
-                <Swiper
-                    
-                    effect={"fade"}
-                    autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                    }}
-                    pagination={{
-                    clickable: false,
-                    }}
-                    modules={[Autoplay, EffectFade]}
-                    className="mySwiper"
-                >
+                    <Swiper
+                        spaceBetween={30}
+                        centeredSlides={true}
+                        autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                        }}
+                        effect={"fade"}
+                        pagination={{
+                        clickable: false,
+                        }}
+                        modules={[Autoplay, EffectFade]}
+                        className="mySwiper"
+                    >
                         {data.map((item, index) => {
                             return (
                                 <SwiperSlide key={item.id}>
@@ -61,9 +62,7 @@ const Dashboard  = () => {
                             )
                         })}
                     </Swiper>    
-                    
-                </div>
-                <div className={styles.body}>
+                    <div className={styles.body}>
                     <div className={styles.slideOneBody}>
                             <button className={styles.slideOneButton}>
                                 <div className={styles.slideOneText}>CONTINUE READING</div>
@@ -73,6 +72,7 @@ const Dashboard  = () => {
                             <input type="text" placeholder="Search" className={styles.searchForm}/>
                             <FaSistrix className={styles.searchIcon}/>
                     </div>
+                </div>
                 </div>
                 <div className={styles['container2']}>
                     <div className={styles.slideTwoBody}>
@@ -132,7 +132,7 @@ const Dashboard  = () => {
                         <button className={styles.slideTwoBtn2}>SEE MORE</button>
                     </div>
                 </div>
-                <div className={styles.container3}>
+                {/* <div className={styles.container3}>
                 
                     <div className={styles.slideThreeBody}>
                         <div>
@@ -144,7 +144,7 @@ const Dashboard  = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
 }
