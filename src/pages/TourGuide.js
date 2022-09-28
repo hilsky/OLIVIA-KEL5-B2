@@ -1,11 +1,15 @@
 import React from "react";
 import styles from '../styles/tourguide.module.css';
-import {FaTimes} from 'react-icons/fa';
 import CardGuide from "../components/CardGuide";
-import Logo from '../assets/logo/logo.png'
+import dataGuides from "../data/Guides";
+import { useNavigate } from "react-router-dom";
 
 
-const TourGuide = () => {
+const TourGuide = (props) => {
+    
+    const navigate = useNavigate();
+
+
     return (
         <div className={styles.mainBody}>
             <div className={styles['container']}>
@@ -14,51 +18,29 @@ const TourGuide = () => {
                     <h1 className={styles.slideOneText}>Parisiwata</h1>
                     <h1 className={styles.slideOneText}>Indonesia Maju</h1>
                     <div className={styles.slideOneParagraph}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Dengan adanya pemandu wisata, Anda akan dibantu mempersiapkan segala sesuatu yang berkaitan dengan perjalanan wisata Anda. Mulai dari penginapan, tempat makan, transportasi. Selain itu, Anda akan diberikan penjelasan tentang segala sesuatu yang berkaitan dengan destinasi wisata pada Anda. Baik itu sejarah tempat wisata, seluk beluknya, hingga detil masing-masing objek wisata. Sehingga Anda dapat memahami tempat yang Anda kunjungi.</p>
                     </div>
                     <div className={styles.slideOneText2}>
-                        Our Tour Guides
+                        Pemandu Wisata
                     </div>
                 </div>
             </div>
         
             <div className={styles['container2']}>
-                <CardGuide
-                    imageUrl='https://cdn-cas.orami.co.id/parenting/images/pahlawan_soekarno.width-800.jpegquality-80.jpg'
-                    name="Hilmi"
-                    work="Tour Guide"
-                    desc="Lorem Ipsum"
-                />
-                <CardGuide
-                    imageUrl='https://www.shareicon.net/data/512x512/2016/07/26/802043_man_512x512.png'
-                    name="Hilmi"
-                    work="Tour Guide"
-                    desc="Lorem Ipsum"
-                />
-                <CardGuide
-                    imageUrl='https://www.shareicon.net/data/512x512/2016/07/26/802043_man_512x512.png'
-                    name="Hilmi"
-                    work="Tour Guide"
-                    desc="Lorem Ipsum "
-                />
-                <CardGuide
-                    imageUrl='https://www.shareicon.net/data/512x512/2016/07/26/802043_man_512x512.png'
-                    name="Hilmi"
-                    work="Tour Guide"
-                    desc="Lorem Ipsum"
-                />
-                <CardGuide
-                    imageUrl='https://www.shareicon.net/data/512x512/2016/07/26/802043_man_512x512.png'
-                    name="Hilmi"
-                    work="Tour Guide"
-                    desc="Lorem Ipsum"
-                />
-                <CardGuide
-                    imageUrl='https://www.shareicon.net/data/512x512/2016/07/26/802043_man_512x512.png'
-                    name="Hilmi"
-                    work="Tour Guide"
-                    desc="Lorem Ipsum"
-                />
+                {dataGuides.map((e) => {
+                    return (
+                        
+                            <CardGuide
+                                key={e.id}
+                                state="tes"
+                                imageUrl={e.imgProfil}
+                                name={e.name}
+                                work={e.work}
+                                alt={e.alt}
+                                desc={e.desc}
+                            />
+                    )
+                })}
             </div>
             <div className={styles.container3}>
                 <div className={styles.slideThreeBody}>
@@ -68,7 +50,9 @@ const TourGuide = () => {
                         <h1 className={styles.slideThreeText}>TIM KAMI.</h1>
                     </div>
                     <div className={styles.slideThreeParagraph}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Dengan Sabatour, Anda dapat membantu perekonomian Indonesia. selain itu, Anda dapat membantu para wisatawan untuk menemani selama perjalanan wisata sehingga wisatawan dapat terbantu dengan jasa Anda. 
+                        Sabatour membantu Anda untuk mendapatkan lapangan pekerjaan dengan mudah dan praktis. 
+                        Bergabunglah dengan kami dan nikmati pengalaman Anda dengan Sabatour.</p>
                 </div>
                 </div>
             </div>

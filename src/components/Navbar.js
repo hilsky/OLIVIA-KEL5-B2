@@ -13,7 +13,7 @@ function Navbar() {
   
     const [colorChange, setColorChange] = useState(false);
     const changeNavbarColor = () => {
-        if(window.scrollY >= 100) {
+        if(window.scrollY >= 80) {
             setColorChange(true)
         } else {
             setColorChange(false)
@@ -29,13 +29,13 @@ function Navbar() {
           <div className='logo'>TOUR.</div>
         </a>
         <nav ref={navRef} className='nav-middle'>
-            <a href="/">Home</a>
-            <a href="/destinations">Destinations</a>
-            <a href="/tour-guide">Tour Guide</a>
-            <a href="/#">About Us</a>
+            <a href="/">Beranda</a>
+            <a href="/destinasi">Destinasi</a>
+            <a href="/tour-guide">Pemandu Wisata</a>
+            <a href="/#">Tentang</a>
             <div className="btn-position">
-                <button className="btn">Sign Up</button>
-                <button className="btn">Sign In</button>
+                <button className="btn">Daftar</button>
+                <button className="btn">Masuk</button>
             </div> 
             <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                 <FaTimes/>

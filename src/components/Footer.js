@@ -15,37 +15,64 @@ function Footer() {
                 </div>
                 <div className={styles.columnTwoBody}>
                     <div className={styles.columnTwoHeaderBody}>
-                        <HiLocationMarker className={styles.icon} />
-                        <div className={styles.columnTwoHeader}>Visit Us</div>
+                        <div className={styles.columnTwoHeader}>Tentang</div>
                     </div>
-                    <a className={styles.columnTwoText} href='/#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </a>
+                    <a className={styles.columnTwoText} href='/#'>Blog</a>
+                    <a className={styles.columnTwoText} href='/#'>Karir</a>
+                    <a className={styles.columnTwoText} href='/#'>Partner</a>
+                    <a className={styles.columnTwoText} href='/#'>Perlindungan</a>
                 </div>
                 <div className={styles.columnTwoBody}>
                     <div className={styles.columnTwoHeaderBody}>
-                        <FaPhoneAlt className={styles.icon} />
-                        <div className={styles.columnTwoHeader}>Call Us</div>
+                        <div className={styles.columnTwoHeader}>Produk</div>
                     </div>
-                    <a className={styles.columnTwoText} href='/#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </a>
+                    <a className={styles.columnTwoText} href='/#'>Pemandu Wisata</a>
+                    <a className={styles.columnTwoText} href='/#'>Hotel</a>
+                    <a className={styles.columnTwoText} href='/#'>Kuliner</a>
+                    
                 </div>
                 <div className={styles.columnTwoBody}>
                     <div className={styles.columnTwoHeaderBody}>
-                        <HiMail className={styles.icon} />
-                        <div className={styles.columnTwoHeader}>Email Us</div>
+                        <div className={styles.columnTwoHeader}>Dukungan</div>
                     </div>
-                    <a className={styles.columnTwoText} href='/#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </a>
+                    <a className={styles.columnTwoText} href='/#'>Pusat Bantuan</a>
+                    <a className={styles.columnTwoText} href='/#'>Kebijakan Privasi</a>
+                    <a className={styles.columnTwoText} href='/#'>Syarat & Ketentuan</a>
+                    <a className={styles.columnTwoText} href='/#'>Daftarkan Hotel Anda</a>
+                    
+                </div>
+                <div className={styles.columnTwoBody}>
+                    <div className={styles.columnTwoHeaderBody}>
+                        <div className={styles.columnTwoHeader}>Hubungi Kami</div>
+                    </div>
+                    <div className={styles.rowTwoBody}>
+                        <FaPhoneAlt className={styles.iconTwo} />
+                        <div className={styles.rowTwoText}>08121212121</div>
+                    </div>
+                    <div className={styles.rowTwoBody}>
+                        <HiMail className={styles.iconTwo} />
+                        <div className={styles.rowTwoText}>sabatour@gmail.com</div>
+                    </div>
+                    <div className={styles.rowTwoBody}>
+                        <HiLocationMarker className={styles.iconTwo} />
+                        <div className={styles.rowTwoText}>Bogor, Indonesia</div>
+                    </div>
+                    
+                    
                 </div>
             </div>
             <div className={styles.belowBody}>
-                <div className={styles.rowOneBody}>
-                    <FaRegCopyright className={styles.iconCopy} />
-                    <div className={styles.rowText}>2022, Teknologi Rekayasa Perangkat Lunak, IPB University</div>
-                </div>
                 <div className={styles.socialMediaBody}>
+                    <div className={styles.socialHeader}>IKUTI KAMI</div>
                     <FaFacebook className={styles.iconSocialMedia} />
                     <FaInstagramSquare className={styles.iconSocialMedia} />
                     <FaTwitter className={styles.iconSocialMedia} />
                     <FaYoutube className={styles.iconSocialMedia} />
 
+                </div>
+                <div className={styles.rowOneBody}>
+                    <FaRegCopyright className={styles.iconCopy} />
+                    <div className={styles.rowText}>2022, Teknologi Rekayasa Perangkat Lunak, IPB University</div>
                 </div>
             </div>
            

@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import TourGuide from './pages/TourGuide';
 import Destinations from './pages/Destinations';
 
+import DetailGuides from './pages/DetailGuides';
+
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       <Routes>
         <Route path='/' exact element={<Dashboard />} />
         <Route path='/tour-guide' element={<TourGuide />} />
-        <Route path='/destinations' element={<Destinations />} />
+        <Route path='/destinasi' element={<Destinations />} />
+        <Route path='/detail-guide' element={<DetailGuides />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './styles/cardGuide.module.css';
+import {Link} from 'react-router-dom'
 
 
 function CardGuide(props) {
     return (
-        <div className={styles.cardBody}>
+        <div className={styles.cardBody} key={props.key} >
             <div className={styles.imgBody}>
                 <img src={props.imageUrl} className={styles.img}/>
             </div>
@@ -17,18 +18,14 @@ function CardGuide(props) {
                     {props.desc}
                 </div>
             </div>
-            <div className={styles.mediaSocial}>
-                <a href={props.linkWa} className={styles.link}>
-                    <img src={props.imgWa} className={styles.icon}/>
-                </a>
-                <a href={props.linkIg} className={styles.link}>
-                    <img src={props.imgIg} className={styles.icon}/>
-                </a>
-                <a href={props.linkFb} className={styles.link}>
-                    <img src={props.imgFb} className={styles.icon}/>
-                </a>
-            </div>
+            <Link className={styles.btnBody} to={{
+                pathname: '/detail-guide',
+                state: props.state
+            }}>
+                <div className={styles.btnText}>SELENGKAPNYA</div>
+            </Link>
         </div>
+
     )
 }
 

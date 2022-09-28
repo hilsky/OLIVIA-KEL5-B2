@@ -141,7 +141,7 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg); */
     padding-left: 5em;
-    padding-top: 1em;
+    padding-top: -4em;
     
     font-family: 'Pontano Sans', sans-serif;
     width: 624px;
