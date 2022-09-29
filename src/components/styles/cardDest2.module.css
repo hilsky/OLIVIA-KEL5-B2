@@ -16,10 +16,9 @@
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-right: 15px;
-    margin-left: 15px;
     z-index: 1;
     margin-bottom: 50px;
+    text-decoration: none;
     
 }
 
@@ -35,7 +34,7 @@
     /* border-width: 1px;
     border-style: solid; */
     width: 315px;
-    height: 341px;
+    height: 360px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     align-self: center;
@@ -45,83 +44,71 @@
 
 .img {
     width: 315px;
-    height: 341px;
+    height: 360px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 .titleBody {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-self: flex-start;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 10px;
-    height: 100px;
-    
-    
 
 }
 
 .titleBody2 {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    
-}
-
-.titleLoc {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--cardMainColor);
-
-}
-
-.titleProv {
-    font-size: 17px;
-    font-weight: 600;
-    color: var(--cardMainColor);
-    text-align: left;
-}
-
-.icon {
-    color: var(--cardMainColor);
-    width: 20px;
-    height: 20px;
+    flex-wrap: wrap;
+    object-fit: cover;
     margin-right: 10px;
+    align-items: center;
+    align-self: flex-start;
 }
 
-.descBody {
+.titleNamaWisata {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5E6282;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+}
+
+.starBody {
+    margin-top: 5px;
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
-    width: 100px;
-    margin-left: 50px;
 }
 
-.icon {
+.starIcon {
     width: 20px;
     height: 20px;
 }
 
-.like {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+.locBody {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
     margin-left: 10px;
-}
-/*
-
-.desc {
-
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.mediaSocial {
-
+.locIcon {
+    width: 20px;
+    height: 20px;
+    color: var(--cardWork);
 }
 
-.link {
-
+.locText {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--cardWork);
+    margin-left: 5px;
 }
-
-.icon {
-
-}  */

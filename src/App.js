@@ -7,6 +7,7 @@ import TourGuide from './pages/TourGuide';
 import Destinations from './pages/Destinations';
 
 import DetailGuides from './pages/DetailGuides';
+import DetailDestinasi from './pages/DetailDestinasi';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/tour-guide' element={<TourGuide />} />
         <Route path='/destinasi' element={<Destinations />} />
         <Route path='/detail-guide' element={<DetailGuides />} />
+        <Route path='/detail-destinasi' element={<DetailDestinasi />} />
       </Routes>
       <Footer />
     </BrowserRouter>

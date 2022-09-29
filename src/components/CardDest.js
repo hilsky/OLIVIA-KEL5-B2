@@ -2,11 +2,15 @@ import React from 'react';
 import styles from './styles/cardDest.module.css';
 import {FaRegHeart} from 'react-icons/fa'
 import { HiOutlineLocationMarker } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 
 
 function CardDest(props) {
     return (
-        <div className={styles.cardBody} key={props.key}>
+        <Link className={styles.cardBody} key={props.key} to={{
+            pathname:'/detail-destinasi',
+            state:props.state
+        }}>
             <div className={styles.imgBody}>
                 <img src={props.imageUrl} className={styles.img} alt={props.alt}/>
             </div>
@@ -26,7 +30,7 @@ function CardDest(props) {
                 <div className={styles.locText}>{props.namaWisata}, </div>
                 <div className={styles.locText}>{props.kota}</div>
             </div>
-        </div>
+        </Link>
     )
 }
 
