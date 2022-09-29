@@ -82,18 +82,10 @@
     height: 35px;
     text-align: left;
     float: left;
-    font-size: 12px;
-    font-weight: 300;
-    margin-bottom: 5px;
-    color: #5E6282;
-}
-
-.rowText2 {
-    width: 250px;
-    height: 30px;
-    text-align: left;
-    float: left;
     font-size: 13px;
     font-weight: 300;
+    margin-bottom: 4px;
     color: #5E6282;
+    height: fit-content;
 }
+

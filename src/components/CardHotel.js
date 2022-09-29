@@ -25,19 +25,19 @@ function CardHotel(props) {
                 </div>
                 <div className={styles.row}>
                     <HiOutlineWifi className={styles.iconLoc} />
-                    <div className={styles.rowText2}>{props.ket1}</div>
+                    <div className={styles.rowText}>{props.ket1}</div>
                 </div>
                 <div className={styles.row}>
                     <HiFolderOpen className={styles.iconLoc} />
-                    <div className={styles.rowText2}>{props.ket2}</div>
+                    <div className={styles.rowText}>{props.ket2}</div>
                 </div>
                 <div className={styles.row}>
                     <FaCar className={styles.iconLoc} />
-                    <div className={styles.rowText2}>{props.ket3}</div>
+                    <div className={styles.rowText}>{props.ket3}</div>
                 </div>
             </div>
         </div>
       )
-    }
+    };
 
 export default CardHotel;
