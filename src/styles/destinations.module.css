@@ -51,7 +51,7 @@
     position: absolute;
     color: var(--secondaryTextColor);
     bottom: -15rem;
-    right: 2rem;
+    right: 2.5rem;
     
 }
 
@@ -63,30 +63,30 @@
     color: var(--secondaryTextColor);
 }
 
-.cardContainer {
-    padding: 5em;
-    position: absolute;
-    bottom: -33em;
-    z-index: -1;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+
 
 .container2 {
     justify-content: center;
     background-color: #fff;
     height: max-content;
-    width: 1260px;
+    width: 100%;
     position: relative;
     margin-top: -70px;
-    padding-left: 3em;
-    padding-right: 3em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 50px;
     
+}
+
+.cardBody {
+    width: 1000x;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .container3 {
@@ -151,3 +151,1963 @@
     text-align: justify;
 }
 
+@media screen and (max-width: 1162px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 1024px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        
+    }
+    
+    .slideOneBody {
+        padding: 5em;
+        position: absolute;
+        top: 8rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 48px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -15rem;
+        right: 7.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 624px;
+        height: 167px;
+        font-size: 15px;
+        color: var(--secondaryTextColor);
+    }
+    
+    
+    .container2 {
+        background-color: #fff;
+        height: max-content;
+        position: relative;
+        margin-top: -70px;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 1000x;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+
+    }
+    
+}
+
+@media screen and (max-width: 1080px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 1000px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 5em;
+        position: absolute;
+        top: 8rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 45px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 43px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -15rem;
+        right: 9rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 624px;
+        height: 167px;
+        font-size: 14.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+
+    }
+    
+}
+
+@media screen and (max-width: 1040px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 970px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 5em;
+        position: absolute;
+        top: 8rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 43px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 41px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -12rem;
+        right: 10rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 600px;
+        height: 167px;
+        font-size: 14px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+      
+        background-color: #fff;
+        height: max-content;
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 960px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 5em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 41px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 39px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -12rem;
+        right: 10rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 590px;
+        height: 167px;
+        font-size: 13.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 940px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 5em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 41px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 39px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -12rem;
+        right: 11.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 580px;
+        height: 160px;
+        font-size: 13.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 920px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 5em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 37px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -12rem;
+        right: 12rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 560px;
+        height: 150px;
+        font-size: 13px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 890px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 4em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 34px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -15rem;
+        right: 12rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 540px;
+        height: 135px;
+        font-size: 12px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 860px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 3em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 32px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 28px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -18rem;
+        right: 10rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 520px;
+        height: 120px;
+        font-size: 11.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 850px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 4em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 32px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 28px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -15rem;
+        right: 13rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 520px;
+        height: 120px;
+        font-size: 11.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 840px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 3em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 27px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -17rem;
+        right: 11rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 500px;
+        height: 115px;
+        font-size: 11px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 730px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 820px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 3em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 26px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 10.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 480px;
+        height: 115px;
+        font-size: 11px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 800px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 3em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 28px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -15rem;
+        right: 10rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 460px;
+        height: 110px;
+        font-size: 10.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 800px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 680px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 790px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 3em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 28px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -15rem;
+        right: 10rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 460px;
+        height: 110px;
+        font-size: 10.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 800px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 780px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 2.5em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 23px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 8.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 430px;
+        height: 100px;
+        font-size: 10px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 800px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 770px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 2.5em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 23px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 9.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 430px;
+        height: 100px;
+        font-size: 10px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 800px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 760px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 2.3em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 23px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16.5rem;
+        right: 7.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 380px;
+        height: 100px;
+        font-size: 10px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 800px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 750px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 2.3em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 23px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16.5rem;
+        right: 7.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 380px;
+        height: 100px;
+        font-size: 10px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        width: 800px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 730px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 2.1em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 23px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 21px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16.5rem;
+        right: 7rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 360px;
+        height: 100px;
+        font-size: 9.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+       
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 720px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 2em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16.5rem;
+        right: 6.8rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 340px;
+        height: 100px;
+        font-size: 9px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+       
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 700px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1.6em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16.5rem;
+        right: 5.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 320px;
+        height: 100px;
+        font-size: 9px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+       
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 700px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1.6em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16.5rem;
+        right: 5.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 300px;
+        height: 100px;
+        font-size: 8.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+       
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 418px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 700px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1.6em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16.5rem;
+        right: 5.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 285px;
+        height: 100px;
+        font-size: 8.5px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+       
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 670px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1.2em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 4.7rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 270px;
+        height: 100px;
+        font-size: 8px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+       
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 670px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1.2em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 5.2rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 270px;
+        height: 100px;
+        font-size: 8px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        margin-left: -50;
+        margin-right: 50;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 670px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1.2em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 5.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 270px;
+        height: 100px;
+        font-size: 8px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        margin-left: -50;
+        margin-right: 50;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 340px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 670px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1.2em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 6rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 270px;
+        height: 100px;
+        font-size: 8px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        margin-left: -50;
+        margin-right: 50;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 330px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 670px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1.2em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 6.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 270px;
+        height: 100px;
+        font-size: 8px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        margin-left: -50;
+        margin-right: 50;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        background-image: url('../assets/background/bgImage.png');
+        height: 650px;
+        z-index: -1;
+        position: sticky;
+        transform: translateY(-10vh);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .slideOneBody {
+        padding: 1em;
+        position: absolute;
+        top: 7rem;
+    }
+    
+    .slideOneText {
+        font-family: 'Volkhov', serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--secondaryTextColor);
+    }
+    
+    .slideOneText2 {
+        align-self: center;
+        font-family: 'Volkhov', serif;
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        color: var(--secondaryTextColor);
+        bottom: -16rem;
+        right: 4.5rem;
+        
+    }
+    
+    .slideOneParagraph {
+        font-family: 'Pontano Sans', sans-serif;
+        width: 240px;
+        height: 100px;
+        font-size: 8px;
+        color: var(--secondaryTextColor);
+    }
+    
+    .container2 {
+        
+        background-color: #fff;
+        height: max-content;
+       
+        position: relative;
+        margin-top: -70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+    .cardBody {
+        margin-left: -50;
+        margin-right: 50;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}

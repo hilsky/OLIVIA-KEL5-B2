@@ -14,7 +14,7 @@ const Destinations = () => {
                     <h1 className={styles.slideOneText}>Parisiwata</h1>
                     <h1 className={styles.slideOneText}>Indonesia Maju</h1>
                     <div className={styles.slideOneParagraph}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Tempat wisata adalah tempat yang bisa kita kunjungi saat kita sedang dalam kondisi stres dan butuh waktu luang (refreshing) pada saat ada waktu luang. Seperti yang kita ketahui di Indonesia banyak sekali tempat wisata yang bisa kita kunjungi di mulai dari Sabang sampai Merauke kita bisa menemukan banyak sekali tempat wisata yang ingin kita kunjungi, di mulai dari pegunungan sampai lautan. Kita sebagai masyarakat indonesia sudah sepatutnya bangga terhadap negara kita ini karena disini bisa kita bilang indonesia adalah Surga Pariwisata.</p>
                     </div>
                     <div className={styles.slideOneText2}>
                     Destinasi
@@ -23,18 +23,20 @@ const Destinations = () => {
             </div>
         
             <div className={styles['container2']}>
-                {dataDestinasi.map((data, idx) => {
-                    return (
-                        <CardDest
-                            key={data.id}
-                            imageUrl="https://3.bp.blogspot.com/-7AxwcC2EiYc/V8uqwy_3HgI/AAAAAAAAAo4/zEdzymqI4ocgjy6DDrh2f9R7DB5HeCn7QCLcB/s1600/cigangsa.jpg"
-                            prov={data.prov.toUpperCase()}
-                            kota={data.kota}
-                            namaWisata={data.namaWisata}
-                            like={data.like}
-                        />
-                    )
-                })}
+                <div className={styles.cardBody}>
+                    {dataDestinasi.map((data, idx) => {
+                        return (
+                            <CardDest
+                                key={data.id}
+                                imageUrl="https://3.bp.blogspot.com/-7AxwcC2EiYc/V8uqwy_3HgI/AAAAAAAAAo4/zEdzymqI4ocgjy6DDrh2f9R7DB5HeCn7QCLcB/s1600/cigangsa.jpg"
+                                prov={data.prov.toUpperCase()}
+                                kota={data.kota}
+                                namaWisata={data.namaWisata}
+                                like={data.like}
+                            />
+                        )
+                    })}
+                </div>
             </div>
             {/* <div className={styles.container3}>
                 <div className={styles.slideThreeBody}>

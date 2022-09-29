@@ -27,6 +27,7 @@ const TourGuide = (props) => {
             </div>
         
             <div className={styles['container2']}>
+                <div className={styles.cardBody}>
                 {dataGuides.map((e) => {
                     return (
                         
@@ -41,6 +42,7 @@ const TourGuide = (props) => {
                             />
                     )
                 })}
+                </div>
             </div>
             <div className={styles.container3}>
                 <div className={styles.slideThreeBody}>
