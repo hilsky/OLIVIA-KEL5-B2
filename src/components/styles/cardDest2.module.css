@@ -19,6 +19,8 @@
     z-index: 1;
     margin-bottom: 50px;
     text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
     
 }
 
@@ -111,4 +113,2024 @@
     letter-spacing: 1px;
     color: var(--cardWork);
     margin-left: 5px;
+}
+
+@media (max-width: 1190px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 305px;
+        height: 445px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 295px;
+        height: 345px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 395px;
+        height: 345px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 16px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 1175px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 295px;
+        height: 440px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 295px;
+        height: 340px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 295px;
+        height: 340px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 16px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 1162px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 430px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 280px;
+        height: 330px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 280px;
+        height: 330px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 15px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 18px;
+        height: 18px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        height: 415px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 270px;
+        height: 315px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 270px;
+        height: 315px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 14.5px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 17px;
+        height: 17px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 17px;
+        height: 17px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 12.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+        height: 400px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 260px;
+        height: 300px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 260px;
+        height: 300px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 14px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 16px;
+        height: 16px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 380px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 250px;
+        height: 280px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 250px;
+        height: 280px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 13.5px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 15px;
+        height: 15px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 11.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 990px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 235px;
+        height: 365px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 235px;
+        height: 270px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 235px;
+        height: 270px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 13.5px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 15px;
+        height: 15px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 11.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 940px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 225px;
+        height: 350px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 225px;
+        height: 260px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 225px;
+        height: 260px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 13px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 14.5px;
+        height: 14.5px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 14.5px;
+        height: 14.5px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 11px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 900px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        height: 335px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 210px;
+        height: 247px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 210px;
+        height: 247px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 12px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 13.5px;
+        height: 13.5px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 13.5px;
+        height: 13.5px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 850px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+        height: 315px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 190px;
+        height: 230px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 190px;
+        height: 230px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 11px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 12.5px;
+        height: 12.5px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 9.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 850px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+        height: 315px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 190px;
+        height: 230px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 190px;
+        height: 230px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 11px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 12.5px;
+        height: 12.5px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 9.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 780px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        height: 290px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 180px;
+        height: 213px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 180px;
+        height: 213px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 11px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 11.5px;
+        height: 11.5px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .locIcon {
+        width: 11px;
+        height: 11px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 9px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 730px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 160px;
+        height: 260px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 160px;
+        height: 195px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 160px;
+        height: 195px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 10px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 10px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 8.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+        height: 230px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 140px;
+        height: 170px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 140px;
+        height: 170px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 8.5px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 8.5px;
+        height: 8.5px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .locIcon {
+        width: 8.5px;
+        height: 8.5px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 7.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 130px;
+        height: 215px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 130px;
+        height: 160px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 130px;
+        height: 160px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 10px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 8.5px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 8.5px;
+        height: 8.5px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .locIcon {
+        width: 8.5px;
+        height: 8.5px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 7.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 540px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        height: 205px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 120px;
+        height: 153px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 120px;
+        height: 153px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 7px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 7px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 8px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 7px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 7px;
+        margin-right: 7px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .locIcon {
+        width: 8px;
+        height: 8px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 6px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 110px;
+        height: 195px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 110px;
+        height: 145px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 110px;
+        height: 145px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 6px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 7px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 7px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 7px;
+        height: 7px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .locIcon {
+        width: 7px;
+        height: 7px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 460px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 175px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 100px;
+        height: 130px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 100px;
+        height: 130px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 6px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 7px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 6px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 6px;
+        height: 6px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .locIcon {
+        width: 6px;
+        height: 6px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 4.5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 410px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 90px;
+        height: 160px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 90px;
+        height: 120px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 90px;
+        height: 120px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 6px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 7px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 6px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 5px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 6px;
+        height: 6px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 6px;
+        margin-right: 2px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .locIcon {
+        width: 6px;
+        height: 6px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 4px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 370px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+        height: 145px;
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 50px;
+        text-decoration: none;
+        
+    }
+    
+    .imgBody {
+        /* border-width: 1px;
+        border-style: solid; */
+        width: 80px;
+        height: 110px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        align-self: center;
+        
+        
+    }
+    
+    .img {
+        width: 80px;
+        height: 110px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+    }
+    
+    .titleBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: 5px;
+    
+    }
+    
+    .titleBody2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-right: 7px;
+        align-items: center;
+        align-self: flex-start;
+    }
+    
+    .titleNamaWisata {
+        font-size: 5px;
+        font-weight: bold;
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+    }
+    
+    .starBody {
+        margin-top: 2px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .starIcon {
+        width: 5px;
+        height: 5px;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-left: 5px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    
+    .locIcon {
+        width: 6px;
+        height: 6px;
+        color: var(--cardWork);
+    }
+    
+    .locText {
+        font-size: 4px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--cardWork);
+        margin-left: 5px;
+    }
 }

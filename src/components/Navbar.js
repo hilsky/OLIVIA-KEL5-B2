@@ -25,8 +25,8 @@ function Navbar() {
   return (
     <header className={colorChange ? 'colorChange' : 'header'}>
         <a className='logoBody' href="/">
-          <div className='logo'>SABA</div>
-          <div className='logo'>TOUR.</div>
+          <h1 className='logo'>SABA</h1>
+          <h1 className='logo'>TOUR.</h1>
         </a>
         <nav ref={navRef} className='nav-middle'>
             <a href="/">Beranda</a>

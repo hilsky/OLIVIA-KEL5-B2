@@ -13,6 +13,7 @@ import dataHotel from '../data/Hotel';
 import CardHotel from '../components/CardHotel'
 import CardKuliner from '../components/CardKuliner';
 import dataKuliner from '../data/Kuliner';
+import CardGuide2 from '../components/CardGuide2';
 
 
 const DetailDestinasi = () => {
@@ -114,7 +115,7 @@ const DetailDestinasi = () => {
                             return (
                                 <div className={styles.cardBody1}>
                                 <SwiperSlide>
-                                    <CardGuide
+                                    <CardGuide2
                                         key={e.id}
                                         state="tes"
                                         imageUrl={e.imgProfil}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCar } from 'react-icons/fa';
+import { FaCar, FaStar } from 'react-icons/fa';
 import { HiFolderOpen, HiOutlineLocationMarker, HiOutlineStar, HiOutlineWifi, HiStar } from 'react-icons/hi';
 import styles from './styles/cardHotel.module.css'
 
@@ -12,11 +12,11 @@ function CardHotel(props) {
             </div>
             <div className={styles.header}>{props.namaHotel}</div>
             <div className={styles.starBody}>
-                <HiStar classname={styles.starIcon} />
-                <HiStar classname={styles.starIcon} />
-                <HiStar classname={styles.starIcon} />
-                <HiStar classname={styles.starIcon} />
-                <HiOutlineStar classname={styles.starIcon} />
+                <FaStar classname={styles.starIcon} />
+                <FaStar classname={styles.starIcon} />
+                <FaStar classname={styles.starIcon} />
+                <FaStar classname={styles.starIcon} />
+                <FaStar classname={styles.starIcon} />
             </div>
             <div className={styles.secondBody}>
                 <div className={styles.row}>
