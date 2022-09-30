@@ -11,14 +11,14 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-
+@media (max-width: 1440px) {
 .mainBody {
     height: 100%;
     margin-top: 100px;
     justify-content: center;
     margin-bottom: 100px;
     padding: 2em;
-    margin-left: 2em;
+    margin-left: 6em;
     margin-right: 2em;
 }
 
@@ -218,29 +218,40 @@
     width: 150px;
     height: 150px;
     border-width: 1px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     
 }
 
+.hide {
+    display: none;
+    height: 0;
+    width: 0;
+    position: relative;
+    top: 0;
+    margin-top: -100px;
+    
+  }
+
 .iconCal {
-    width: 70px;
-    height: 70px;
-    margin-right: 40px;
-    margin-left: 40px;
+    width: 60px;
+    height: 60px;
     margin-top: 20px;
+    z-index: 1;
 }
 
 .calText {
-    font-size: 12px;
-    margin-right: 22px;
-    margin-left: 22px;
+    margin-top: -20px;
+    font-size: 15px;
 }
 
 .calText2 {
-    font-size: 15px;
+    font-size: 17px;
     margin-right: 20px;
     margin-left: 20px;
-    margin-top: 5px;
-    font-weight: 700;
+   
+    font-weight: 600;
 }
 
 .verticalLine {
@@ -389,3 +400,7162 @@
     color: gold;
     margin-top: 5px;
 }
+}
+@media (max-width: 1380px) {
+    .mainBody {
+        height: 300%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 5em;
+        margin-right: 2em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 700px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 50px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 700px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 20px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -115px;
+        margin-left: 200px;
+    }
+    
+    .rowName {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 20px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 560px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 15px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 600px;
+        height: 250px;
+        margin-top: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 350px;
+        height: 600px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    
+    
+    .boxBody1 {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 150px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 70px;
+        height: 70px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 22px;
+        margin-left: 22px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 150px;
+        border-left: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 150px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 70px;
+        height: 70px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 350px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 76px;
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 280px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 1320px) {
+    .mainBody {
+        height: 300%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 4em;
+        margin-right: 2em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 700px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 50px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 700px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 20px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -115px;
+        margin-left: 200px;
+    }
+    
+    .rowName {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 20px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 560px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 15px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 600px;
+        height: 250px;
+        margin-top: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 350px;
+        height: 600px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    
+    
+    .boxBody1 {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 150px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 70px;
+        height: 70px;
+        
+        margin-top: 20px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 150px;
+        border-left: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 150px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 70px;
+        height: 70px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 350px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 76px;
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 280px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 1200px) {
+    .mainBody {
+        height: 100%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 2em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 700px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 50px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 700px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 20px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -115px;
+        margin-left: 200px;
+    }
+    
+    .rowName {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 20px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 560px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 15px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 600px;
+        height: 250px;
+        margin-top: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 350px;
+        height: 600px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    
+    
+    .boxBody1 {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 150px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 70px;
+        height: 70px;
+        margin-top: 20px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 22px;
+        margin-left: 22px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 150px;
+        border-left: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 150px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 70px;
+        height: 70px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 350px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 76px;
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 280px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 1170px) {
+    .mainBody {
+        height: 10%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 700px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 100px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 700px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 20px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -115px;
+        margin-left: 200px;
+    }
+    
+    .rowName {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 20px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 560px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 15px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 600px;
+        height: 250px;
+        margin-top: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+        margin-left: -50px;
+    }
+    
+    
+    .boxBody1 {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 150px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 70px;
+        height: 70px;
+        
+        margin-top: 20px;
+    }
+    
+    .calText {
+        font-size: 12px;
+       
+    }
+    
+    .calText2 {
+        font-size: 15px;
+      
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 150px;
+        border-left: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 150px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 70px;
+        height: 70px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 350px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 76px;
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 280px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 1080px) {
+    .mainBody {
+        height: -500%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 650px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 100px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 650px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 20px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -115px;
+        margin-left: 200px;
+    }
+    
+    .rowName {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 20px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 500px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 15px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 600px;
+        height: 250px;
+        margin-top: 60px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 350px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 310px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 100px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 70px;
+        height: 70px;
+        
+        margin-top: 20px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 150px;
+        border-left: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 150px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 70px;
+        height: 70px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 310px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 60px;
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 240px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 990px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 400px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 100px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 400px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -70px;
+        margin-left: 120px;
+    }
+    
+    .rowName {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 15px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 270px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 15px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 350px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 290px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 70px;
+        height: 60px;
+        
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+       
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 50px;
+        height: 70px;
+        
+        margin-top: 20px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        
+    }
+    
+    .curText2 {
+        font-size: 15px;
+       
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 290px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 60px;
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 240px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 768px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 400px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 100px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 400px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -70px;
+        margin-left: 120px;
+    }
+    
+    .rowName {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 15px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 270px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 15px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 350px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+       
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        
+    }
+    
+    .calText2 {
+        font-size: 15px;
+       
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+       
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+       
+    }
+    
+    .curText2 {
+        font-size: 15px;
+       
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 732px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 340px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 100px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 340px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -70px;
+        margin-left: 120px;
+    }
+    
+    .rowName {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 230px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 290px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+       
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        
+    }
+    
+    .calText2 {
+        font-size: 15px;
+       
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+       
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 682px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 340px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 80px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 340px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -70px;
+        margin-left: 120px;
+    }
+    
+    .rowName {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 230px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 290px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+       
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 650px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 340px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 340px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -70px;
+        margin-left: 120px;
+    }
+    
+    .rowName {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -70px;
+        margin-left: 230px;
+    }
+    
+    .iconStar {
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 290px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 600px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 150px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        
+    }
+    
+    .calText2 {
+        font-size: 15px;
+       
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 568px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 200px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+       
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+       
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 548px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 250px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 11px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 500px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 320px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 11px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 465px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 400px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 11px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 440px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 450px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 11px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 420px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 500px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 11px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 400px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 600px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 11px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 376px) {
+    .mainBody {
+        height: -100%;
+        margin-top: 700px;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .columnOneBody {
+        width: 290px;
+        height: 600px;
+        border-radius: 10px;
+        margin-right: 60px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 700px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 290px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 130px;
+        height: 110px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 0px;
+        padding: 8px;
+    
+    }
+    
+    .img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+        margin: 2px;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 80px;
+    }
+    
+    .rowName {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 2px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -50px;
+        margin-left: 210px;
+    }
+    
+    .iconStar {
+        width: 15px;
+        height: 20px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 10px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 240px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 45px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .descBody {
+        padding: 3px;
+        margin-left: 20px;
+    }
+    
+    .descHeader {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 3px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 15px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        border-width: 0px;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 230px;
+    }
+    
+    .btnText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 550px;
+        height: -100px;
+        border-radius: 10px;
+        margin-left: -40px;
+    }
+    
+    
+    .boxBody1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calenderBody {
+        width: 150px;
+        height: 50px;
+        border-width: 1px;
+        
+    }
+    
+    .iconCal {
+        width: 50px;
+        height: 60px;
+        margin-right: 90px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .calText {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 11px;
+    }
+    
+    .calText2 {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .verticalLine {
+        height: 170px;
+        border-left: 3px solid black;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .currencyBody {
+        width: 190px;
+        height: 150px;
+       
+    }
+    
+    .iconCur {
+        width: 40px;
+        height: 70px;
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .curText {
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    
+    .curText2 {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    
+    .btnOrder {
+        width: 170px;
+        height: 35px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 80px;
+        border-width: 0;
+    }
+    
+    .btnOrderText {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        width: 250px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 40px;
+        font-size: 14px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 20px;
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 14px;
+    
+    }
+    
+    .locIcon2 {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 13px;
+        height: 13px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+

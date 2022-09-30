@@ -1,9 +1,29 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from '../styles/detailGuides.module.css';
 import { useLocation } from 'react-router-dom';
 import {HiStar, HiOutlineStar, HiLocationMarker, HiCalendar} from 'react-icons/hi';
-import {FaWallet} from 'react-icons/fa'
+import {FaWallet} from 'react-icons/fa';
+
+import DatePicker from "react-datepicker";
+import moment from 'moment'
+// import required css from library
+import "react-datepicker/dist/react-datepicker.css";
+
+
 const DetailGuides = () => {
+    const [startDate, setStartDate] = useState(null);
+    const [endDate, setEndDate] = useState(null)
+    
+
+    const handleCheckIndate = (date) => {
+        setStartDate(date);
+        setEndDate(null);
+    }
+
+    const handleCheckOutDate = (date) => {
+        setEndDate(date)
+    }
+
 
     return (
         <div className={styles.mainBody}>
@@ -50,24 +70,44 @@ const DetailGuides = () => {
                 <div className={styles.columnTwoBody}>
                     <div className={styles.boxBody1}>
                         <div className={styles.rowBody2}> 
-                            <div className={styles.calenderBody}>
+                            <label className={styles.calenderBody}>
+                                
                                 <HiCalendar className={styles.iconCal} />
+                                <DatePicker
+                                selected={startDate}
+                                minDate={new Date()}
+                                onChange={handleCheckIndate}
+                                className={styles.hide}
+                                />
+                                
                                 <div className={styles.calText}>
-                                    Lama perjalanan
+                                    Mulai
                                 </div>
-                                <div className={styles.calText2}>
-                                    27Sep - 29Sep
-                                </div>
-                            </div>
+                                {startDate  && (
+                                    <div className={styles.calText2}>
+                                        {moment(startDate).format('DD-MMM-YY')}
+                                    </div>
+                                )}
+                            </label>
                             <div className={styles.verticalLine}></div>
-                            <div className={styles.currencyBody}>
-                                <FaWallet className={styles.iconCur} />
-                                <div className={styles.curText}>
-                                    harga per hari
+                            <div className={styles.calenderBody}>
+                                <label>
+                                <HiCalendar className={styles.iconCal} />
+                                <DatePicker
+                                    selected={endDate}
+                                    minDate={startDate}
+                                    onChange={handleCheckOutDate}
+                                    className={styles.hide}
+                                />
+                                </label>
+                                <div className={styles.calText}>
+                                    Akhir
                                 </div>
-                                <div className={styles.curText2}>
-                                    Rp 99.999
-                                </div>
+                                {endDate && (
+                                    <div className={styles.calText2}>
+                                        {moment(endDate).format('DD-MMM-YY')}
+                                    </div>
+                                )}
                             </div>
                         </div>
                         <button className={styles.btnOrder}>
