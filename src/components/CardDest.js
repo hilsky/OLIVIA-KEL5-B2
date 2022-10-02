@@ -7,10 +7,7 @@ import { Link } from 'react-router-dom';
 
 function CardDest(props) {
     return (
-        <Link className={styles.cardBody} key={props.key} to={{
-            pathname:'/detail-destinasi',
-            state:props.state
-        }}>
+        <Link className={styles.cardBody}  to={'/detail-destinasi/' + props.id}>
             <div className={styles.imgBody}>
                 <img src={props.imageUrl} className={styles.img} alt={props.alt}/>
             </div>

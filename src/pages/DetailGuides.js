@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/detailGuides.module.css';
-import { useLocation, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import {HiStar, HiOutlineStar, HiLocationMarker, HiCalendar} from 'react-icons/hi';
 import { useDispatch, useSelector } from "react-redux";
 import {getGuideDetail, getGuidesList} from "../actions/guideAction"
@@ -9,8 +9,9 @@ import DatePicker from "react-datepicker";
 import moment from 'moment'
 // import required css from library
 import "react-datepicker/dist/react-datepicker.css";
-import dataGuides from '../data/Guides';
+
 import { Helmet } from "react-helmet-async";
+
 
 
 
@@ -18,8 +19,9 @@ const DetailGuides = () => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null)
     
-    const id = useParams();
 
+    const {id} = useParams();
+   
     const handleCheckIndate = (date) => {
         setStartDate(date);
         setEndDate(null);
@@ -29,14 +31,19 @@ const DetailGuides = () => {
         setEndDate(date)
     }
 
+
     const dispatch = useDispatch();
     const {getGuideDetailResult, getGuidesListResult} =
         useSelector((state) => state.guideReducer )
 
     useEffect(() => {
-        // dispatch(getGuideDetail(id))
-        dispatch(getGuidesList())
-    }, [dispatch])
+        if(getGuideDetailResult) {
+            dispatch(getGuidesList())        
+        }
+        console.log(id)
+        dispatch(getGuideDetail(id))
+        
+    }, [getGuideDetailResult,dispatch])
 
     return (
         <>
@@ -49,7 +56,6 @@ const DetailGuides = () => {
         
         <div className={styles.mainBody}>
             <div className={styles.body}>
-               
                 <div className={styles.columnOneBody}>
                     
                     <div className={styles.imgSampulBody}>
@@ -57,11 +63,11 @@ const DetailGuides = () => {
                     </div>
                     <div classname={styles.rowBody}>
                         <div className={styles.imgBody}>
-                            <img className={styles.img} src={'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png'} />
+                            <img className={styles.img} src={getGuideDetailResult? getGuideDetailResult.imgProfil : 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png'} />
                         </div>
                         <div className={styles.row}>
-                            <div className={styles.rowName}>User</div>
-                            <div className={styles.rowWork}>Pemandu Wisata</div>
+                            <div className={styles.rowName}>{getGuideDetailResult? getGuideDetailResult.nama : "Unknown User"}</div>
+                            <div className={styles.rowWork}>{getGuideDetailResult? getGuideDetailResult.work : "Unknown User"}</div>
                         </div>
                         <div className={styles.rowTwo}>
                             <HiStar className={styles.iconStar} />
@@ -71,7 +77,7 @@ const DetailGuides = () => {
                             <HiOutlineStar className={styles.iconStar} />
                             <div className={styles.locBody}>
                                 <HiLocationMarker className={styles.locIcon} />
-                                <div className={styles.locText}>Yogyakarta</div>
+                                <div className={styles.locText}>{getGuideDetailResult? getGuideDetailResult.lokasi : null}</div>
                             </div>
                         </div>
                     </div>
@@ -81,7 +87,7 @@ const DetailGuides = () => {
                             >Deskripsi</div>
                             <hr className={styles.hrLine}/>
                             <p className={styles.desc}>
-                                Saya adalah pemandu wisata di Daerah Istimewa Yogyakarta
+                            {getGuideDetailResult? getGuideDetailResult.desc : "Unknown User"}
                             </p>
                             
                         </div>
@@ -144,7 +150,7 @@ const DetailGuides = () => {
                         </div>
                         {getGuidesListResult? (getGuidesListResult.slice(0,3).map((guide) =>{
                             return (
-                                <div className={styles.cardBody} key={guide._id}>
+                                <Link className={styles.cardBody} key={guide._id} to={'/detail-guide/'+guide._id}>
                                 <img className={styles.cardImg} src={guide.imgProfil} alt={guide.alt}/>
                                 <div classname={styles.cardColumn}>
                                     <div className={styles.cardHeader}>
@@ -167,7 +173,7 @@ const DetailGuides = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                             )
                         }))
                         : null

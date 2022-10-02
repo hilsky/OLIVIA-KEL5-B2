@@ -19,7 +19,7 @@ function App() {
         <Route path='/tour-guide' exact element={<TourGuide />} />
         <Route path='/destinasi' exact element={<Destinations />} />
         <Route path='/detail-guide/:id' exact element={<DetailGuides />} />
-        <Route path='/detail-destinasi' exact element={<DetailDestinasi />} />
+        <Route path='/detail-destinasi/:id' exact element={<DetailDestinasi />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,23 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import { useDispatch, useSelector } from "react-redux";
 import styles from '../styles/detailDestinasi.module.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, EffectFade, Navigation, Pagination, FreeMode } from "swiper";
-import dataGuides from '../data/Guides';
 import CardDest2 from '../components/CardDest2';
 import dataHotel from '../data/Hotel';
 import CardHotel from '../components/CardHotel'
 import CardKuliner from '../components/CardKuliner';
 import dataKuliner from '../data/Kuliner';
-import CardGuide2 from '../components/CardGuide2';
+import CardGuide from '../components/CardGuide';
 import dataDestinasiBali from '../data/DestinasiBali';
 import { Helmet } from "react-helmet-async";
-
+import { getGuidesList,  } from "../actions/guideAction";
+import { getWisataDetail } from '../actions/wisataAction';
+import {useParams} from 'react-router-dom'
 
 const DetailDestinasi = () => {
     const data =
-                [
+            [
                 {
                     id: "1",
                     image: "https://cdn.pixabay.com/photo/2016/08/08/16/09/indonesia-1578647_1280.jpg"
@@ -31,6 +33,18 @@ const DetailDestinasi = () => {
                     image: "https://cdn.pixabay.com/photo/2016/07/26/11/12/bali-1542569_1280.jpg"
                 },
             ]
+
+    const {id} = useParams();
+    const { getWisataDetailResult, getGuidesListResult } =
+    useSelector((state) => state.guideReducer )
+
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getGuidesList())
+        dispatch(getWisataDetail(id))
+    }, [dispatch])
+
     return (
         <>
         <Helmet>
@@ -69,7 +83,7 @@ const DetailDestinasi = () => {
                     })}
                 </Swiper>    
                 <div className={styles.header1}>
-                    BALI
+                    {getWisataDetailResult? getWisataDetailResult.namaWisata : null}
                 </div>
             </div>
             <div className={styles.bodyColumn2}>
@@ -117,15 +131,15 @@ const DetailDestinasi = () => {
                         modules={[FreeMode, Pagination, Navigation]}
                         className="mySwiper"
                     >
-                            {dataGuides.map((e) => {
-                            return (
+                        {getGuidesListResult ? (getGuidesListResult.map((e) => {
+                            return(
                                 <div className={styles.cardBody1}>
                                 <SwiperSlide>
-                                    <CardGuide2
-                                        key={e.id}
-                                        state="tes"
+                                    <CardGuide
+                                        key={e._id}
+                                        id={e._id}
                                         imageUrl={e.imgProfil}
-                                        name={e.name}
+                                        name={e.nama}
                                         work={e.work}
                                         alt={e.alt}
                                         desc={e.desc}
@@ -133,7 +147,8 @@ const DetailDestinasi = () => {
                                 </SwiperSlide>
                                 </div>
                             )
-                        })}
+                        })
+                        ) : null}
                     </Swiper>    
                 </div>
                 <div className={styles.rowBody1}>

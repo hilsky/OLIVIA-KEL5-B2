@@ -1,12 +1,20 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styles from '../styles/destinations.module.css'
-import CardDest2 from "../components/CardDest2";
 import dataDestinasi from "../data/Destinasi";
 import CardDest from "../components/CardDest";
 import { Helmet } from "react-helmet-async";
-
+import { useDispatch, useSelector } from "react-redux";
+import { getWisataList,  } from "../actions/wisataAction";
 
 const Destinations = () => {
+    const {getWisataListResult, getWisataLoading, getWisataError} =
+    useSelector((state) => state.wisataReducer);
+
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getWisataList())
+    }, [dispatch])
     return (
         <>
             <Helmet>
@@ -31,18 +39,21 @@ const Destinations = () => {
             
                 <div className={styles['container2']}>
                     <div className={styles.cardBody}>
-                        {dataDestinasi.map((data, idx) => {
-                            return (
+                        {getWisataListResult ? (getWisataListResult.map((e) => {
+                            return(
                                 <CardDest
-                                    key={data.id}
-                                    imageUrl={data.imageBg}
-                                    prov={data.prov.toUpperCase()}
-                                    kota={data.kota}
-                                    namaWisata={data.namaWisata}
-                                    like={data.like}
-                                />
+                                        key={e._id}
+                                        imageUrl={e.imageBg}
+                                        id={e._id}
+                                        prov={e.prov.toUpperCase()}
+                                        kota={e.kota}
+                                        namaWisata={e.namaWisata}
+                                        like={e.like}
+                                        alt={e.desc}
+                                    />
                             )
-                        })}
+                            })
+                        ) : null}
                     </div>
                 </div>
                 {/* <div className={styles.container3}>

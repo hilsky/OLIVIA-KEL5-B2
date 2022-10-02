@@ -1,7 +1,7 @@
 import React, { useEffect, } from "react";
 import styles from '../styles/dashboard.module.css';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useNavigate } from "react-router-dom";
+
 import { useDispatch, useSelector } from "react-redux";
 import { getGuidesList,  } from "../actions/guideAction";
 import { getWisataList,  } from "../actions/wisataAction";
@@ -18,11 +18,10 @@ import CardGuide from "../components/CardGuide";
 import Icon1 from '../assets/icon/hotel.png';
 import Icon2 from '../assets/icon/destination.png';
 import Icon3 from '../assets/icon/tour-guide.png';
-import dataGuides from "../data/Guides";
-import dataDestinasi from "../data/Destinasi";
+
 
 import { Helmet } from "react-helmet-async";
-import guide from "../reducers/guide";
+
 
 const Dashboard  = () => {
             const data =
@@ -41,12 +40,6 @@ const Dashboard  = () => {
                 },
             ]
         
-        
-            const navigate = useNavigate();
-
-            const navigateToDetailGuide = () => {
-                navigate('/detail-guide')
-            }
 
             const {getGuidesListResult, getGuidesLoading, getGuidesError} =
                 useSelector((state) => state.guideReducer);
@@ -120,8 +113,9 @@ const Dashboard  = () => {
                             {getWisataListResult ? (getWisataListResult.slice(0,3).map((e) => {
                             return(
                                 <CardDest
-                                        key={e.id}
+                                        key={e._id}
                                         imageUrl={e.imageBg}
+                                        id={e._id}
                                         prov={e.prov.toUpperCase()}
                                         kota={e.kota}
                                         namaWisata={e.namaWisata}
@@ -144,8 +138,8 @@ const Dashboard  = () => {
                         {getGuidesListResult ? (getGuidesListResult.slice(0,3).map((guide) => {
                          return(
                             <CardGuide
-                                key={guide.id}
-                                
+                                key={guide._id}
+                                id={guide._id}
                                 imageUrl={guide.imgProfil}
                                 name={guide.nama}
                                 work={guide.work}
@@ -198,24 +192,8 @@ const Dashboard  = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className={styles.slideTwoBtnBody3}>
-                            <button className={styles.slideTwoBtn3}>BACA SELENGKAPNYA</button>
-                        </div>
                         </div>
                     </div>
-                    {/* <div className={styles.container3}>
-                    
-                        <div className={styles.slideThreeBody}>
-                            <div>
-                                <h1 className={styles.slideThreeText}>JADILAH</h1>
-                                <h1 className={styles.slideThreeText}>BAGIAN DARI</h1>
-                                <h1 className={styles.slideThreeText}>TIM KAMI.</h1>
-                            </div>
-                            <div className={styles.slideThreeParagraph}>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                        </div>
-                    </div> */}
                 </div>
             </>
         )

@@ -19,11 +19,6 @@ const TourGuide = () => {
     }, [dispatch])
 
 
-    const navigate = useNavigate();
-    const navigateToDetailGuide = (id) => {
-        navigate(`/detail-guide/` + id) 
-    }
-
     return (
         <>
             <Helmet>

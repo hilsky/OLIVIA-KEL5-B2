@@ -170,6 +170,7 @@
     color: var(--thirdColor);
     font-weight: 400;
     margin-top: 5px;
+    height: 20px;
 }
 
 .btnBody {
@@ -343,6 +344,8 @@
     padding: 15px;
     margin-top: 15px;
     z-index: -1;
+    text-decoration: none;
+    color: #000;
 
 }
 

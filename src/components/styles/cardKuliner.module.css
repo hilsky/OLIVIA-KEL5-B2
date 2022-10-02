@@ -562,8 +562,101 @@
 @media (max-width: 810px){
     .body {
         display: flex;
-        width: 195px;
-        height: 320px;
+        width: 155px;
+        height: 370px;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 13px;
+        z-index: 1;
+        margin-bottom: 20px;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .body:hover {
+        box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .imgBody {
+        width: 200px;
+        height: 175px;
+        margin-bottom: 10px;
+        border-top-right-radius: 13px;
+        border-top-left-radius: 13px;
+    }
+    
+    .img {
+        width: 200px;
+        height: 175px;
+        border-top-right-radius: 13px;
+        border-top-left-radius: 13px;
+    }
+    
+    .header {
+        font-size: 13.5px;
+        font-weight: 700;
+        height: 33px;
+        color: #5E6282;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    
+    .starIcon {
+        height: 13.5px;
+        width: 13.5px;
+        color: gold;
+    }
+    
+    .secondBody {
+        align-self: flex-start;
+        float: left;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .iconLoc {
+        height: 13.5px;
+        width: 13.5px;
+        margin-right: 7px;
+        color: #5E6282;
+    }
+    
+    .rowText {
+        width: 175px;
+        object-fit: cover;
+        height: 33px;
+        text-align: left;
+        float: left;
+        font-size: 10px;
+        font-weight: 300;
+        margin-bottom: 4px;
+        color: #5E6282;
+        height: fit-content;
+    }
+    
+}
+
+@media (max-width: 740px){
+    .body {
+        display: flex;
+        width: 175px;
+        height: 300px;
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         z-index: 1;
@@ -583,16 +676,16 @@
     }
     
     .imgBody {
-        width: 225px;
-        height: 165px;
+        width: 175px;
+        height: 150px;
         margin-bottom: 10px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
     
     .img {
-        width: 225px;
-        height: 165px;
+        width: 175px;
+        height: 150px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
@@ -638,102 +731,9 @@
     }
     
     .rowText {
-        width: 164px;
-        object-fit: cover;
-        height: 33px;
-        text-align: left;
-        float: left;
-        font-size: 9px;
-        font-weight: 300;
-        margin-bottom: 4px;
-        color: #5E6282;
-        height: fit-content;
-    }
-    
-}
-
-@media (max-width: 740px){
-    .body {
-        display: flex;
-        width: 180px;
-        height: 305px;
-        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 15px;
-        z-index: 1;
-        margin-bottom: 20px;
-        text-decoration: none;
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-    }
-    
-    .body:hover {
-        box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-    }
-    
-    .imgBody {
-        width: 210px;
-        height: 150px;
-        margin-bottom: 10px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-    }
-    
-    .img {
-        width: 210px;
-        height: 150px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-    }
-    
-    .header {
-        font-size: 11px;
-        font-weight: 700;
-        height: 34px;
-        color: #5E6282;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 10px;
-    }
-    
-    .starIcon {
-        height: 11px;
-        width: 11px;
-        color: gold;
-    }
-    
-    .secondBody {
-        align-self: flex-start;
-        float: left;
-        justify-content: space-around;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .row {
-        display: flex;
-        flex-direction: row;
-    
-    }
-    
-    .iconLoc {
-        height: 11px;
-        width: 11px;
-        margin-right: 7px;
-        color: #5E6282;
-    }
-    
-    .rowText {
         width: 140px;
         object-fit: cover;
-        height: 33px;
+        height: 32px;
         text-align: left;
         float: left;
         font-size: 8.5px;
@@ -748,10 +748,10 @@
 @media (max-width: 660px){
     .body {
         display: flex;
-        width: 165px;
-        height: 290px;
+        width: 155px;
+        height: 275px;
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 15px;
+        border-radius: 12px;
         z-index: 1;
         margin-bottom: 20px;
         text-decoration: none;
@@ -769,24 +769,24 @@
     }
     
     .imgBody {
-        width: 195px;
-        height: 135px;
+        width: 155px;
+        height: 140px;
         margin-bottom: 10px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
     
     .img {
-        width: 195px;
-        height: 135px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
+        width: 155px;
+        height: 140px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
     
     .header {
-        font-size: 9.5px;
+        font-size: 11px;
         font-weight: 700;
-        height: 30px;
+        height: 32px;
         color: #5E6282;
     }
     
@@ -797,8 +797,8 @@
     }
     
     .starIcon {
-        height:9.5px;
-        width: 9.5px;
+        height: 11px;
+        width: 11px;
         color: gold;
     }
     
@@ -817,8 +817,8 @@
     }
     
     .iconLoc {
-        height: 9.5px;
-        width: 9.5px;
+        height: 12px;
+        width: 12px;
         margin-right: 7px;
         color: #5E6282;
     }
@@ -826,7 +826,7 @@
     .rowText {
         width: 120px;
         object-fit: cover;
-        height: 33px;
+        height: 32px;
         text-align: left;
         float: left;
         font-size: 8px;
@@ -841,16 +841,16 @@
 @media (max-width: 600px){
     .body {
         display: flex;
-        width: 150px;
-        height: 275px;
+        width: 145px;
+        height: 265px;
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 15px;
+        border-radius: 10px;
         z-index: 1;
         margin-bottom: 20px;
         text-decoration: none;
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-top: 7px;
+        padding-left: 5px;
+        padding-right: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -862,24 +862,24 @@
     }
     
     .imgBody {
-        width: 180px;
-        height: 120px;
+        width: 145px;
+        height: 130px;
         margin-bottom: 10px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
     }
     
     .img {
-        width: 180px;
-        height: 120px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
+        width: 145px;
+        height: 130px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
     }
     
     .header {
         font-size: 9.5px;
         font-weight: 700;
-        height: 30px;
+        height: 32px;
         color: #5E6282;
     }
     
@@ -890,7 +890,7 @@
     }
     
     .starIcon {
-        height:9.5px;
+        height: 9.5px;
         width: 9.5px;
         color: gold;
     }
@@ -919,7 +919,7 @@
     .rowText {
         width: 115px;
         object-fit: cover;
-        height: 33px;
+        height: 31px;
         text-align: left;
         float: left;
         font-size: 8px;
@@ -1139,16 +1139,16 @@
     }
     
     .imgBody {
-        width: 135px;
-        height: 75px;
+        width: 75px;
+        height: 170px;
         margin-bottom: 10px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
     
     .img {
-        width: 135px;
-        height: 75px;
+        width: 75px;
+        height: 170px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }

@@ -33,7 +33,7 @@ export const getWisataList = () => {
 export const getWisataDetail = (id) => {
     return (dispatch) => {
         axios
-            .get("https://desolate-crag-78080.herokuapp.com/wisata" + id)
+            .get("https://desolate-crag-78080.herokuapp.com/wisata/" + id)
             .then((response) => {
                 dispatch({
                     type: GET_WISATA_DETAIL,

@@ -17,28 +17,28 @@ function Footer() {
                     <div className={styles.columnTwoHeaderBody}>
                         <div className={styles.columnTwoHeader}>Tentang</div>
                     </div>
-                    <a className={styles.columnTwoText} href='/#'>Blog</a>
-                    <a className={styles.columnTwoText} href='/#'>Karir</a>
-                    <a className={styles.columnTwoText} href='/#'>Partner</a>
-                    <a className={styles.columnTwoText} href='/#'>Perlindungan</a>
+                    <a className={styles.columnTwoText} href='#'>Blog</a>
+                    <a className={styles.columnTwoText} href='#'>Karir</a>
+                    <a className={styles.columnTwoText} href='#'>Partner</a>
+                    <a className={styles.columnTwoText} href='#'>Perlindungan</a>
                 </div>
                 <div className={styles.columnTwoBody}>
                     <div className={styles.columnTwoHeaderBody}>
                         <div className={styles.columnTwoHeader}>Produk</div>
                     </div>
-                    <a className={styles.columnTwoText} href='/#'>Pemandu Wisata</a>
-                    <a className={styles.columnTwoText} href='/#'>Hotel</a>
-                    <a className={styles.columnTwoText} href='/#'>Kuliner</a>
+                    <a className={styles.columnTwoText} href='#'>Pemandu Wisata</a>
+                    <a className={styles.columnTwoText} href='#'>Hotel</a>
+                    <a className={styles.columnTwoText} href='#'>Kuliner</a>
                     
                 </div>
                 <div className={styles.columnTwoBody}>
                     <div className={styles.columnTwoHeaderBody}>
                         <div className={styles.columnTwoHeader}>Dukungan</div>
                     </div>
-                    <a className={styles.columnTwoText} href='/#'>Pusat Bantuan</a>
-                    <a className={styles.columnTwoText} href='/#'>Kebijakan Privasi</a>
-                    <a className={styles.columnTwoText} href='/#'>Syarat & Ketentuan</a>
-                    <a className={styles.columnTwoText} href='/#'>Daftarkan Hotel Anda</a>
+                    <a className={styles.columnTwoText} href='#'>Pusat Bantuan</a>
+                    <a className={styles.columnTwoText} href='#'>Kebijakan Privasi</a>
+                    <a className={styles.columnTwoText} href='#'>Syarat & Ketentuan</a>
+                    <a className={styles.columnTwoText} href='#'>Daftarkan Hotel Anda</a>
                     
                 </div>
                 <div className={styles.columnTwoBody}>
