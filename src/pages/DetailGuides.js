@@ -18,7 +18,7 @@ const DetailGuides = () => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null)
     
-    const id = useParams();
+    const { id } = useParams();
 
     const handleCheckIndate = (date) => {
         setStartDate(date);
@@ -30,11 +30,12 @@ const DetailGuides = () => {
     }
 
     const dispatch = useDispatch();
-    const {getGuideDetailResult, getGuidesListResult} =
+    const { getGuideDetailResult, getGuidesListResult } =
         useSelector((state) => state.guideReducer )
 
     useEffect(() => {
-        // dispatch(getGuideDetail(id))
+        console.log(id);
+        dispatch(getGuideDetail(id))
         dispatch(getGuidesList())
     }, [dispatch])
 
@@ -60,7 +61,7 @@ const DetailGuides = () => {
                             <img className={styles.img} src={'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png'} />
                         </div>
                         <div className={styles.row}>
-                            <div className={styles.rowName}>User</div>
+                            <div className={styles.rowName}>{getGuideDetailResult ? getGuideDetailResult.nama : "Unknown User"}</div>
                             <div className={styles.rowWork}>Pemandu Wisata</div>
                         </div>
                         <div className={styles.rowTwo}>
