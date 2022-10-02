@@ -9,6 +9,7 @@
 .container {
     height: 332px;
     background-color: var(--bgColor);
+    position: relative;
     z-index: 1000;
 
 }

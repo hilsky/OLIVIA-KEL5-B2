@@ -4,16 +4,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, EffectFade, Navigation, Pagination, FreeMode } from "swiper";
-import dataDestinasi from '../data/Destinasi';
-import CardDest from '../components/CardDest';
 import dataGuides from '../data/Guides';
-import CardGuide from '../components/CardGuide';
 import CardDest2 from '../components/CardDest2';
 import dataHotel from '../data/Hotel';
 import CardHotel from '../components/CardHotel'
 import CardKuliner from '../components/CardKuliner';
 import dataKuliner from '../data/Kuliner';
 import CardGuide2 from '../components/CardGuide2';
+import dataDestinasiBali from '../data/DestinasiBali';
+import { Helmet } from "react-helmet-async";
 
 
 const DetailDestinasi = () => {
@@ -33,6 +32,13 @@ const DetailDestinasi = () => {
                 },
             ]
     return (
+        <>
+        <Helmet>
+                <title>Destinasi</title>
+                <meta name="description" content="Rekomendasi destinasi, tour guide, penginapan, dan kuliner disekitar tempat wisata yang dapat membantu anda untuk memilih dan menyeleksi agar agenda berwisata anda sangat menyenangkan." />
+                <link rel="canonical" href="/detail-destinasi" />
+                
+            </Helmet> 
         <div className={styles.mainBody}>
             <div className={styles.bodyColumn1}>
                 <Swiper
@@ -80,17 +86,17 @@ const DetailDestinasi = () => {
                         modules={[FreeMode, Pagination, Navigation]}
                         className="mySwiper"
                     >
-                            {dataDestinasi.map((data, index) => {
+                            {dataDestinasiBali.map((data, index) => {
                             return (
                                 <div className={styles.cardBody1}>
                                 <SwiperSlide>
                                     <CardDest2
                                     key={data.id}
-                                    imageUrl="https://3.bp.blogspot.com/-7AxwcC2EiYc/V8uqwy_3HgI/AAAAAAAAAo4/zEdzymqI4ocgjy6DDrh2f9R7DB5HeCn7QCLcB/s1600/cigangsa.jpg"
+                                    imageUrl={data.imageBg}
                                     lokasi={data.lokasi}
                                     kota={data.kota}
                                     namaWisata={data.namaWisata}
-                                   
+                                   alt={data.namaWisata}
                                     />
                                 </SwiperSlide>
                                 </div>
@@ -150,7 +156,7 @@ const DetailDestinasi = () => {
                                 <SwiperSlide>
                                 <CardHotel
                                     key={data.id}
-                                    imageUrl="https://3.bp.blogspot.com/-7AxwcC2EiYc/V8uqwy_3HgI/AAAAAAAAAo4/zEdzymqI4ocgjy6DDrh2f9R7DB5HeCn7QCLcB/s1600/cigangsa.jpg"
+                                    imageUrl={data.imgHotel}
                                     namaHotel={data.namaHotel}
                                     jalan={data.jalan}
                                     ket1="Free Wifi"
@@ -186,12 +192,13 @@ const DetailDestinasi = () => {
                                 <SwiperSlide>
                                     <CardKuliner
                                     key={data.id}
-                                    imageUrl="https://3.bp.blogspot.com/-7AxwcC2EiYc/V8uqwy_3HgI/AAAAAAAAAo4/zEdzymqI4ocgjy6DDrh2f9R7DB5HeCn7QCLcB/s1600/cigangsa.jpg"
+                                    imageUrl={data.imgBg}
                                     namaKuliner={data.namaKuliner}
                                     jalan={data.jalan}
                                     jadwal={data.jadwal}
                                     waktu={data.waktu}
                                     waktu2={data.waktu2}
+                                    alt={data.namaKuliner}
                                     />
                                 </SwiperSlide>
                                 </div>
@@ -203,6 +210,7 @@ const DetailDestinasi = () => {
                 </div>
             </div>
         </div>
+        </>
   )
 }
 

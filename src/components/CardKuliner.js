@@ -7,7 +7,7 @@ function CardKuliner(props) {
   return (
     <div className={styles.body}>
         <div className={styles.imgBody}>
-            <img src={props.imageUrl} className={styles.img} />        
+            <img src={props.imageUrl} className={styles.img} alt={props.alt}/>        
         </div>
         <div className={styles.header}>{props.namaKuliner}</div>
         <div className={styles.secondBody}>

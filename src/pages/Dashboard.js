@@ -1,8 +1,10 @@
-import React, { useState, } from "react";
+import React, { useEffect, } from "react";
 import styles from '../styles/dashboard.module.css';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { getGuidesList,  } from "../actions/guideAction";
+import { getWisataList,  } from "../actions/wisataAction";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -12,7 +14,7 @@ import {FaSistrix} from 'react-icons/fa';
 import CardDest from "../components/CardDest";
 import CardGuide from "../components/CardGuide";
 
-import Bg1 from '../assets/background/bg1.jpg';
+
 import Icon1 from '../assets/icon/hotel.png';
 import Icon2 from '../assets/icon/destination.png';
 import Icon3 from '../assets/icon/tour-guide.png';
@@ -21,27 +23,42 @@ import dataDestinasi from "../data/Destinasi";
 
 import { Helmet } from "react-helmet-async";
 
-
 const Dashboard  = () => {
             const data =
                 [
                 {
                     id: "1",
-                    image: require('../assets/background/bg1.jpg')
+                    image: "https://wallpaperaccess.com/full/3462140.jpg"
                 },
                 {
                     id: "2",
-                    image: require('../assets/background/bg2.jpg')
+                    image: "https://wallpaperaccess.com/full/4632386.jpg"
                 },
                 {
                     id: "3",
-                    image: require('../assets/background/bg3.jpg')
+                    image: "https://wallpaperaccess.com/full/2189962.jpg"
                 },
             ]
         
         
-            
-       
+            const navigate = useNavigate();
+
+            const navigateToDetailGuide = (id) => {
+                navigate(`/detail-guide/{$id}`, {state: id})
+            }
+
+            const {getGuidesListResult, getGuidesLoading, getGuidesError} =
+                useSelector((state) => state.guideReducer);
+    
+            const {getWisataListResult, getWisataLoading, getWisataError} =
+            useSelector((state) => state.wisataReducer);
+        
+            const dispatch = useDispatch();
+        
+            useEffect(() => {
+                dispatch(getGuidesList())
+                dispatch(getWisataList())
+            }, [dispatch])
 
         return (
             <>
@@ -49,6 +66,7 @@ const Dashboard  = () => {
                     <title>Sabatour</title>
                     <meta name="description" content="Temukan destinasi, Tour guide, rekomendasi penginapan, dan rekomendasi kuliner yang ada di tempat wisata Indonesia." />
                     <link rel="canonical" href="/" />
+                    
                 </Helmet>
                 <div className={styles.mainBody}>
                     <div className={styles['container']}>
@@ -98,18 +116,20 @@ const Dashboard  = () => {
                             </div>
                         </div>
                         <div className={styles.cardBody}>
-                            {dataDestinasi.slice(0, 3).map((data, idx) => {
-                                return (
-                                    <CardDest
-                                        key={data.id}
-                                        imageUrl="https://3.bp.blogspot.com/-7AxwcC2EiYc/V8uqwy_3HgI/AAAAAAAAAo4/zEdzymqI4ocgjy6DDrh2f9R7DB5HeCn7QCLcB/s1600/cigangsa.jpg"
-                                        prov={data.prov.toUpperCase()}
-                                        kota={data.kota}
-                                        namaWisata={data.namaWisata}
-                                        like={data.like}
+                            {getWisataListResult ? (getWisataListResult.slice(0,3).map((e) => {
+                            return(
+                                <CardDest
+                                        key={e.id}
+                                        imageUrl={e.imageBg}
+                                        prov={e.prov.toUpperCase()}
+                                        kota={e.kota}
+                                        namaWisata={e.namaWisata}
+                                        like={e.like}
+                                        alt={e.desc}
                                     />
-                                )
-                            })}
+                            )
+                            })
+                            ) : null}
                         </div>
                         <a className={styles.slideTwoBtnBody} href='/destinasi'>
                             <button className={styles.slideTwoBtn}>LIHAT LAINNYA</button>
@@ -120,19 +140,20 @@ const Dashboard  = () => {
                             </div>
                         </div>
                         <div className={styles.cardBody2}>
-                            {dataGuides.slice(0, 3).map((data, idx) => {
-                                console.log(data)
-                                return (
-                                    <CardGuide
-                                        key={idx}
-                                        imageUrl={data.imgProfil}
-                                        name={data.name}
-                                        work={data.work}
-                                        alt={data.alt}
-                                        desc={data.desc}
-                                    />
-                                )
-                            })}
+                        {getGuidesListResult ? (getGuidesListResult.slice(0,3).map((guide) => {
+                         return(
+                            <CardGuide
+                                key={guide.id}
+                               
+                                imageUrl={guide.imgProfil}
+                                name={guide.nama}
+                                work={guide.work}
+                                alt={guide.alt}
+                                desc={guide.desc}
+                            />
+                         )
+                    })
+                    ) : null}
                         </div>
                         <a className={styles.slideTwoBtnBody2} href='/tour-guide'>
                             <button className={styles.slideTwoBtn2}>LIHAT LAINNYA</button>

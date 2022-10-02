@@ -11,7 +11,7 @@ const Destinations = () => {
         <>
             <Helmet>
                 <title>Destinasi</title>
-                <meta name="description" content="Temukan destinasi, Tour guide, rekomendasi penginapan, dan rekomendasi kuliner yang ada di tempat wisata Indonesia." />
+                <meta name="description" content="Berbagai macam pilihan destinasi wisata diseluruh provinsi di Indonesia, dengan menampilkan jumlah like dari pengunjung wisata tersebut." />
                 <link rel="canonical" href="/destinasi" />
             </Helmet>    
             <div className={styles.mainBody}>
@@ -35,7 +35,7 @@ const Destinations = () => {
                             return (
                                 <CardDest
                                     key={data.id}
-                                    imageUrl="https://3.bp.blogspot.com/-7AxwcC2EiYc/V8uqwy_3HgI/AAAAAAAAAo4/zEdzymqI4ocgjy6DDrh2f9R7DB5HeCn7QCLcB/s1600/cigangsa.jpg"
+                                    imageUrl={data.imageBg}
                                     prov={data.prov.toUpperCase()}
                                     kota={data.kota}
                                     namaWisata={data.namaWisata}

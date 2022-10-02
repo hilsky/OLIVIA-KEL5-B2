@@ -1,58 +1,63 @@
 const dataGuides = [
     {
         id: "1",
-        name: "User",
+        name: "Pemandu 1",
         work: "Pemandu Wisata",
         ig: "",
         wa: "",
         twt:"",
         imgProfil: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png",
         alt: "Gambar Pemandu Wisata dari Sabatour",
-        desc: "Lahir di Bali membuat saya mengenal lebih banyak destinasi wisata yang ada di pulau Dewata. "
+        desc: "Lahir di Bali membuat saya mengenal lebih banyak destinasi wisata yang ada di pulau Dewata. ",
+        lokasi: "Bali"
     },
     {
         id: "2",
-        name: "User",
+        name: "Pemandu 2",
         work: "Pemandu Wisata",
         ig: "",
         wa: "",
         twt:"",
         imgProfil: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png",
         alt: "Gambar Pemandu Wisata dari Sabatour",
-        desc: "Memberikan kenyamanan bagi wisatawan Maluku Utara adalah tanggung jawab kami. "
+        desc: "Memberikan kenyamanan bagi wisatawan Maluku Utara adalah tanggung jawab kami. ",
+        lokasi: "Maluku Utara"
     },
     {
         id: "3",
-        name: "User",
+        name: "Pemandu 3",
         work: "Pemandu Wisata",
         ig: "",
         wa: "",
         twt:"",
         imgProfil: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png",
         alt: "Gambar Pemandu Wisata dari Sabatour",
-        desc: "Saya siap dan bersedia menemani Anda berkeliling di Kota Malang, Jawa Timur"
+        desc: "Saya siap dan bersedia menemani Anda berkeliling di Kota Malang, Jawa Timur",
+        lokasi: "Malang"
     },
     {
         id: "4",
-        name: "User",
+        name: "Pemandu 4",
         work: "Pemandu Wisata",
         ig: "",
         wa: "",
         twt:"",
         imgProfil: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png",
         alt: "Gambar Pemandu Wisata dari Sabatour",
-        desc: "Saya adalah pemandu wisata di Daerah Istimewa Yogyakarta"
+        desc: "Saya adalah pemandu wisata di Daerah Istimewa Yogyakarta",
+        lokasi: "Yogyakarta"
     },
     {
         id: "5",
-        name: "User",
+        name: "Pemandu 5",
         work: "Pemandu Wisata",
         ig: "",
         wa: "",
         twt:"",
         imgProfil: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png",
         alt: "Gambar Pemandu Wisata dari Sabatour",
-        desc: "Pemandu wisata Nusa Tenggara Timur yang siap mendampingi perjalanan wisata Anda."
+        desc: "Pemandu wisata Nusa Tenggara Timur yang siap mendampingi perjalanan wisata Anda.",
+        lokasi: "NTT"
     },
     {
         id: "6",
@@ -63,7 +68,8 @@ const dataGuides = [
         twt:"",
         imgProfil: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png",
         alt: "Gambar Pemandu Wisata dari Sabatour",
-        desc: "Pemandu wisata Nusa Tenggara Timur yang siap mendampingi perjalanan wisata Anda."
+        desc: "Pemandu wisata Nusa Tenggara Timur yang siap mendampingi perjalanan wisata Anda.",
+        lokasi: "NTT"
     },
 ]
 

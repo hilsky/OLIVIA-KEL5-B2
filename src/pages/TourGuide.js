@@ -1,15 +1,27 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styles from '../styles/tourguide.module.css';
 import CardGuide from "../components/CardGuide";
 import dataGuides from "../data/Guides";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { useDispatch, useSelector } from "react-redux";
+import { getGuidesList, getGuideDetail } from "../actions/guideAction";
+
+const TourGuide = () => {
+    const {getGuidesListResult, getGuidesLoading, getGuidesError} =
+        useSelector((state) => state.guideReducer);
+
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getGuidesList())
+    }, [dispatch])
 
 
-const TourGuide = (props) => {
-    
     const navigate = useNavigate();
-
+    const navigateToDetailGuide = (id) => {
+        navigate(`/detail-guide/`+ id)
+    }
 
     return (
         <>
@@ -17,6 +29,7 @@ const TourGuide = (props) => {
                 <title>Pemandu Wisata</title>
                 <meta name="description" content="TDengan adanya pemandu wisata, Anda akan dibantu mempersiapkan segala sesuatu yang berkaitan dengan perjalanan wisata Anda. Kami siap memberikan pengalaman berkesan bagi Anda selama berwisata." />
                 <link rel="canonical" href="/tour-guide" />
+                
             </Helmet>    
             <div className={styles.mainBody}>
                 <div className={styles['container']}>
@@ -35,20 +48,20 @@ const TourGuide = (props) => {
             
                 <div className={styles['container2']}>
                     <div className={styles.cardBody}>
-                    {dataGuides.map((e) => {
-                        return (
-                            
-                                <CardGuide
-                                    key={e.id}
-                                    state="tes"
-                                    imageUrl={e.imgProfil}
-                                    name={e.name}
-                                    work={e.work}
-                                    alt={e.alt}
-                                    desc={e.desc}
-                                />
-                        )
-                    })}
+                    {getGuidesListResult ? (getGuidesListResult.map((guide) => {
+                         return(
+                            <CardGuide
+                                key={guide.id}
+                               
+                                imageUrl={guide.imgProfil}
+                                name={guide.nama}
+                                work={guide.work}
+                                alt={guide.alt}
+                                desc={guide.desc}
+                            />
+                         )
+                    })
+                    ) : null}
                     </div>
                 </div>
                 <div className={styles.container3}>

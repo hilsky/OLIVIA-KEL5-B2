@@ -1,19 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from '../styles/detailGuides.module.css';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import {HiStar, HiOutlineStar, HiLocationMarker, HiCalendar} from 'react-icons/hi';
-import {FaWallet} from 'react-icons/fa';
 
 import DatePicker from "react-datepicker";
 import moment from 'moment'
 // import required css from library
 import "react-datepicker/dist/react-datepicker.css";
+import dataGuides from '../data/Guides';
+import { Helmet } from "react-helmet-async";
+
 
 
 const DetailGuides = () => {
+
+    useEffect(() => {
+        console.log(stateVal)
+    })
+
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null)
     
+    const stateVal = useLocation().state.id;
+
 
     const handleCheckIndate = (date) => {
         setStartDate(date);
@@ -24,10 +33,18 @@ const DetailGuides = () => {
         setEndDate(date)
     }
 
-
     return (
+        <>
+        <Helmet>
+                <title>Destinasi</title>
+                <meta name="description" content="Menampilkan detail profil, rating, dan deskripsi tour guide. Pemesanan jasa tour guide juga ditampilkan dengan fitur tanggal booking dan harga dari jasa tersebut. " />
+                <link rel="canonical" href="/detail-guide" />
+                
+            </Helmet> 
+        
         <div className={styles.mainBody}>
             <div className={styles.body}>
+               
                 <div className={styles.columnOneBody}>
                     <div className={styles.imgSampulBody}>
                         <img className={styles.imgSampul} src={require('../assets/background/bg1.jpg')}/>
@@ -60,6 +77,7 @@ const DetailGuides = () => {
                             <p className={styles.desc}>
                                 Saya adalah pemandu wisata di Daerah Istimewa Yogyakarta
                             </p>
+                            
                         </div>
                         <button className={styles.btnBody}>
                             <div className={styles.btnText}>Kirim Pesan</div>
@@ -118,15 +136,17 @@ const DetailGuides = () => {
                         <div className={styles.body2Header}>
                             Rekomendasi lainnya
                         </div>
-                        <div className={styles.cardBody}>
-                            <img className={styles.cardImg} src={'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png'}/>
+                        {dataGuides.slice(0,3).map((data, idx) => {
+                            return (
+                            <div className={styles.cardBody} key={data.id}>
+                            <img className={styles.cardImg} src={data.imgProfil} alt={data.alt}/>
                             <div classname={styles.cardColumn}>
                                 <div className={styles.cardHeader}>
-                                    User2
+                                    {data.name}
                                 </div>
                                 <div className={styles.cardDesc}>
                                     <HiLocationMarker className={styles.locIcon2} />
-                                    Bali
+                                    {data.lokasi}
                                 </div>
                                 <div classname={styles.cardRowBody}>
                                     {/* <div className={styles.cardText}>
@@ -142,64 +162,16 @@ const DetailGuides = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.cardBody}>
-                            <img className={styles.cardImg} src={'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png'}/>
-                            <div classname={styles.cardColumn}>
-                                <div className={styles.cardHeader}>
-                                    User2
-                                </div>
-                                <div className={styles.cardDesc}>
-                                    <HiLocationMarker className={styles.locIcon2} />
-                                    Bali
-                                </div>
-                                <div classname={styles.cardRowBody}>
-                                    {/* <div className={styles.cardText}>
-                                        (15 Ulasan)
-                                    </div> */}
-                                    <div className={styles.starBody}>
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.cardBody}>
-                            <img className={styles.cardImg} src={'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png'}/>
-                            <div classname={styles.cardColumn}>
-                                <div className={styles.cardHeader}>
-                                    User2
-                                </div>
-                                <div className={styles.cardDesc}>
-                                    <HiLocationMarker className={styles.locIcon2} />
-                                    Bali
-                                </div>
-                                <div classname={styles.cardRowBody}>
-                                    {/* <div className={styles.cardText}>
-                                        (15 Ulasan)
-                                    </div> */}
-                                    <div className={styles.starBody}>
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
+                        )
+                        })}
                     </div>
+                
                 </div>
+                
             </div>
-            {/* <div className={styles.secondBody}>
-                <div>
-
-                </div>
-            </div> */}
+            
         </div>
+        </>
   )
 }
 
