@@ -46,7 +46,7 @@ export const getGuideDetail = (id) => {
             })
             .catch((error) => {
                 dispatch({
-                    type: GET_GUIDES_LIST,
+                    type: GET_GUIDES_DETAIL,
                     payload: {
                         loading: false,
                         data: false,
