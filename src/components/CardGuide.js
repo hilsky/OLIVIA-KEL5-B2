@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function CardGuide(props) {
     return (
-        <div className={styles.cardBody} onClick={props.onClick} >
+        <div className={styles.cardBody} >
             <div className={styles.imgBody}>
                 <img src={props.imageUrl} className={styles.img}/>
             </div>
@@ -18,7 +18,7 @@ function CardGuide(props) {
                     {props.desc}
                 </div>
             </div>
-            <Link className={styles.btnBody} to={props.onClick}>
+            <Link className={styles.btnBody} to={'/detail-guide/'+props.id}>
                 <div className={styles.btnText}>SELENGKAPNYA</div>
             </Link>
         </div>

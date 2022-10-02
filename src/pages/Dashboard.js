@@ -22,6 +22,7 @@ import dataGuides from "../data/Guides";
 import dataDestinasi from "../data/Destinasi";
 
 import { Helmet } from "react-helmet-async";
+import guide from "../reducers/guide";
 
 const Dashboard  = () => {
             const data =
@@ -43,8 +44,8 @@ const Dashboard  = () => {
         
             const navigate = useNavigate();
 
-            const navigateToDetailGuide = (id) => {
-                navigate(`/detail-guide/{$id}`, {state: id})
+            const navigateToDetailGuide = () => {
+                navigate('/detail-guide')
             }
 
             const {getGuidesListResult, getGuidesLoading, getGuidesError} =
@@ -144,7 +145,7 @@ const Dashboard  = () => {
                          return(
                             <CardGuide
                                 key={guide.id}
-                               
+                                
                                 imageUrl={guide.imgProfil}
                                 name={guide.nama}
                                 work={guide.work}

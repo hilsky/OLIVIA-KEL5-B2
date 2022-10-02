@@ -1,13 +1,14 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import styles from '../styles/tourguide.module.css';
 import CardGuide from "../components/CardGuide";
 import dataGuides from "../data/Guides";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { useDispatch, useSelector } from "react-redux";
-import { getGuidesList, getGuideDetail } from "../actions/guideAction";
+import { getGuidesList,  } from "../actions/guideAction";
 
 const TourGuide = () => {
+
     const {getGuidesListResult, getGuidesLoading, getGuidesError} =
         useSelector((state) => state.guideReducer);
 
@@ -20,7 +21,7 @@ const TourGuide = () => {
 
     const navigate = useNavigate();
     const navigateToDetailGuide = (id) => {
-        navigate(`/detail-guide/`+ id)
+        navigate(`/detail-guide/` + id) 
     }
 
     return (
@@ -51,8 +52,8 @@ const TourGuide = () => {
                     {getGuidesListResult ? (getGuidesListResult.map((guide) => {
                          return(
                             <CardGuide
-                                key={guide.id}
-                               
+                                key={guide._id}
+                                id={guide._id}
                                 imageUrl={guide.imgProfil}
                                 name={guide.nama}
                                 work={guide.work}

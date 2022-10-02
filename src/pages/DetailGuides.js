@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styles from '../styles/detailGuides.module.css';
 import { useLocation, useParams } from 'react-router-dom';
 import {HiStar, HiOutlineStar, HiLocationMarker, HiCalendar} from 'react-icons/hi';
+import { useDispatch, useSelector } from "react-redux";
+import {getGuideDetail, getGuidesList} from "../actions/guideAction"
 
 import DatePicker from "react-datepicker";
 import moment from 'moment'
@@ -13,16 +15,10 @@ import { Helmet } from "react-helmet-async";
 
 
 const DetailGuides = () => {
-
-    useEffect(() => {
-        console.log(stateVal)
-    })
-
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null)
     
-    const stateVal = useLocation().state.id;
-
+    const id = useParams();
 
     const handleCheckIndate = (date) => {
         setStartDate(date);
@@ -32,6 +28,15 @@ const DetailGuides = () => {
     const handleCheckOutDate = (date) => {
         setEndDate(date)
     }
+
+    const dispatch = useDispatch();
+    const {getGuideDetailResult, getGuidesListResult} =
+        useSelector((state) => state.guideReducer )
+
+    useEffect(() => {
+        // dispatch(getGuideDetail(id))
+        dispatch(getGuidesList())
+    }, [dispatch])
 
     return (
         <>
@@ -46,6 +51,7 @@ const DetailGuides = () => {
             <div className={styles.body}>
                
                 <div className={styles.columnOneBody}>
+                    
                     <div className={styles.imgSampulBody}>
                         <img className={styles.imgSampul} src={require('../assets/background/bg1.jpg')}/>
                     </div>
@@ -136,34 +142,36 @@ const DetailGuides = () => {
                         <div className={styles.body2Header}>
                             Rekomendasi lainnya
                         </div>
-                        {dataGuides.slice(0,3).map((data, idx) => {
+                        {getGuidesListResult? (getGuidesListResult.slice(0,3).map((guide) =>{
                             return (
-                            <div className={styles.cardBody} key={data.id}>
-                            <img className={styles.cardImg} src={data.imgProfil} alt={data.alt}/>
-                            <div classname={styles.cardColumn}>
-                                <div className={styles.cardHeader}>
-                                    {data.name}
-                                </div>
-                                <div className={styles.cardDesc}>
-                                    <HiLocationMarker className={styles.locIcon2} />
-                                    {data.lokasi}
-                                </div>
-                                <div classname={styles.cardRowBody}>
-                                    {/* <div className={styles.cardText}>
-                                        (15 Ulasan)
-                                    </div> */}
-                                    <div className={styles.starBody}>
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
-                                        <HiStar className={styles.iconStar2} />
+                                <div className={styles.cardBody} key={guide._id}>
+                                <img className={styles.cardImg} src={guide.imgProfil} alt={guide.alt}/>
+                                <div classname={styles.cardColumn}>
+                                    <div className={styles.cardHeader}>
+                                        {guide.nama}
+                                    </div>
+                                    <div className={styles.cardDesc}>
+                                        <HiLocationMarker className={styles.locIcon2} />
+                                        {guide.lokasi}
+                                    </div>
+                                    <div className={styles.cardRowBody}>
+                                        {/* <div className={styles.cardText}>
+                                            (15 Ulasan)
+                                        </div> */}
+                                        <div className={styles.starBody}>
+                                            <HiStar className={styles.iconStar2} />
+                                            <HiStar className={styles.iconStar2} />
+                                            <HiStar className={styles.iconStar2} />
+                                            <HiStar className={styles.iconStar2} />
+                                            <HiStar className={styles.iconStar2} />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        )
-                        })}
+                            )
+                        }))
+                        : null
+                    }
                     </div>
                 
                 </div>

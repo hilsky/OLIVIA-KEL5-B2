@@ -20,15 +20,15 @@ const DetailDestinasi = () => {
                 [
                 {
                     id: "1",
-                    image: require('../assets/background/bg1.jpg')
+                    image: "https://cdn.pixabay.com/photo/2016/08/08/16/09/indonesia-1578647_1280.jpg"
                 },
                 {
                     id: "2",
-                    image: require('../assets/background/bg2.jpg')
+                    image: "https://cdn.pixabay.com/photo/2018/03/19/14/55/pagoda-3240169_1280.jpg"
                 },
                 {
                     id: "3",
-                    image: require('../assets/background/bg3.jpg')
+                    image: "https://cdn.pixabay.com/photo/2016/07/26/11/12/bali-1542569_1280.jpg"
                 },
             ]
     return (

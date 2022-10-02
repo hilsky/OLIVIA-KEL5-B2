@@ -16,10 +16,10 @@ function App() {
     <Navbar />
       <Routes>
         <Route path='/' exact element={<Dashboard />} />
-        <Route path='/tour-guide' element={<TourGuide />} />
-        <Route path='/destinasi' element={<Destinations />} />
-        <Route path='/detail-guide/:id' element={<DetailGuides />} />
-        <Route path='/detail-destinasi' element={<DetailDestinasi />} />
+        <Route path='/tour-guide' exact element={<TourGuide />} />
+        <Route path='/destinasi' exact element={<Destinations />} />
+        <Route path='/detail-guide/:id' exact element={<DetailGuides />} />
+        <Route path='/detail-destinasi' exact element={<DetailDestinasi />} />
       </Routes>
       <Footer />
     </BrowserRouter>

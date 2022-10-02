@@ -6,7 +6,7 @@ export const GET_GUIDES_DETAIL = "GET_GUIDES_DETAIL";
 export const getGuidesList = () => {
     return (dispatch) => {
         axios
-            .get("http://localhost:3500/guide")
+            .get("https://desolate-crag-78080.herokuapp.com/guide")
             .then((response) => {
                 dispatch({
                     type: GET_GUIDES_LIST,
@@ -33,7 +33,7 @@ export const getGuidesList = () => {
 export const getGuideDetail = (id) => {
     return (dispatch) => {
         axios
-            .get("http://localhost:3500/guide" + id)
+            .get("https://desolate-crag-78080.herokuapp.com/guide/" + id)
             .then((response) => {
                 dispatch({
                     type: GET_GUIDES_DETAIL,

@@ -6,7 +6,7 @@ export const GET_WISATA_DETAIL = "GET_WISATA_DETAIL";
 export const getWisataList = () => {
     return (dispatch) => {
         axios
-            .get("http://localhost:3500/wisata")
+            .get("https://desolate-crag-78080.herokuapp.com/wisata")
             .then((response) => {
                 dispatch({
                     type: GET_WISATA_LIST,
@@ -33,7 +33,7 @@ export const getWisataList = () => {
 export const getWisataDetail = (id) => {
     return (dispatch) => {
         axios
-            .get("http://localhost:3500/wisata" + id)
+            .get("https://desolate-crag-78080.herokuapp.com/wisata" + id)
             .then((response) => {
                 dispatch({
                     type: GET_WISATA_DETAIL,
