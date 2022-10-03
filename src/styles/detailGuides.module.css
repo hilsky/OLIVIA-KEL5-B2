@@ -3842,8 +3842,8 @@
     }
     
     .imgBody {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         border-radius: 50%;
         border-width: 1px;
         border-style: solid;
@@ -3855,8 +3855,8 @@
     }
     
     .img {
-        width: 130px;
-        height: 130px;
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
         border-width: 1px;
         border-style: solid;
@@ -3872,7 +3872,7 @@
     }
     
     .rowName {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bold;
         margin-bottom: 10px;
         color: #fff;
@@ -3880,7 +3880,7 @@
     }
     
     .rowWork {
-        font-size: 20px;
+        font-size: 19px;
         font-weight: bold;
         word-spacing: 2px;
         color: var(--mainColor);
@@ -3892,8 +3892,8 @@
     }
     
     .iconStar {
-        width: 20px;
-        height: 20px;
+        width: 19px;
+        height: 19px;
         z-index: 1;
         color: gold;
     }
@@ -3901,14 +3901,14 @@
     .locBody {
         display: flex;
         flex-direction: row;
-        margin-top: 15px;
+        margin-top: 18px;
         text-align: center;
         align-items: center;
     }
     
     .locIcon {
-        width: 20px;
-        height: 20px;
+        width: 19px;
+        height: 19px;
         margin-right: 5px;
         color: var(--secondaryColor);
     }
@@ -3919,11 +3919,11 @@
     }
     
     .boxBody {
-        width: 550px;
-        height: 250px;
-        margin-top: 60px;
-        margin-left: 25px;
-        margin-right: 45px;
+        width: 530px;
+        height: 230px;
+        margin-top: 55px;
+        margin-left: 22px;
+        margin-right: 42px;
         border-radius: 10px;
         background-color: var(--secondaryColor);
     }
@@ -3934,7 +3934,7 @@
     }
     
     .descHeader {
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: 1.5px;
         margin-top: 20px;
         font-weight: bold;
@@ -3948,7 +3948,7 @@
     }
     
     .desc {
-        font-size: 15px;
+        font-size: 14px;
         color: var(--thirdColor);
         font-weight: 400;
         margin-top: 5px;
@@ -3966,7 +3966,7 @@
     }
     
     .btnText {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -3999,7 +3999,9 @@
     .calenderBody {
         width: 70px;
         height: 100px;
-        margin-right: -40px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
         border-width: 1px;
         
     }
@@ -4012,7 +4014,7 @@
     }
     
     .calText {
-        font-size: 13px;
+        font-size: 14px;
         margin-left: 40px;
     }
     
@@ -4026,7 +4028,7 @@
     .verticalLine {
         height: 110px;
         border-left: 3px solid black;
-        margin-left: 90px;
+        margin-left: 45px;
         margin-right: -10px;
     }
     
@@ -4059,8 +4061,8 @@
     }
     
     .btnOrder {
-        width: 140px;
-        height: 40px;
+        width: 130px;
+        height: 35px;
         background-color: #D9D9D9;
         border-radius: 10px;
         margin-top: 25px;
@@ -4070,7 +4072,7 @@
     }
     
     .btnOrderText {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -4092,7 +4094,7 @@
     
     .body2Header {
         margin-left: 30px;
-        font-size: 15px;
+        font-size: 14px;
         color: var(--thirdColor);
         font-weight: 800;
         
@@ -4101,12 +4103,12 @@
     .cardBody {
         display: flex;
         flex-direction: row;
-        width: 180px;
+        width: 170px;
         height: fit-content;
         border-width: 1px;
         border-style: solid;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
         border-radius: 10px;
         background-color: var(--thirdColor);
         padding: 15px;
@@ -4120,29 +4122,29 @@
     }
     
     .cardImg {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
-        margin-right: 20px;
+        margin-right: 15px;
     }
     
     .cardColumn {
-        margin-left: 10px;
+        margin-left: 5px;
     }
     
     .cardHeader {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 800;
     }
     
     .cardDesc {
-        font-size: 14px;
+        font-size: 13px;
     
     }
     
     .locIcon2 {
-        width: 15px;
-        height: 15px;
+        width: 13px;
+        height: 13px;
         margin-right: 5px;
     }
     
@@ -4152,7 +4154,7 @@
     }
     
     .cardText {
-        font-size: 11px;
+        font-size: 10px;
         margin-top: 10px;
     }
     
@@ -4170,7 +4172,7 @@
         margin-top: 5px;
     }
 }
-@media (max-width: 985px) {
+/* @media (max-width: 985px) {
     .mainBody {
         
         margin-top: 100px;
@@ -4547,7 +4549,7 @@
         color: gold;
         margin-top: 5px;
     }
-}
+} */
 @media (max-width: 965px) {
     .mainBody {
         
@@ -5632,8 +5634,8 @@
     }
     
     .cardImg {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         margin-right: 20px;
     }
@@ -5643,18 +5645,18 @@
     }
     
     .cardHeader {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 800;
     }
     
     .cardDesc {
-        font-size: 14px;
+        font-size: 12px;
     
     }
     
     .locIcon2 {
-        width: 15px;
-        height: 15px;
+        width: 13px;
+        height: 13px;
         margin-right: 5px;
     }
     
@@ -5664,7 +5666,7 @@
     }
     
     .cardText {
-        font-size: 11px;
+        font-size: 10px;
         margin-top: 10px;
     }
     
@@ -5682,7 +5684,7 @@
         margin-top: 5px;
     }
 }
-@media (max-width: 890px) {
+/* @media (max-width: 890px) {
     .mainBody {
         
         margin-top: 100px;
@@ -6063,7 +6065,8 @@
         color: gold;
         margin-top: 5px;
     }
-}
+} */
+
 @media (max-width: 825px) {
     .mainBody {
         
@@ -6210,7 +6213,7 @@
     }
     
     .descHeader {
-        font-size: 17px;
+        font-size: 15px;
         letter-spacing: 1.5px;
         margin-top: 20px;
         font-weight: bold;
@@ -6224,25 +6227,25 @@
     }
     
     .desc {
-        font-size: 15px;
+        font-size: 13px;
         color: var(--thirdColor);
         font-weight: 400;
         margin-top: 5px;
     }
     
     .btnBody {
-        width: 150px;
-        height: 40px;
+        width: 130px;
+        height: 30px;
         border-radius: 10px;
         background-color: #D9D9D9;
         border-width: 0px;
         margin-top: 90px;
-        margin-left: 150px;
-        margin-right: 230px;
+        margin-left: 110px;
+        margin-right: 50px;
     }
     
     .btnText {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -6252,8 +6255,8 @@
     }
     
     .columnTwoBody {
-        width: 350px;
-        height: -100px;
+        width: 300px;
+        
         border-radius: 10px;
         margin-left: -30px;
     }
@@ -6446,1622 +6449,89 @@
         margin-top: 5px;
     }
 }
-@media (max-width: 795px) {
+
+@media (max-width: 768px) {
     .mainBody {
+        height: 1200px;
         
         margin-top: 100px;
         justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 400px;
-        height: 600px;
-        border-radius: 10px;
-        margin-left: 2em;
-        margin-right: 75px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 400px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 90px;
-        height: 90px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -50px;
-        margin-left: 20px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -70px;
-        margin-left: 120px;
-    }
-    
-    .rowName {
-        font-size: 15px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 15px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -60px;
-        margin-left: 270px;
-    }
-    
-    .iconStar {
-        width: 15px;
-        height: 15px;
-        z-index: 1;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 15px;
-        text-align: center;
         align-items: center;
-    }
-    
-    .locIcon {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 12px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 350px;
-        height: 280px;
-        margin-top: 60px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-    }
-    
-    .descHeader {
-        font-size: 17px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 15px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 5px;
-    }
-    
-    .btnBody {
-        width: 150px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 90px;
-        margin-left: 150px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 15px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 250px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 70px;
-        height: 100px;
-        margin-right: -40px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 50px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 40px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 110px;
-        border-left: 3px solid black;
-        margin-left: 90px;
-        margin-right: -10px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 140px;
-        height: 40px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 50px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 14px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 250px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 30px;
-        font-size: 15px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 180px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 25px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 20px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 15px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 14px;
-    
-    }
-    
-    .locIcon2 {
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 11px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
-        width: 13px;
-        height: 13px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 775px) {
-    .mainBody {
-        
-        margin-top: 100px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 400px;
-        height: 600px;
-        border-radius: 10px;
-        margin-left: 2em;
-        margin-right: 90px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 400px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 90px;
-        height: 90px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -50px;
-        margin-left: 20px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -70px;
-        margin-left: 120px;
-    }
-    
-    .rowName {
-        font-size: 15px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 15px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -60px;
-        margin-left: 270px;
-    }
-    
-    .iconStar {
-        width: 15px;
-        height: 15px;
-        z-index: 1;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 15px;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .locIcon {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 12px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 350px;
-        height: 280px;
-        margin-top: 60px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-    }
-    
-    .descHeader {
-        font-size: 17px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 15px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 5px;
-    }
-    
-    .btnBody {
-        width: 150px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 90px;
-        margin-left: 110px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 15px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 200px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 50px;
-        height: 100px;
-        margin-right: -10px;
-        margin-left: -20px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 40px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 40px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 70px;
-        margin-right: 10px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 120px;
-        height: 30px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 30px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 12px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 200px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 20px;
-        font-size: 13px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 160px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 15px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 14px;
-    
-    }
-    
-    .locIcon2 {
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 11px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
-        width: 13px;
-        height: 13px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 700px) {
-    .mainBody {
-        
-        margin-top: 100px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 400px;
-        height: 600px;
-        border-radius: 10px;
-        margin-left: 2em;
-        margin-right: 60px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 400px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 90px;
-        height: 90px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -50px;
-        margin-left: 20px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -70px;
-        margin-left: 120px;
-    }
-    
-    .rowName {
-        font-size: 15px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 15px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -60px;
-        margin-left: 270px;
-    }
-    
-    .iconStar {
-        width: 15px;
-        height: 15px;
-        z-index: 1;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 15px;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .locIcon {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 12px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 350px;
-        height: 280px;
-        margin-top: 60px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-    }
-    
-    .descHeader {
-        font-size: 17px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 15px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 5px;
-    }
-    
-    .btnBody {
-        width: 150px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 90px;
-        margin-left: 110px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 15px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 200px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 50px;
-        height: 100px;
-        margin-right: -10px;
-        margin-left: -20px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 40px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 40px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 70px;
-        margin-right: 10px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 120px;
-        height: 30px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 30px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 12px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 200px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 20px;
-        font-size: 13px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 160px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 15px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 14px;
-    
-    }
-    
-    .locIcon2 {
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 11px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
-        width: 13px;
-        height: 13px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 690px) {
-    .mainBody {
-        
-        margin-top: 100px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 400px;
-        height: 600px;
-        border-radius: 10px;
-        margin-left: 0em;
-        margin-right: 60px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 400px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 90px;
-        height: 90px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -50px;
-        margin-left: 20px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -70px;
-        margin-left: 120px;
-    }
-    
-    .rowName {
-        font-size: 15px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 15px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -60px;
-        margin-left: 270px;
-    }
-    
-    .iconStar {
-        width: 15px;
-        height: 15px;
-        z-index: 1;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 15px;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .locIcon {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 12px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 350px;
-        height: 280px;
-        margin-top: 60px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-    }
-    
-    .descHeader {
-        font-size: 17px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 15px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 5px;
-    }
-    
-    .btnBody {
-        width: 150px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 90px;
-        margin-left: 110px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 15px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 200px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 50px;
-        height: 100px;
-        margin-right: -10px;
-        margin-left: -20px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 40px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 40px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 70px;
-        margin-right: 10px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 120px;
-        height: 30px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 30px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 12px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 200px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 20px;
-        font-size: 13px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 160px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 15px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 14px;
-    
-    }
-    
-    .locIcon2 {
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 11px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
-        width: 13px;
-        height: 13px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 600px) {
-    .mainBody {
-        
-        margin-top: 160px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 300px;
-        height: 600px;
-        border-radius: 10px;
-        margin-left: 1em;
-        margin-right: 60px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 300px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -50px;
-        margin-left: 20px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -40px;
         margin-left: 100px;
+        margin-bottom: 100px;
+        padding: 2em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .columnOneBody {
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+        margin-left: 70px;
+        
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 400px;
+        height: 200px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 400px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -50px;
+        margin-left: 20px;
+        padding: 3px;
+        margin-right: 20px;
+        align-items: center;
+    
+    }
+    
+    .img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -55px;
+        margin-left: 110px;
     }
     
     .rowName {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: bold;
         margin-bottom: 10px;
         color: #fff;
@@ -8069,20 +6539,19 @@
     }
     
     .rowWork {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: bold;
         word-spacing: 2px;
         color: var(--mainColor);
     }
     
     .rowTwo {
-        margin-top: -40px;
-        margin-left: 200px;
-       
+        margin-top: -55px;
+        margin-left: 300px;
     }
     
     .iconStar {
-        width: 12px;
+        width: 15px;
         height: 15px;
         z-index: 1;
         color: gold;
@@ -8091,43 +6560,43 @@
     .locBody {
         display: flex;
         flex-direction: row;
-        margin-top: 2px;
+        margin-top: 15px;
         text-align: center;
         align-items: center;
     }
     
     .locIcon {
-        width: 15px;
+        width: 20px;
         height: 20px;
         margin-right: 5px;
         color: var(--secondaryColor);
     }
     
     .locText {
-        font-size: 9px;
+        font-size: 12px;
         color: var(--mainColor);
     }
     
     .boxBody {
-        width: 250px;
-        height: 280px;
-        margin-top: 40px;
+        width: 350px;
+        height: 250px;
+        margin-top: 50px;
         margin-left: 25px;
         margin-right: 45px;
         border-radius: 10px;
         background-color: var(--secondaryColor);
+        
     }
     
     .descBody {
         padding: 3px;
         margin-left: 20px;
-        margin-right: 20px;
     }
     
     .descHeader {
         font-size: 13px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
+        letter-spacing: 1.2px;
+        margin-top: 15px;
         font-weight: bold;
         color: var(--thirdColor);
     }
@@ -8142,22 +6611,21 @@
         font-size: 11px;
         color: var(--thirdColor);
         font-weight: 400;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     
     .btnBody {
         width: 120px;
-        height: 40px;
+        height: 30px;
         border-radius: 10px;
         background-color: #D9D9D9;
         border-width: 0px;
-        margin-top: 90px;
-        margin-left: 70px;
-        margin-right: 230px;
+        margin-top: 100px;
+       
     }
     
     .btnText {
-        font-size: 11px;
+        font-size: 12px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -8167,102 +6635,103 @@
     }
     
     .columnTwoBody {
-        width: 350px;
-        height: -100px;
+        width: 300px;
+        align-self: center;
         border-radius: 10px;
-        margin-left: -30px;
+        justify-content: center;
+        
     }
     
     
     .boxBody1 {
-        width: 200px;
-        height: 200px;
+        margin-top: 40px;
+        align-self: center;
+        width: 300px;
+        height: 100px;
         border-radius: 10px;
         background-color: var(--secondaryColor);
         padding: 10px;
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 140px;
+       
+        
     }
+
+    .hide {
+        display: none;
+        height: 0px;
+        width: 0px;
+        position: fixed;
+        
+        margin-top: -200px;
+        
+      }
     
     .rowBody2 {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     
     .calenderBody {
-        width: 50px;
+       
+        width: 130px;
         height: 100px;
-        margin-right: -10px;
+        justify-content: center;
+        
+        margin-right: -20px;
         margin-left: -20px;
-        border-width: 1px;
+        
         
     }
     
     .iconCal {
-        width: 40px;
-        height: 70px;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+      
         
-        margin-top: 20px;
     }
     
     .calText {
-        font-size: 13px;
-        margin-left: 40px;
+        font-size: 12px;
+        margin-top: -22px;
+        text-align: center;
+        margin-right: 35px;
     }
     
     .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
+        font-size: 12px;
+       
+        margin-top: 2px;
         font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 70px;
+        text-align: center;
         margin-right: 10px;
     }
     
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
+    .verticalLine {
+        display: none;
+        height: 0px;
+        border-left: none;
+        
+        
     }
     
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
     
     .btnOrder {
-        width: 120px;
-        height: 30px;
+        width: 160px;
+        height: 50px;
         background-color: #D9D9D9;
         border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 30px;
-        margin-right: 80px;
-        border-width: 0;
+        position: absolute;
+        right: 11em;
+        
     }
     
     .btnOrderText {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -8272,19 +6741,21 @@
     }
     
     .boxBody2 {
-        width: 200px;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
         height: fit-content;
         border-radius: 10px;
         background-color: var(--secondaryColor);
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 60px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     
     .body2Header {
-        margin-left: 20px;
-        font-size: 13px;
+        margin-left: 50px;
+        font-size: 15px;
         color: var(--thirdColor);
         font-weight: 800;
         
@@ -8293,12 +6764,12 @@
     .cardBody {
         display: flex;
         flex-direction: row;
-        width: 160px;
+        width: 210px;
         height: fit-content;
         border-width: 1px;
         border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
+        margin-left: 35px;
+        margin-right: 35px;
         border-radius: 10px;
         background-color: var(--thirdColor);
         padding: 15px;
@@ -8315,7 +6786,7 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     
     .cardColumn {
@@ -8323,12 +6794,12 @@
     }
     
     .cardHeader {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 800;
     }
     
     .cardDesc {
-        font-size: 13px;
+        font-size: 14px;
     
     }
     
@@ -8362,36 +6833,37 @@
         margin-top: 5px;
     }
 }
+
 @media (max-width: 568px) {
     .mainBody {
+        height: 1200px;
         
-        margin-top: 160px;
+        margin-top: 100px;
         justify-content: center;
+        align-items: center;
+        margin-left: -10px;
         margin-bottom: 100px;
         padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
     }
     
     .body {
         position: relative;
         display: flex;
-        flex-direction: row;
-        
+        flex-direction: column;
     }
     
     .columnOneBody {
-        width: 300px;
-        height: 600px;
+        width: 400px;
+        height: 550px;
         border-radius: 10px;
-        margin-left: 0em;
-        margin-right: 49px;
+        margin-left: 70px;
+        
         box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         
     }
     
     .imgSampulBody {
-        width: 700px;
+        width: 400px;
         height: 200px;
        
         border-top-left-radius: 10px;
@@ -8399,7 +6871,7 @@
     }
     
     .imgSampul {
-        width: 300px;
+        width: 400px;
         height: 200px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -8412,41 +6884,38 @@
     }
     
     .imgBody {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         border-radius: 50%;
         border-width: 1px;
         border-style: solid;
         z-index: 1;
         margin-top: -50px;
         margin-left: 20px;
-        padding: 8px;
+        padding: 3px;
         margin-right: 20px;
+        align-items: center;
     
     }
     
     .img {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         border-radius: 50%;
         border-width: 1px;
         border-style: solid;
         z-index: 1;
         align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
     }
     
     .row {
         z-index: 1;
-        margin-top: -40px;
-        margin-left: 100px;
+        margin-top: -55px;
+        margin-left: 110px;
     }
     
     .rowName {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: bold;
         margin-bottom: 10px;
         color: #fff;
@@ -8454,20 +6923,19 @@
     }
     
     .rowWork {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: bold;
         word-spacing: 2px;
         color: var(--mainColor);
     }
     
     .rowTwo {
-        margin-top: -40px;
-        margin-left: 200px;
-       
+        margin-top: -55px;
+        margin-left: 300px;
     }
     
     .iconStar {
-        width: 12px;
+        width: 15px;
         height: 15px;
         z-index: 1;
         color: gold;
@@ -8476,43 +6944,43 @@
     .locBody {
         display: flex;
         flex-direction: row;
-        margin-top: 2px;
+        margin-top: 15px;
         text-align: center;
         align-items: center;
     }
     
     .locIcon {
-        width: 15px;
+        width: 20px;
         height: 20px;
         margin-right: 5px;
         color: var(--secondaryColor);
     }
     
     .locText {
-        font-size: 9px;
+        font-size: 12px;
         color: var(--mainColor);
     }
     
     .boxBody {
-        width: 250px;
-        height: 280px;
-        margin-top: 40px;
+        width: 350px;
+        height: 250px;
+        margin-top: 50px;
         margin-left: 25px;
         margin-right: 45px;
         border-radius: 10px;
         background-color: var(--secondaryColor);
+        
     }
     
     .descBody {
         padding: 3px;
         margin-left: 20px;
-        margin-right: 20px;
     }
     
     .descHeader {
         font-size: 13px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
+        letter-spacing: 1.2px;
+        margin-top: 15px;
         font-weight: bold;
         color: var(--thirdColor);
     }
@@ -8527,22 +6995,21 @@
         font-size: 11px;
         color: var(--thirdColor);
         font-weight: 400;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     
     .btnBody {
         width: 120px;
-        height: 40px;
+        height: 30px;
         border-radius: 10px;
         background-color: #D9D9D9;
         border-width: 0px;
-        margin-top: 90px;
-        margin-left: 70px;
-        margin-right: 230px;
+        margin-top: 100px;
+       
     }
     
     .btnText {
-        font-size: 11px;
+        font-size: 12px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -8552,102 +7019,104 @@
     }
     
     .columnTwoBody {
-        width: 350px;
-        height: -100px;
+        width: 300px;
+        align-self: center;
         border-radius: 10px;
-        margin-left: -30px;
+        justify-content: center;
+        margin-left: 35px;
+        
     }
     
     
     .boxBody1 {
-        width: 200px;
-        height: 200px;
+        margin-top: 40px;
+        
+        width: 300px;
+        height: 100px;
         border-radius: 10px;
         background-color: var(--secondaryColor);
         padding: 10px;
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 140px;
+       
+        
     }
+
+    .hide {
+        display: none;
+        height: 0px;
+        width: 0px;
+        position: fixed;
+        
+        margin-top: -200px;
+        
+      }
     
     .rowBody2 {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     
     .calenderBody {
-        width: 50px;
+       
+        width: 130px;
         height: 100px;
-        margin-right: -10px;
+        justify-content: center;
+        
+        margin-right: -20px;
         margin-left: -20px;
-        border-width: 1px;
+        
         
     }
     
     .iconCal {
-        width: 40px;
-        height: 70px;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+      
         
-        margin-top: 20px;
     }
     
     .calText {
-        font-size: 13px;
-        margin-left: 40px;
+        font-size: 12px;
+        margin-top: -22px;
+        text-align: center;
+        margin-right: 35px;
     }
     
     .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
+        font-size: 12px;
+       
+        margin-top: 2px;
         font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 70px;
+        text-align: center;
         margin-right: 10px;
     }
     
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
+    .verticalLine {
+        display: none;
+        height: 0px;
+        border-left: none;
+        
+        
     }
     
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
     
     .btnOrder {
-        width: 120px;
-        height: 30px;
+        width: 150px;
+        height: 50px;
         background-color: #D9D9D9;
         border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 30px;
-        margin-right: 80px;
-        border-width: 0;
+        position: absolute;
+        right: 6.2em;
+        
     }
     
     .btnOrderText {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -8657,19 +7126,21 @@
     }
     
     .boxBody2 {
-        width: 200px;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
         height: fit-content;
         border-radius: 10px;
         background-color: var(--secondaryColor);
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 60px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     
     .body2Header {
-        margin-left: 20px;
-        font-size: 13px;
+        margin-left: 60px;
+        font-size: 14px;
         color: var(--thirdColor);
         font-weight: 800;
         
@@ -8678,12 +7149,12 @@
     .cardBody {
         display: flex;
         flex-direction: row;
-        width: 160px;
+        width: 210px;
         height: fit-content;
         border-width: 1px;
         border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
+        margin-left: 35px;
+        margin-right: 35px;
         border-radius: 10px;
         background-color: var(--thirdColor);
         padding: 15px;
@@ -8697,10 +7168,10 @@
     }
     
     .cardImg {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     
     .cardColumn {
@@ -8708,7 +7179,7 @@
     }
     
     .cardHeader {
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 800;
     }
     
@@ -8718,393 +7189,8 @@
     }
     
     .locIcon2 {
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 11px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
         width: 13px;
         height: 13px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 548px) {
-    .mainBody {
-        
-        margin-top: 200px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 300px;
-        height: 600px;
-        border-radius: 10px;
-        margin-left: 0em;
-        margin-right: 49px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 300px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -50px;
-        margin-left: 20px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -40px;
-        margin-left: 100px;
-    }
-    
-    .rowName {
-        font-size: 10px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 10px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -40px;
-        margin-left: 200px;
-       
-    }
-    
-    .iconStar {
-        width: 12px;
-        height: 15px;
-        z-index: 1;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 2px;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .locIcon {
-        width: 15px;
-        height: 20px;
-        margin-right: 5px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 9px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 250px;
-        height: 280px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    .descHeader {
-        font-size: 13px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 11px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 20px;
-    }
-    
-    .btnBody {
-        width: 120px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 90px;
-        margin-left: 70px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 11px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 200px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 50px;
-        height: 100px;
-        margin-right: -10px;
-        margin-left: -20px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 40px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 40px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 70px;
-        margin-right: 10px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 120px;
-        height: 30px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 30px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 12px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 200px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 20px;
-        font-size: 13px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 160px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 13px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 13px;
-    
-    }
-    
-    .locIcon2 {
-        width: 15px;
-        height: 15px;
         margin-right: 5px;
     }
     
@@ -9114,395 +7200,7 @@
     }
     
     .cardText {
-        font-size: 11px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
-        width: 13px;
-        height: 13px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 500px) {
-    .mainBody {
-        
-        margin-top: 350px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 200px;
-        height: 500px;
-        border-radius: 10px;
-        margin-left: 2em;
-        margin-right: 70px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 200px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -35px;
-        margin-left: 8px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -40px;
-        margin-left: 70px;
-    }
-    
-    .rowName {
-        font-size: 8px;
-        font-weight: bold;
-        margin-bottom: 1px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 8px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -40px;
-        margin-left: 160px;
-       
-    }
-    
-    .iconStar {
-        width: 5px;
-        height: 15px;
-        z-index: 1;
-        margin-bottom: -12px;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 2px;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .locIcon {
-        width: 5px;
-        height: 20px;
-        margin-right: 1px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 5px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 150px;
-        height: 210px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    .descHeader {
         font-size: 10px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 8px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 20px;
-    }
-    
-    .btnBody {
-        width: 70px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 30px;
-        margin-left: 40px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 8px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 150px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 20px;
-        height: 100px;
-        margin-right: -10px;
-        margin-left: -35px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 40px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 42px;
-        margin-top: -30px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 90px;
-        margin-right: 20px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 100px;
-        height: 30px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 15px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 8px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 150px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 20px;
-        font-size: 8px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 100px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-right: 10px;
-        margin-left: -10px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 8px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 8px;
-    
-    }
-    
-    .locIcon2 {
-        width: 8px;
-        height: 8px;
-        margin-right: 2px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 8px;
         margin-top: 10px;
     }
     
@@ -9514,827 +7212,53 @@
     }
     
     .iconStar2 {
-        width: 8px;
-        height: 8px;
+        width: 11px;
+        height: 11px;
         color: gold;
         margin-top: 5px;
     }
 }
-@media (max-width: 465px) {
-    .mainBody {
-        
-        margin-top: 400px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 200px;
-        height: 500px;
-        border-radius: 10px;
-        margin-left: 1em;
-        margin-right: 70px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 200px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -35px;
-        margin-left: 8px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -40px;
-        margin-left: 70px;
-    }
-    
-    .rowName {
-        font-size: 8px;
-        font-weight: bold;
-        margin-bottom: 1px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 8px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -40px;
-        margin-left: 160px;
-       
-    }
-    
-    .iconStar {
-        width: 5px;
-        height: 15px;
-        z-index: 1;
-        margin-bottom: -12px;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 2px;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .locIcon {
-        width: 5px;
-        height: 20px;
-        margin-right: 1px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 5px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 150px;
-        height: 210px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    .descHeader {
-        font-size: 10px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 8px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 20px;
-    }
-    
-    .btnBody {
-        width: 70px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 30px;
-        margin-left: 40px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 8px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 150px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 20px;
-        height: 100px;
-        margin-right: -10px;
-        margin-left: -35px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 40px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 42px;
-        margin-top: -30px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 90px;
-        margin-right: 20px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 100px;
-        height: 30px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 15px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 8px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 150px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 20px;
-        font-size: 8px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 100px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-right: 10px;
-        margin-left: -10px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 8px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 8px;
-    
-    }
-    
-    .locIcon2 {
-        width: 8px;
-        height: 8px;
-        margin-right: 2px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 8px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
-        width: 8px;
-        height: 8px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 440px) {
-    .mainBody {
-        
-        margin-top: 450px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 200px;
-        height: 500px;
-        border-radius: 10px;
-        margin-left: 1em;
-        margin-right: 50px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 200px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -35px;
-        margin-left: 8px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -40px;
-        margin-left: 70px;
-    }
-    
-    .rowName {
-        font-size: 8px;
-        font-weight: bold;
-        margin-bottom: 1px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 8px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -40px;
-        margin-left: 160px;
-       
-    }
-    
-    .iconStar {
-        width: 5px;
-        height: 15px;
-        z-index: 1;
-        margin-bottom: -12px;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 2px;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .locIcon {
-        width: 5px;
-        height: 20px;
-        margin-right: 1px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 5px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 150px;
-        height: 210px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    .descHeader {
-        font-size: 10px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 8px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 20px;
-    }
-    
-    .btnBody {
-        width: 70px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 30px;
-        margin-left: 40px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 8px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 150px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 20px;
-        height: 100px;
-        margin-right: -10px;
-        margin-left: -35px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 40px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 42px;
-        margin-top: -30px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 90px;
-        margin-right: 20px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 100px;
-        height: 30px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 15px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 8px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 150px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 20px;
-        font-size: 8px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 100px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-right: 10px;
-        margin-left: -10px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 8px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 8px;
-    
-    }
-    
-    .locIcon2 {
-        width: 8px;
-        height: 8px;
-        margin-right: 2px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 8px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
-        width: 8px;
-        height: 8px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
+
+
 @media (max-width: 420px) {
     .mainBody {
+        height: 1200px;
         
-        margin-top: 500px;
+        margin-top: 100px;
         justify-content: center;
+        align-items: center;
+        margin-left: -50px;
         margin-bottom: 100px;
         padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
     }
     
     .body {
         position: relative;
         display: flex;
-        flex-direction: row;
-        
+        flex-direction: column;
     }
     
     .columnOneBody {
-        width: 200px;
-        height: 500px;
+        width: 320px;
+        height: 400px;
         border-radius: 10px;
-        margin-left: 1em;
-        margin-right: 50px;
+        margin-left: 70px;
+        
         box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         
     }
     
     .imgSampulBody {
-        width: 700px;
-        height: 200px;
+        width: 320px;
+        height: 150px;
        
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
     
     .imgSampul {
-        width: 200px;
-        height: 200px;
+        width: 320px;
+        height: 150px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -10346,138 +7270,134 @@
     }
     
     .imgBody {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 15px;
+        padding: 3px;
+        margin-right: 15px;
+        align-items: center;
+    
+    }
+    
+    .img {
         width: 60px;
         height: 60px;
         border-radius: 50%;
         border-width: 1px;
         border-style: solid;
         z-index: 1;
-        margin-top: -35px;
-        margin-left: 8px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
         align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
     }
     
     .row {
         z-index: 1;
-        margin-top: -40px;
-        margin-left: 70px;
+        margin-top: -55px;
+        margin-left: 100px;
     }
     
     .rowName {
-        font-size: 8px;
+        font-size: 11px;
         font-weight: bold;
-        margin-bottom: 1px;
+        margin-bottom: 10px;
         color: #fff;
     
     }
     
     .rowWork {
-        font-size: 8px;
+        font-size: 11px;
         font-weight: bold;
         word-spacing: 2px;
         color: var(--mainColor);
     }
     
     .rowTwo {
-        margin-top: -40px;
-        margin-left: 160px;
-       
+        margin-top: -50px;
+        margin-left: 240px;
     }
     
     .iconStar {
-        width: 5px;
-        height: 15px;
+        width: 11px;
+        height: 11px;
         z-index: 1;
-        margin-bottom: -12px;
         color: gold;
     }
     
     .locBody {
         display: flex;
         flex-direction: row;
-        margin-top: 2px;
+        margin-top: 10px;
         text-align: center;
         align-items: center;
     }
     
     .locIcon {
-        width: 5px;
-        height: 20px;
-        margin-right: 1px;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
         color: var(--secondaryColor);
     }
     
     .locText {
-        font-size: 5px;
+        font-size: 11px;
         color: var(--mainColor);
     }
     
     .boxBody {
-        width: 150px;
-        height: 210px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
+        width: 280px;
+        height: 150px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 8px;
         background-color: var(--secondaryColor);
+        
     }
     
     .descBody {
-        padding: 3px;
-        margin-left: 20px;
-        margin-right: 20px;
+        padding: 2px;
+        margin-left: 10px;
     }
     
     .descHeader {
-        font-size: 10px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-top: 10px;
         font-weight: bold;
         color: var(--thirdColor);
     }
     
     .hrLine {
-        height: 3px;
+        height: 2px;
         background-color: var(--thirdColor);
         border-radius: 5px;
     }
     
     .desc {
-        font-size: 8px;
+        font-size: 10px;
         color: var(--thirdColor);
         font-weight: 400;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     
     .btnBody {
-        width: 70px;
-        height: 40px;
+        width: 100px;
+        height: 20px;
         border-radius: 10px;
         background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 30px;
-        margin-left: 40px;
-        margin-right: 230px;
+       
+        margin-top: 50px;
+        position: absolute;
+        right: 5.5em;
+       
     }
     
     .btnText {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -10487,103 +7407,94 @@
     }
     
     .columnTwoBody {
-        width: 350px;
-        height: -100px;
+        width: 280px;
+        align-self: center;
         border-radius: 10px;
-        margin-left: -30px;
+        justify-content: center;
+        margin-left: 55px;
+        
     }
     
     
     .boxBody1 {
-        width: 150px;
-        height: 200px;
+        margin-top: 40px;
+        
+        width: 280px;
+        height: 100px;
         border-radius: 10px;
         background-color: var(--secondaryColor);
         padding: 10px;
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 130px;
+       
+        
     }
     
     .rowBody2 {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     
     .calenderBody {
-        width: 20px;
+       
+        width: 130px;
         height: 100px;
-        margin-right: -10px;
-        margin-left: -35px;
-        border-width: 1px;
+        justify-content: center;
+        
+        margin-right: -20px;
+        margin-left: -20px;
+        
         
     }
     
     .iconCal {
-        width: 40px;
-        height: 70px;
+        width: 25px;
+        height: 25px;
+        margin-top: 0px;
+      
         
-        margin-top: 20px;
     }
     
     .calText {
-        font-size: 13px;
-        margin-left: 42px;
-        margin-top: -30px;
+        font-size: 11px;
+        margin-top: -22px;
+        text-align: center;
+        margin-right: 35px;
     }
     
     .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
+        font-size: 11px;
+       
+        margin-top: 2px;
         font-weight: 700;
+        text-align: center;
+        margin-right: 10px;
     }
     
     .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 90px;
-        margin-right: 20px;
+        display: none;
+        height: 0px;
+        border-left: none;
+        
+        
     }
     
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
     
     .btnOrder {
-        width: 100px;
-        height: 30px;
+        width: 140px;
+        height: 40px;
         background-color: #D9D9D9;
         border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 15px;
-        margin-right: 80px;
-        border-width: 0;
+        position: absolute;
+        right: 2em;
+        
     }
     
     .btnOrderText {
-        font-size: 8px;
+        font-size: 12px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -10593,19 +7504,21 @@
     }
     
     .boxBody2 {
-        width: 150px;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
         height: fit-content;
         border-radius: 10px;
         background-color: var(--secondaryColor);
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 60px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     
     .body2Header {
-        margin-left: 20px;
-        font-size: 8px;
+        margin-left: 60px;
+        font-size: 13px;
         color: var(--thirdColor);
         font-weight: 800;
         
@@ -10614,12 +7527,12 @@
     .cardBody {
         display: flex;
         flex-direction: row;
-        width: 100px;
+        width: 195px;
         height: fit-content;
         border-width: 1px;
         border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
         border-radius: 10px;
         background-color: var(--thirdColor);
         padding: 15px;
@@ -10633,11 +7546,10 @@
     }
     
     .cardImg {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
-        margin-right: 10px;
-        margin-left: -10px;
+        margin-right: 20px;
     }
     
     .cardColumn {
@@ -10645,407 +7557,19 @@
     }
     
     .cardHeader {
-        font-size: 8px;
-        font-weight: 800;
-    }
-    
-    .cardDesc {
-        font-size: 8px;
-    
-    }
-    
-    .locIcon2 {
-        width: 8px;
-        height: 8px;
-        margin-right: 2px;
-    }
-    
-    .cardRowBody {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .cardText {
-        font-size: 8px;
-        margin-top: 10px;
-    }
-    
-    .starBody {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0px;
-        
-    }
-    
-    .iconStar2 {
-        width: 8px;
-        height: 8px;
-        color: gold;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 400px) {
-    .mainBody {
-        
-        margin-top: 550px;
-        justify-content: center;
-        margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
-    }
-    
-    .body {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .columnOneBody {
-        width: 200px;
-        height: 500px;
-        border-radius: 10px;
-        margin-left: 0em;
-        margin-right: 50px;
-        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
-        
-    }
-    
-    .imgSampulBody {
-        width: 700px;
-        height: 200px;
-       
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .imgSampul {
-        width: 200px;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    
-    .rowBody {
-        display: flex;
-        flex-direction: row;
-        z-index: 1;
-    }
-    
-    .imgBody {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        margin-top: -35px;
-        margin-left: 8px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
-        align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
-    }
-    
-    .row {
-        z-index: 1;
-        margin-top: -40px;
-        margin-left: 70px;
-    }
-    
-    .rowName {
-        font-size: 8px;
-        font-weight: bold;
-        margin-bottom: 1px;
-        color: #fff;
-    
-    }
-    
-    .rowWork {
-        font-size: 8px;
-        font-weight: bold;
-        word-spacing: 2px;
-        color: var(--mainColor);
-    }
-    
-    .rowTwo {
-        margin-top: -40px;
-        margin-left: 160px;
-       
-    }
-    
-    .iconStar {
-        width: 5px;
-        height: 15px;
-        z-index: 1;
-        margin-bottom: -12px;
-        color: gold;
-    }
-    
-    .locBody {
-        display: flex;
-        flex-direction: row;
-        margin-top: 2px;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .locIcon {
-        width: 5px;
-        height: 20px;
-        margin-right: 1px;
-        color: var(--secondaryColor);
-    }
-    
-    .locText {
-        font-size: 5px;
-        color: var(--mainColor);
-    }
-    
-    .boxBody {
-        width: 150px;
-        height: 210px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-    }
-    
-    .descBody {
-        padding: 3px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    .descHeader {
-        font-size: 10px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
-        font-weight: bold;
-        color: var(--thirdColor);
-    }
-    
-    .hrLine {
-        height: 3px;
-        background-color: var(--thirdColor);
-        border-radius: 5px;
-    }
-    
-    .desc {
-        font-size: 8px;
-        color: var(--thirdColor);
-        font-weight: 400;
-        margin-top: 20px;
-    }
-    
-    .btnBody {
-        width: 70px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 30px;
-        margin-left: 40px;
-        margin-right: 230px;
-    }
-    
-    .btnText {
-        font-size: 8px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnBody:hover {
-        background-color: #71C9CE;
-    }
-    
-    .columnTwoBody {
-        width: 350px;
-        height: -100px;
-        border-radius: 10px;
-        margin-left: -30px;
-    }
-    
-    
-    .boxBody1 {
-        width: 150px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-    }
-    
-    .rowBody2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .calenderBody {
-        width: 20px;
-        height: 100px;
-        margin-right: -10px;
-        margin-left: -35px;
-        border-width: 1px;
-        
-    }
-    
-    .iconCal {
-        width: 40px;
-        height: 70px;
-        
-        margin-top: 20px;
-    }
-    
-    .calText {
-        font-size: 13px;
-        margin-left: 42px;
-        margin-top: -30px;
-    }
-    
-    .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
-        font-weight: 700;
-    }
-    
-    .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 90px;
-        margin-right: 20px;
-    }
-    
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
         font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
-    
-    .btnOrder {
-        width: 100px;
-        height: 30px;
-        background-color: #D9D9D9;
-        border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 15px;
-        margin-right: 80px;
-        border-width: 0;
-    }
-    
-    .btnOrderText {
-        font-size: 8px;
-        font-weight: 800;
-        color: var(--thirdColor);
-    }
-    
-    .btnOrder:hover {
-        background-color: #71C9CE;
-    }
-    
-    .boxBody2 {
-        width: 150px;
-        height: fit-content;
-        border-radius: 10px;
-        background-color: var(--secondaryColor);
-        padding: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .body2Header {
-        margin-left: 20px;
-        font-size: 8px;
-        color: var(--thirdColor);
-        font-weight: 800;
-        
-    }
-    
-    .cardBody {
-        display: flex;
-        flex-direction: row;
-        width: 100px;
-        height: fit-content;
-        border-width: 1px;
-        border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
-        border-radius: 10px;
-        background-color: var(--thirdColor);
-        padding: 15px;
-        margin-top: 15px;
-    
-    }
-    
-    .cardBody:hover {
-        background-color: #eeee;
-        cursor: pointer;
-    }
-    
-    .cardImg {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-right: 10px;
-        margin-left: -10px;
-    }
-    
-    .cardColumn {
-        margin-left: 10px;
-    }
-    
-    .cardHeader {
-        font-size: 8px;
         font-weight: 800;
     }
     
     .cardDesc {
-        font-size: 8px;
+        font-size: 11px;
     
     }
     
     .locIcon2 {
-        width: 8px;
-        height: 8px;
-        margin-right: 2px;
+        width: 11px;
+        height: 11px;
+        margin-right: 5px;
     }
     
     .cardRowBody {
@@ -11054,8 +7578,8 @@
     }
     
     .cardText {
-        font-size: 8px;
-        margin-top: 10px;
+        font-size: 9px;
+        margin-top: 9px;
     }
     
     .starBody {
@@ -11066,51 +7590,52 @@
     }
     
     .iconStar2 {
-        width: 8px;
-        height: 8px;
+        width: 10px;
+        height: 10px;
         color: gold;
         margin-top: 5px;
     }
 }
+
 @media (max-width: 376px) {
     .mainBody {
+        height: 1000px;
         
-        margin-top: 600px;
+        margin-top: 100px;
         justify-content: center;
+        align-items: center;
+        margin-left: -50px;
         margin-bottom: 100px;
-        padding: 2em;
-        margin-left: -1em;
-        margin-right: 0em;
+        padding: 1em;
     }
     
     .body {
         position: relative;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         
     }
     
     .columnOneBody {
-        width: 200px;
-        height: 500px;
+        width: 320px;
+        height: 400px;
         border-radius: 10px;
-        margin-left: -0.5em;
-        margin-right: 35px;
+        
         box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         
     }
     
     .imgSampulBody {
-        width: 700px;
-        height: 200px;
+        width: 320px;
+        height: 150px;
        
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
     
     .imgSampul {
-        width: 200px;
-        height: 200px;
+        width: 320px;
+        height: 150px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -11122,138 +7647,134 @@
     }
     
     .imgBody {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 15px;
+        padding: 3px;
+        margin-right: 15px;
+        align-items: center;
+    
+    }
+    
+    .img {
         width: 60px;
         height: 60px;
         border-radius: 50%;
         border-width: 1px;
         border-style: solid;
         z-index: 1;
-        margin-top: -35px;
-        margin-left: 8px;
-        padding: 8px;
-        margin-right: 20px;
-    
-    }
-    
-    .img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-style: solid;
-        z-index: 1;
         align-self: center;
-        
-        margin : 20;
-        margin-right: 20px;
-        
     }
     
     .row {
         z-index: 1;
-        margin-top: -40px;
-        margin-left: 70px;
+        margin-top: -55px;
+        margin-left: 100px;
     }
     
     .rowName {
-        font-size: 8px;
+        font-size: 11px;
         font-weight: bold;
-        margin-bottom: 1px;
+        margin-bottom: 10px;
         color: #fff;
     
     }
     
     .rowWork {
-        font-size: 8px;
+        font-size: 11px;
         font-weight: bold;
         word-spacing: 2px;
         color: var(--mainColor);
     }
     
     .rowTwo {
-        margin-top: -40px;
-        margin-left: 160px;
-       
+        margin-top: -50px;
+        margin-left: 240px;
     }
     
     .iconStar {
-        width: 5px;
-        height: 15px;
+        width: 11px;
+        height: 11px;
         z-index: 1;
-        margin-bottom: -12px;
         color: gold;
     }
     
     .locBody {
         display: flex;
         flex-direction: row;
-        margin-top: 2px;
+        margin-top: 10px;
         text-align: center;
         align-items: center;
     }
     
     .locIcon {
-        width: 5px;
-        height: 20px;
-        margin-right: 1px;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
         color: var(--secondaryColor);
     }
     
     .locText {
-        font-size: 5px;
+        font-size: 11px;
         color: var(--mainColor);
     }
     
     .boxBody {
-        width: 150px;
-        height: 210px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-right: 45px;
-        border-radius: 10px;
+        width: 280px;
+        height: 150px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 8px;
         background-color: var(--secondaryColor);
+        
     }
     
     .descBody {
-        padding: 3px;
-        margin-left: 20px;
-        margin-right: 20px;
+        padding: 2px;
+        margin-left: 10px;
     }
     
     .descHeader {
-        font-size: 10px;
-        letter-spacing: 1.5px;
-        margin-top: 20px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-top: 10px;
         font-weight: bold;
         color: var(--thirdColor);
     }
     
     .hrLine {
-        height: 3px;
+        height: 2px;
         background-color: var(--thirdColor);
         border-radius: 5px;
     }
     
     .desc {
-        font-size: 8px;
+        font-size: 10px;
         color: var(--thirdColor);
         font-weight: 400;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     
     .btnBody {
-        width: 70px;
-        height: 40px;
+        width: 100px;
+        height: 20px;
         border-radius: 10px;
         background-color: #D9D9D9;
-        border-width: 0px;
-        margin-top: 30px;
-        margin-left: 40px;
-        margin-right: 230px;
+       
+        margin-top: 50px;
+        position: absolute;
+        right: 5.5em;
+       
     }
     
     .btnText {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -11263,103 +7784,94 @@
     }
     
     .columnTwoBody {
-        width: 350px;
-        height: -100px;
+        width: 280px;
+        align-self: center;
         border-radius: 10px;
-        margin-left: -30px;
+        justify-content: center;
+        margin-left: 65px;
+        
     }
     
     
     .boxBody1 {
-        width: 150px;
-        height: 200px;
+        margin-top: 40px;
+        
+        width: 280px;
+        height: 100px;
         border-radius: 10px;
         background-color: var(--secondaryColor);
         padding: 10px;
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 130px;
+       
+        
     }
     
     .rowBody2 {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     
     .calenderBody {
-        width: 20px;
+       
+        width: 130px;
         height: 100px;
-        margin-right: -10px;
-        margin-left: -35px;
-        border-width: 1px;
+        justify-content: center;
+        
+        margin-right: -20px;
+        margin-left: -20px;
+        
         
     }
     
     .iconCal {
-        width: 40px;
-        height: 70px;
+        width: 25px;
+        height: 25px;
+        margin-top: 0px;
+      
         
-        margin-top: 20px;
     }
     
     .calText {
-        font-size: 13px;
-        margin-left: 42px;
-        margin-top: -30px;
+        font-size: 11px;
+        margin-top: -22px;
+        text-align: center;
+        margin-right: 35px;
     }
     
     .calText2 {
-        font-size: 15px;
-        
-        margin-top: 10px;
+        font-size: 11px;
+       
+        margin-top: 2px;
         font-weight: 700;
+        text-align: center;
+        margin-right: 10px;
     }
     
     .verticalLine {
-        height: 120px;
-        border-left: 3px solid black;
-        margin-left: 90px;
-        margin-right: 20px;
+        display: none;
+        height: 0px;
+        border-left: none;
+        
+        
     }
     
-    .currencyBody {
-        width: 100px;
-        height: 150px;
-       
-    }
-    
-    .iconCur {
-        width: 70px;
-        height: 70px;
-        margin-right: 40px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    
-    .curText {
-        font-size: 12px;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-    
-    .curText2 {
-        font-size: 15px;
-        margin-right: 35px;
-        margin-left: 35px;
-        margin-top: 5px;
-        font-weight: 700;
-    }
     
     .btnOrder {
-        width: 100px;
-        height: 30px;
+        width: 140px;
+        height: 40px;
         background-color: #D9D9D9;
         border-radius: 10px;
-        margin-top: 25px;
-        margin-left: 15px;
-        margin-right: 80px;
-        border-width: 0;
+        position: absolute;
+        right: 1.5em;
+        
     }
     
     .btnOrderText {
-        font-size: 8px;
+        font-size: 12px;
         font-weight: 800;
         color: var(--thirdColor);
     }
@@ -11369,19 +7881,21 @@
     }
     
     .boxBody2 {
-        width: 150px;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
         height: fit-content;
         border-radius: 10px;
         background-color: var(--secondaryColor);
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 60px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     
     .body2Header {
-        margin-left: 20px;
-        font-size: 8px;
+        margin-left: 60px;
+        font-size: 13px;
         color: var(--thirdColor);
         font-weight: 800;
         
@@ -11390,12 +7904,12 @@
     .cardBody {
         display: flex;
         flex-direction: row;
-        width: 100px;
+        width: 195px;
         height: fit-content;
         border-width: 1px;
         border-style: solid;
-        margin-left: 15px;
-        margin-right: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
         border-radius: 10px;
         background-color: var(--thirdColor);
         padding: 15px;
@@ -11409,11 +7923,10 @@
     }
     
     .cardImg {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
-        margin-right: 10px;
-        margin-left: -10px;
+        margin-right: 20px;
     }
     
     .cardColumn {
@@ -11421,19 +7934,19 @@
     }
     
     .cardHeader {
-        font-size: 8px;
+        font-size: 12px;
         font-weight: 800;
     }
     
     .cardDesc {
-        font-size: 8px;
+        font-size: 11px;
     
     }
     
     .locIcon2 {
-        width: 8px;
-        height: 8px;
-        margin-right: 2px;
+        width: 11px;
+        height: 11px;
+        margin-right: 5px;
     }
     
     .cardRowBody {
@@ -11442,8 +7955,8 @@
     }
     
     .cardText {
-        font-size: 8px;
-        margin-top: 10px;
+        font-size: 9px;
+        margin-top: 9px;
     }
     
     .starBody {
@@ -11454,8 +7967,385 @@
     }
     
     .iconStar2 {
-        width: 8px;
-        height: 8px;
+        width: 10px;
+        height: 10px;
+        color: gold;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .mainBody {
+        height: 1000px;
+        
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -65px;
+        margin-bottom: 100px;
+        padding: 1em;
+    }
+    
+    .body {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .columnOneBody {
+        width: 280px;
+        height: 380px;
+        border-radius: 10px;
+        
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+    .imgSampulBody {
+        width: 280px;
+        height: 140px;
+       
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .imgSampul {
+        width: 280px;
+        height: 140px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .rowBody {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    
+    .imgBody {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: 15px;
+        padding: 3px;
+        margin-right: 15px;
+        align-items: center;
+    
+    }
+    
+    .img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 1;
+        align-self: center;
+    }
+    
+    .row {
+        z-index: 1;
+        margin-top: -50px;
+        margin-left: 100px;
+    }
+    
+    .rowName {
+        font-size: 9px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    
+    }
+    
+    .rowWork {
+        font-size: 9px;
+        font-weight: bold;
+        word-spacing: 1px;
+        color: var(--mainColor);
+    }
+    
+    .rowTwo {
+        margin-top: -43px;
+        margin-left: 220px;
+    }
+    
+    .iconStar {
+        width: 11px;
+        height: 11px;
+        z-index: 1;
+        color: gold;
+    }
+    
+    .locBody {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .locIcon {
+        width: 12px;
+        height: 12px;
+        margin-right: 2px;
+        color: var(--secondaryColor);
+    }
+    
+    .locText {
+        font-size: 11px;
+        color: var(--mainColor);
+    }
+    
+    .boxBody {
+        width: 260px;
+        height: 150px;
+        margin-top: 35px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 8px;
+        background-color: var(--secondaryColor);
+        
+    }
+    
+    .descBody {
+        padding: 2px;
+        margin-left: 10px;
+    }
+    
+    .descHeader {
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        font-weight: bold;
+        color: var(--thirdColor);
+    }
+    
+    .hrLine {
+        height: 2px;
+        background-color: var(--thirdColor);
+        border-radius: 5px;
+    }
+    
+    .desc {
+        font-size: 10px;
+        color: var(--thirdColor);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .btnBody {
+        width: 100px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+       
+        margin-top: 50px;
+        position: absolute;
+        right: 3em;
+       
+    }
+    
+    .btnText {
+        font-size: 10px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnBody:hover {
+        background-color: #71C9CE;
+    }
+    
+    .columnTwoBody {
+        width: 280px;
+        align-self: center;
+        border-radius: 10px;
+        justify-content: center;
+        margin-left: 65px;
+        
+    }
+    
+    
+    .boxBody1 {
+        margin-top: 40px;
+        
+        width: 280px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 130px;
+       
+        
+    }
+    
+    .rowBody2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .calenderBody {
+       
+        width: 130px;
+        height: 100px;
+        justify-content: center;
+        
+        margin-right: -20px;
+        margin-left: -20px;
+        
+        
+    }
+    
+    .iconCal {
+        width: 25px;
+        height: 25px;
+        margin-top: 0px;
+      
+        
+    }
+    
+    .calText {
+        font-size: 11px;
+        margin-top: -22px;
+        text-align: center;
+        margin-right: 35px;
+    }
+    
+    .calText2 {
+        font-size: 11px;
+       
+        margin-top: 2px;
+        font-weight: 700;
+        text-align: center;
+        margin-right: 10px;
+    }
+    
+    .verticalLine {
+        display: none;
+        height: 0px;
+        border-left: none;
+        
+        
+    }
+    
+    
+    .btnOrder {
+        width: 140px;
+        height: 40px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        position: absolute;
+        right: -0.5em;
+        
+    }
+    
+    .btnOrderText {
+        font-size: 12px;
+        font-weight: 800;
+        color: var(--thirdColor);
+    }
+    
+    .btnOrder:hover {
+        background-color: #71C9CE;
+    }
+    
+    .boxBody2 {
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        height: fit-content;
+        border-radius: 10px;
+        background-color: var(--secondaryColor);
+        padding: 10px;
+        margin-top: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .body2Header {
+        margin-left: 60px;
+        font-size: 13px;
+        color: var(--thirdColor);
+        font-weight: 800;
+        
+    }
+    
+    .cardBody {
+        display: flex;
+        flex-direction: row;
+        width: 195px;
+        height: fit-content;
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        background-color: var(--thirdColor);
+        padding: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .cardBody:hover {
+        background-color: #eeee;
+        cursor: pointer;
+    }
+    
+    .cardImg {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .cardColumn {
+        margin-left: 10px;
+    }
+    
+    .cardHeader {
+        font-size: 12px;
+        font-weight: 800;
+    }
+    
+    .cardDesc {
+        font-size: 11px;
+    
+    }
+    
+    .locIcon2 {
+        width: 11px;
+        height: 11px;
+        margin-right: 5px;
+    }
+    
+    .cardRowBody {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardText {
+        font-size: 9px;
+        margin-top: 9px;
+    }
+    
+    .starBody {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+    
+    .iconStar2 {
+        width: 10px;
+        height: 10px;
         color: gold;
         margin-top: 5px;
     }
