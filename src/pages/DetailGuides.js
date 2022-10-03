@@ -11,6 +11,7 @@ import moment from 'moment'
 import "react-datepicker/dist/react-datepicker.css";
 
 import { Helmet } from "react-helmet-async";
+import ModalEx from '../components/Modal';
 
 
 
@@ -18,7 +19,7 @@ import { Helmet } from "react-helmet-async";
 const DetailGuides = () => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null)
-    
+    const [smShow, setSmShow] = useState(false);
 
     const {id} = useParams();
    
@@ -92,7 +93,7 @@ const DetailGuides = () => {
                             
                         </div>
                         <button className={styles.btnBody}>
-                            <div className={styles.btnText}>Kirim Pesan</div>
+                            <div className={styles.btnText} onClick={() => setSmShow(true)}>Kirim Pesan</div>
                         </button>
                         
                     </div>
@@ -140,7 +141,7 @@ const DetailGuides = () => {
                                 )}
                             </div>
                         </div>
-                        <button className={styles.btnOrder}>
+                        <button className={styles.btnOrder} onClick={() => setSmShow(true)}>
                             <div className={styles.btnOrderText}>Pesan Sekarang</div>
                         </button>
                     </div>
@@ -183,7 +184,10 @@ const DetailGuides = () => {
                 </div>
                 
             </div>
-            
+            <ModalEx 
+                show={smShow}
+                onHide={() => setSmShow(false)}
+            />
         </div>
         </>
   )

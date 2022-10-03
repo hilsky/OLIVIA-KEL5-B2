@@ -40,11 +40,11 @@
     text-decoration: none;
 }
 
-.logo {
+.sabatour {
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 20px;
     font-weight: bold;
-    margin: -10px;
+    margin: 0px;
 
 }
 
@@ -112,7 +112,7 @@ header .nav-btn {
     right: 2.5rem;
 }
 
-.btn {
+.btn-2 {
     margin-right: 5px;
     margin-left: 10px;
     width: 75px;
@@ -125,7 +125,7 @@ header .nav-btn {
     
 }
 
-.btn:hover {
+.btn-2:hover {
     background-color: var(--mainColorLight);
 }
 
@@ -154,11 +154,11 @@ header .nav-btn {
         text-decoration: none;
     }
     
-    .logo {
+    .sabatour {
         font-family: 'Baloo Bhaina 2', cursive;
         font-size: 19px;
         font-weight: bold;
-        margin: -10px;
+        margin: 0px;
     
     }
     
@@ -226,7 +226,7 @@ header .nav-btn {
         right: 2.2rem;
     }
     
-    .btn {
+    .btn-2 {
         margin-right: 5px;
         margin-left: 10px;
         width: 70px;
@@ -269,11 +269,11 @@ header .nav-btn {
         text-decoration: none;
     }
     
-    .logo {
+    .sabatour {
         font-family: 'Baloo Bhaina 2', cursive;
         font-size: 18px;
         font-weight: bold;
-        margin: -10px;
+        margin: 0px;
     
     }
     
@@ -341,7 +341,7 @@ header .nav-btn {
         right: 1.2rem;
     }
     
-    .btn {
+    .btn-2 {
         margin-right: 5px;
         margin-left: 10px;
         width: 65px;
@@ -384,11 +384,11 @@ header .nav-btn {
         text-decoration: none;
     }
     
-    .logo {
+    .sabatour {
         font-family: 'Baloo Bhaina 2', cursive;
         font-size: 19px;
         font-weight: bold;
-        margin: -10px;
+        margin: 0px;
     
     }
     
@@ -456,7 +456,7 @@ header .nav-btn {
         right: 1rem;
     }
     
-    .btn {
+    .btn-2 {
         margin-right: 5px;
         margin-left: 10px;
         width: 60px;
@@ -469,7 +469,7 @@ header .nav-btn {
         
     }
     
-    .btn:hover {
+    .btn-2:hover {
         background-color: var(--mainColorLight);
     }
 }
@@ -499,11 +499,11 @@ header .nav-btn {
         text-decoration: none;
     }
     
-    .logo {
+    .sabatour {
         font-family: 'Baloo Bhaina 2', cursive;
         font-size: 18px;
         font-weight: bold;
-        margin: -10px;
+        margin: 0px;
     
     }
     
@@ -572,7 +572,7 @@ header .nav-btn {
         right: 0.5rem;
     }
     
-    .btn {
+    .btn-2 {
         margin-right: 5px;
         margin-left: 10px;
         width: 57px;
@@ -586,9 +586,7 @@ header .nav-btn {
         
     }
     
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+    
 }
 
 
@@ -617,11 +615,11 @@ header .nav-btn {
         text-decoration: none;
     }
     
-    .logo {
+    .sabatour {
         font-family: 'Baloo Bhaina 2', cursive;
         font-size: 17px;
         font-weight: bold;
-        margin: -10px;
+        margin: 0px;
     
     }
     
@@ -690,7 +688,7 @@ header .nav-btn {
         right: 0.5rem;
     }
     
-    .btn {
+    .btn-2 {
         margin-right: 5px;
         margin-left: 10px;
         width: 57px;
@@ -704,9 +702,7 @@ header .nav-btn {
         
     }
     
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+    
 }
 
 @media only screen and (max-width: 810px) {
@@ -734,11 +730,11 @@ header .nav-btn {
         text-decoration: none;
     }
     
-    .logo {
+    .sabatour {
         font-family: 'Baloo Bhaina 2', cursive;
         font-size: 17px;
         font-weight: bold;
-        margin: -10px;
+        margin: 0px;
     
     }
     
@@ -807,7 +803,7 @@ header .nav-btn {
         right: 0rem;
     }
     
-    .btn {
+    .btn-2 {
         margin-right: 5px;
         margin-left: 10px;
         width: 57px;
@@ -862,7 +858,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -885,7 +881,7 @@ header .nav-btn {
         font-size: 1.5rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 1rem;
         width: 90px;
         height: 50px;
@@ -901,9 +897,7 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+   
 }
 
 @media only screen and (max-width: 720px){
@@ -941,7 +935,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -964,7 +958,7 @@ header .nav-btn {
         font-size: 1.3rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 1rem;
         width: 85px;
         height: 47px;
@@ -980,9 +974,7 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+   
 }
 
 
@@ -1021,7 +1013,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -1044,7 +1036,7 @@ header .nav-btn {
         font-size: 1.3rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 1rem;
         width: 80px;
         height: 45px;
@@ -1060,9 +1052,7 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+   
 }
 
 @media only screen and (max-width: 680px){
@@ -1100,7 +1090,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -1123,7 +1113,7 @@ header .nav-btn {
         font-size: 1.3rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 0.8rem;
         width: 70px;
         height: 35px;
@@ -1139,9 +1129,7 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+   
 }
 
 @media only screen and (max-width: 650px){
@@ -1179,7 +1167,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -1202,7 +1190,7 @@ header .nav-btn {
         font-size: 1.2rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 0.8rem;
         width: 75px;
         height: 40px;
@@ -1218,9 +1206,6 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
 }
 
 @media only screen and (max-width: 620px){
@@ -1258,7 +1243,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -1281,7 +1266,7 @@ header .nav-btn {
         font-size: 1.2rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 0.8rem;
         width: 70px;
         height: 40px;
@@ -1297,9 +1282,7 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+    
 }
 
 @media only screen and (max-width: 600px){
@@ -1337,7 +1320,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -1360,7 +1343,7 @@ header .nav-btn {
         font-size: 1.1rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 0.8rem;
         width: 70px;
         height: 40px;
@@ -1376,9 +1359,7 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+    
 }
 
 @media only screen and (max-width: 580px){
@@ -1416,7 +1397,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -1439,7 +1420,7 @@ header .nav-btn {
         font-size: 1.1rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 0.8rem;
         width: 67px;
         height: 33px;
@@ -1455,9 +1436,7 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+   
 }
 
 @media only screen and (max-width: 568px){
@@ -1495,7 +1474,7 @@ header .nav-btn {
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0;
     }
 
-    .logo {
+    .sabatour {
         color: var(--thirdColor);
     }
 
@@ -1518,7 +1497,7 @@ header .nav-btn {
         font-size: 1rem;
     }
 
-    .btn {
+    .btn-2 {
         font-size: 0.7rem;
         width: 70px;
         height: 40px;
@@ -1534,7 +1513,5 @@ header .nav-btn {
     
     }
 
-    .btn:hover {
-        background-color: var(--mainColorLight);
-    }
+    
 }

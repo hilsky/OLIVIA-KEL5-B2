@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import Dashboard from "../pages/Dashboard";
+import ModalEx from "./Modal";
 import './styles/navbar.css';
 
 function Navbar() {
@@ -22,20 +21,22 @@ function Navbar() {
 
     window.addEventListener('scroll', changeNavbarColor)
 
+    const [smShow, setSmShow] = useState(false);
+
   return (
     <header className={colorChange ? 'colorChange' : 'header'}>
         <a className='logoBody' href="/">
-          <h1 className='logo'>SABA</h1>
-          <h1 className='logo'>TOUR.</h1>
+          <h1 className='sabatour'>SABA</h1>
+          <h1 className='sabatour'>TOUR.</h1>
         </a>
         <nav ref={navRef} className='nav-middle'>
             <a href="/">Beranda</a>
             <a href="/destinasi">Destinasi</a>
             <a href="/tour-guide">Pemandu Wisata</a>
-            <a href="/#">Tentang</a>
+            <a  href="/#" onClick={() => setSmShow(true)}>Tentang</a>
             <div className="btn-position">
-                <button className="btn">Daftar</button>
-                <button className="btn">Masuk</button>
+                <button className="btn-2" onClick={() => setSmShow(true)}>Daftar</button>
+                <button className="btn-2" onClick={() => setSmShow(true)}>Masuk</button>
             </div> 
             <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                 <FaTimes/>
@@ -44,6 +45,10 @@ function Navbar() {
         <button className="nav-btn" onClick={showNavbar}>
             <FaBars />
         </button>
+        <ModalEx 
+          show={smShow}
+          onHide={() => setSmShow(false)}
+        />
     </header>
   )
 }
