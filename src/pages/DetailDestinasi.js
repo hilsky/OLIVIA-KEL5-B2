@@ -232,7 +232,7 @@ const DetailDestinasi = () => {
                 </div>
                 <div className={styles.rowBody1}>
                     <div className={styles.rowBody1Header}>Rekomendasi Hotel</div>
-                    <div classname={styles.bodySwip}> 
+                    <div className={styles.bodySwip}> 
                         <Swiper
                         breakpoints={{
                             
@@ -306,7 +306,7 @@ const DetailDestinasi = () => {
                 </div>
                 <div className={styles.rowBody1}>
                     <div className={styles.rowBody1Header}>Rekomendasi Kuliner</div>
-                    <div classname={styles.bodySwip}> 
+                    <div className={styles.bodySwip}> 
                         <Swiper
                         breakpoints={{
                             
