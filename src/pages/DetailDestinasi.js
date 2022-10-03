@@ -10,7 +10,7 @@ import dataHotel from '../data/Hotel';
 import CardHotel from '../components/CardHotel'
 import CardKuliner from '../components/CardKuliner';
 import dataKuliner from '../data/Kuliner';
-import CardGuide from '../components/CardGuide';
+import CardGuide2 from '../components/CardGuide2';
 import dataDestinasiBali from '../data/DestinasiBali';
 import { Helmet } from "react-helmet-async";
 import { getGuidesList,  } from "../actions/guideAction";
@@ -35,12 +35,15 @@ const DetailDestinasi = () => {
             ]
 
     const {id} = useParams();
-    const { getWisataDetailResult, getGuidesListResult } =
+    const { getGuidesListResult } =
     useSelector((state) => state.guideReducer )
+    const { getWisataDetailResult } =
+    useSelector((state) => state.wisataReducer )
 
     const dispatch = useDispatch();
 
     useEffect(() => {
+        console.log(id)
         dispatch(getGuidesList())
         dispatch(getWisataDetail(id))
     }, [dispatch])
@@ -83,15 +86,54 @@ const DetailDestinasi = () => {
                     })}
                 </Swiper>    
                 <div className={styles.header1}>
-                    {getWisataDetailResult? getWisataDetailResult.namaWisata : null}
+                    {getWisataDetailResult? getWisataDetailResult.prov : "Unknown"}
                 </div>
             </div>
             <div className={styles.bodyColumn2}>
                 <div className={styles.rowBody1}>
                     <div className={styles.rowBody1Header}>Lokasi Wisata</div>
                         <Swiper
-                        slidesPerView={3.3}
-                        spaceBetween={30}
+                        breakpoints={{
+                            
+                            900: {
+                                slidesPerView: 3,
+                                spaceBetween: 0
+                            },
+                            768: {
+                                slidesPerView: 2.5,
+                                
+                                spaceBetween: 15
+                            },
+                            640: {
+                                slidesPerView: 2.5,
+                                
+                                spaceBetween: 20
+                            },
+                            540: {
+                                slidesPerView:2,
+                                
+                                spaceBetween: 20
+                            },
+                            400: {
+                                slidesPerView:1.5,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            360: {
+                                slidesPerView:1.5,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            300: {
+                                slidesPerView:1.3,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            
+                            
+                        }}
+                        
+                        spaceBetween={10}
                         freeMode={true}
                         pagination={{
                           clickable: true,
@@ -121,8 +163,45 @@ const DetailDestinasi = () => {
                 <div className={styles.rowBody1}>
                     <div className={styles.rowBody1Header}>Rekomendasi Pemandu Wisata</div>
                         <Swiper
-                        slidesPerView={3}
-                        spaceBetween={30}
+                        breakpoints={{
+                            
+                            900: {
+                                slidesPerView: 3,
+                                spaceBetween: 0
+                            },
+                            768: {
+                                slidesPerView: 2.5,
+                                
+                                spaceBetween: 15
+                            },
+                            640: {
+                                slidesPerView: 2.5,
+                                
+                                spaceBetween: 20
+                            },
+                            540: {
+                                slidesPerView:2,
+                                
+                                spaceBetween: 20
+                            },
+                            400: {
+                                slidesPerView:1.5,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            360: {
+                                slidesPerView:1.5,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            300: {
+                                slidesPerView:1.3,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            
+                        }}
+                        spaceBetween={10}
                         freeMode={true}
                         pagination={{
                           clickable: true,
@@ -135,7 +214,7 @@ const DetailDestinasi = () => {
                             return(
                                 <div className={styles.cardBody1}>
                                 <SwiperSlide>
-                                    <CardGuide
+                                    <CardGuide2
                                         key={e._id}
                                         id={e._id}
                                         imageUrl={e.imgProfil}
@@ -155,8 +234,46 @@ const DetailDestinasi = () => {
                     <div className={styles.rowBody1Header}>Rekomendasi Hotel</div>
                     <div classname={styles.bodySwip}> 
                         <Swiper
-                        slidesPerView={3}
-                        spaceBetween={30}
+                        breakpoints={{
+                            
+                            900: {
+                                slidesPerView: 3,
+                                spaceBetween: 0
+                            },
+                            768: {
+                                slidesPerView: 2.5,
+                                
+                                spaceBetween: 15
+                            },
+                            640: {
+                                slidesPerView: 2.5,
+                                
+                                spaceBetween: 20
+                            },
+                            540: {
+                                slidesPerView:2,
+                               
+                                spaceBetween: 20
+                            },
+                            400: {
+                                slidesPerView:1.5,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            360: {
+                                slidesPerView:1.5,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            300: {
+                                slidesPerView:1.3,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            
+                        }}
+                       
+            
                         freeMode={true}
                         pagination={{
                           clickable: true,
@@ -191,12 +308,50 @@ const DetailDestinasi = () => {
                     <div className={styles.rowBody1Header}>Rekomendasi Kuliner</div>
                     <div classname={styles.bodySwip}> 
                         <Swiper
-                        slidesPerView={3}
-                        spaceBetween={30}
+                        breakpoints={{
+                            
+                            900: {
+                                slidesPerView: 3,
+                                spaceBetween: 0
+                            },
+                            768: {
+                                slidesPerView: 2.5,
+                                
+                                spaceBetween: 15
+                            },
+                            640: {
+                                slidesPerView: 2.5,
+                                
+                                spaceBetween: 20
+                            },
+                            540: {
+                                slidesPerView:2,
+                                
+                                spaceBetween: 20
+                            },
+                            400: {
+                                slidesPerView:1.5,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            360: {
+                                slidesPerView:1.5,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            300: {
+                                slidesPerView:1.3,
+                                centeredSlides: true,
+                                spaceBetween: 20
+                            },
+                            
+                        }}
+                        spaceBetween={10}
                         freeMode={true}
                         pagination={{
                           clickable: true,
                         }}
+                        
                         navigation={true}
                         modules={[FreeMode, Pagination, Navigation]}
                         className="mySwiper"

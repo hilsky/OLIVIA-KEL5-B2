@@ -26,7 +26,7 @@ function Footer() {
                     <div className={styles.columnTwoHeaderBody}>
                         <div className={styles.columnTwoHeader}>Produk</div>
                     </div>
-                    <a className={styles.columnTwoText} href='#'>Pemandu Wisata</a>
+                    <a className={styles.columnTwoText} href='/tour-guide'>Pemandu Wisata</a>
                     <a className={styles.columnTwoText} href='#'>Hotel</a>
                     <a className={styles.columnTwoText} href='#'>Kuliner</a>
                     

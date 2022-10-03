@@ -586,7 +586,7 @@
         height: fit-content;
     }
 }
-
+/* 
 @media (max-width: 810px) {
     .body {
         display: flex;
@@ -1243,4 +1243,4 @@
         color: #5E6282;
         height: fit-content;
     }
-}
+} */

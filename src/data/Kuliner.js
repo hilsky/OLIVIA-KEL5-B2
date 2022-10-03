@@ -27,6 +27,15 @@ const dataKuliner =
             waktu2: "22.00 WITA",
             imgBg: "http://www.boemagazine.com/wp-content/uploads/2016/12/Screen-Shot-2016-12-08-at-19.25.54-1024x690.png"
         },
+        {
+            id: 4,
+            namaKuliner: "Kayu Manis Resto",
+            jalan: "Jimbaran, Kuta Selatan , Jimbaran, Bali, Indonesia, 80361",
+            jadwal: "Setiap Hari",
+            waktu: "09.00 WITA",
+            waktu2: "22.00 WITA",
+            imgBg: "http://www.boemagazine.com/wp-content/uploads/2016/12/Screen-Shot-2016-12-08-at-19.25.54-1024x690.png"
+        },
     ]
 
 export default dataKuliner;
