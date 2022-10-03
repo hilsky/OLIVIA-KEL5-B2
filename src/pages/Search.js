@@ -11,12 +11,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Pagination, FreeMode } from "swiper";
+import ModalEx from '../components/Modal';
 
 
 const Search = () => {
-    const [result, setResult] = useState([]);
-    const [error, setError] = useState(null);
-
+    const [smShow, setSmShow] = useState(false);
+    
     const {state} = useLocation();
 
     const {getGuidesListResult, getGuidesLoading, getGuidesError} =
@@ -97,12 +97,12 @@ const Search = () => {
                                         <CardDest2
                                             key={e._id}
                                             imageUrl={e.imageBg}
-                                            id={e._id}
                                             prov={e.prov.toUpperCase()}
                                             kota={e.kota}
                                             namaWisata={e.namaWisata}
                                             like={e.like}
                                             alt={e.desc}
+                                            onClick={() => setSmShow(true)}
                                         />
                                         </SwiperSlide>
                                     </div>
@@ -185,6 +185,10 @@ const Search = () => {
                 }
             </Swiper>
          </div>
+         <ModalEx 
+          show={smShow}
+          onHide={() => setSmShow(false)}
+        />
     </div>
   )
 }

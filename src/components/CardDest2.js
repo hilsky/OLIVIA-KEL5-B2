@@ -7,8 +7,7 @@ import { Link } from 'react-router-dom';
 
 function CardDest2(props) {
     return (
-        <Link className={styles.cardBody} key={props.key} to={{
-        }}>
+        <div className={styles.cardBody} key={props.key} onClick={props.onClick}>
             <div className={styles.imgBody}>
                 <img src={props.imageUrl} className={styles.img} alt={props.alt}/>
             </div>
@@ -29,7 +28,7 @@ function CardDest2(props) {
                 <div className={styles.locText}>{props.lokasi}, </div>
                 <div className={styles.locText}>{props.kota}</div>
             </div>
-        </Link>
+        </div>
     )
 }
 
