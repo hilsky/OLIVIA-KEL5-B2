@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import styles from '../styles/tourguide.module.css';
 import CardGuide from "../components/CardGuide";
-import dataGuides from "../data/Guides";
-import { useNavigate } from "react-router-dom";
+
 import { Helmet } from "react-helmet-async";
 import { useDispatch, useSelector } from "react-redux";
 import { getGuidesList,  } from "../actions/guideAction";

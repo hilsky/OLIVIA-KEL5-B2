@@ -1,4 +1,4 @@
-import React, { useEffect, } from "react";
+import React, { useEffect, useState, } from "react";
 import styles from '../styles/dashboard.module.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -21,6 +21,7 @@ import Icon3 from '../assets/icon/tour-guide.png';
 
 
 import { Helmet } from "react-helmet-async";
+import { useNavigate } from "react-router-dom";
 
 
 const Dashboard  = () => {
@@ -39,7 +40,8 @@ const Dashboard  = () => {
                     image: "https://wallpaperaccess.com/full/2189962.jpg"
                 },
             ]
-        
+            
+            const [value, setValue] = useState("");
 
             const {getGuidesListResult, getGuidesLoading, getGuidesError} =
                 useSelector((state) => state.guideReducer);
@@ -53,6 +55,16 @@ const Dashboard  = () => {
                 dispatch(getGuidesList())
                 dispatch(getWisataList())
             }, [dispatch])
+
+
+            const navigate = useNavigate();
+
+            const handleSearch = (event) => {
+                event.preventDefault();
+                if(value) {
+                    navigate("/search", {state: value, replace: true})
+                }
+            }
 
         return (
             <>
@@ -97,9 +109,9 @@ const Dashboard  = () => {
                                     <div className={styles.slideOneText}>CONTINUE READING</div>
                                 </button> */}
                         </div>
-                        <div className={styles.searchBody}>
-                                <input type="text" placeholder="Cari disini" className={styles.searchForm}/>
-                                <FaSistrix className={styles.searchIcon}/>
+                        <div className={styles.searchBody} >
+                                <input type="text" placeholder="Cari disini" className={styles.searchForm} value={value} onChange={(e) => setValue(e.target.value)}/>
+                                <FaSistrix className={styles.searchIcon} onClick={handleSearch}/>
                         </div>
                     </div>
                     </div>

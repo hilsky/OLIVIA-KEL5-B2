@@ -12,11 +12,11 @@ function CardHotel(props) {
             </div>
             <div className={styles.header}>{props.namaHotel}</div>
             <div className={styles.starBody}>
-                <FaStar classname={styles.starIcon} />
-                <FaStar classname={styles.starIcon} />
-                <FaStar classname={styles.starIcon} />
-                <FaStar classname={styles.starIcon} />
-                <FaStar classname={styles.starIcon} />
+                <FaStar className={styles.starIcon} />
+                <FaStar className={styles.starIcon} />
+                <FaStar className={styles.starIcon} />
+                <FaStar className={styles.starIcon} />
+                <FaStar className={styles.starIcon} />
             </div>
             <div className={styles.secondBody}>
                 <div className={styles.row}>

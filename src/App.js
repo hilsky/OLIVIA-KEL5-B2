@@ -8,6 +8,7 @@ import Destinations from './pages/Destinations';
 
 import DetailGuides from './pages/DetailGuides';
 import DetailDestinasi from './pages/DetailDestinasi';
+import Search from './pages/Search';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/destinasi' exact element={<Destinations />} />
         <Route path='/detail-guide/:id' exact element={<DetailGuides />} />
         <Route path='/detail-destinasi/:id' exact element={<DetailDestinasi />} />
+        <Route path='/search' exact element={<Search />} />
       </Routes>
       <Footer />
     </BrowserRouter>

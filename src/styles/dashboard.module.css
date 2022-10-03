@@ -105,6 +105,10 @@
     width: 30px;
 }
 
+.searchIcon:hover {
+    cursor: pointer;
+}
+
 .slideOneParagraph {
     font-family: 'Pontano Sans', sans-serif;
     width: 624px;

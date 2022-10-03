@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import styles from '../styles/destinations.module.css'
-import dataDestinasi from "../data/Destinasi";
 import CardDest from "../components/CardDest";
 import { Helmet } from "react-helmet-async";
 import { useDispatch, useSelector } from "react-redux";
@@ -56,18 +55,6 @@ const Destinations = () => {
                         ) : null}
                     </div>
                 </div>
-                {/* <div className={styles.container3}>
-                    <div className={styles.slideThreeBody}>
-                        <div>
-                            <h1 className={styles.slideThreeText}>JADILAH</h1>
-                            <h1 className={styles.slideThreeText}>BAGIAN DARI</h1>
-                            <h1 className={styles.slideThreeText}>TIM KAMI.</h1>
-                        </div>
-                        <div className={styles.slideThreeParagraph}>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    </div>
-                </div> */}
             </div>
         </>
 

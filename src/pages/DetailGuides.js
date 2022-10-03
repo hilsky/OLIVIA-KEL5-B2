@@ -62,7 +62,7 @@ const DetailGuides = () => {
                     <div className={styles.imgSampulBody}>
                         <img className={styles.imgSampul} src={require('../assets/background/bg1.jpg')}/>
                     </div>
-                    <div classname={styles.rowBody}>
+                    <div className={styles.rowBody}>
                         <div className={styles.imgBody}>
                             <img className={styles.img} src={getGuideDetailResult? getGuideDetailResult.imgProfil : 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_960_720.png'} />
                         </div>
@@ -153,7 +153,7 @@ const DetailGuides = () => {
                             return (
                                 <Link className={styles.cardBody} key={guide._id} to={'/detail-guide/'+guide._id}>
                                 <img className={styles.cardImg} src={guide.imgProfil} alt={guide.alt}/>
-                                <div classname={styles.cardColumn}>
+                                <div className={styles.cardColumn}>
                                     <div className={styles.cardHeader}>
                                         {guide.nama}
                                     </div>
