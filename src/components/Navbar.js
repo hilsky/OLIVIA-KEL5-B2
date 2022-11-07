@@ -33,7 +33,7 @@ function Navbar() {
             <a href="/">Beranda</a>
             <a href="/destinasi">Destinasi</a>
             <a href="/tour-guide">Pemandu Wisata</a>
-            <a  href="/#" onClick={() => setSmShow(true)}>Tentang</a>
+            //<a  href="/#" onClick={() => setSmShow(true)}>Tentang</a>
             <div className="btn-position">
                 <button className="btn-2" onClick={() => setSmShow(true)}>Daftar</button>
                 <button className="btn-2" onClick={() => setSmShow(true)}>Masuk</button>
