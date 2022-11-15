@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import ModalEx from "./Modal";
+// import ModalEx from "./Modal";
 import './styles/navbar.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -22,7 +22,7 @@ function Navbar() {
 
   window.addEventListener('scroll', changeNavbarColor)
 
-  const [smShow, setSmShow] = useState(false);
+  // const [smShow, setSmShow] = useState(false);
 
   let navigate = useNavigate();
   const changeToLogin = () => {
@@ -45,7 +45,7 @@ function Navbar() {
         <a href="/">Beranda</a>
         <a href="/destinasi">Destinasi</a>
         <a href="/tour-guide">Pemandu Wisata</a>
-        {/* <a href="/#" onClick={() => setSmShow(true)}>Tentang</a> */}
+
         <div className="btn-position">
           <button className="btn-2" onClick={changeToRegister}>Daftar</button>
           <button className="btn-2" onClick={changeToLogin}>Masuk</button>
@@ -57,11 +57,8 @@ function Navbar() {
       <button className="nav-btn" onClick={showNavbar}>
         <FaBars />
       </button>
-      <ModalEx
-        show={smShow}
-        onHide={() => setSmShow(false)}
-      />
-    </header >
+
+    </header>
   )
 }
 
