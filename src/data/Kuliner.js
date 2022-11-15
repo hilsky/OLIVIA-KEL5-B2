@@ -7,7 +7,7 @@ const dataKuliner =
             jadwal: "Senin - Sabtu",
             waktu: "09.00 WITA",
             waktu2: "18.00 WITA",
-            imgBg: "https://uprint.id/blog/wp-content/uploads/2019/08/rumah-makan-halal-di-bali-bebek-bengil-768x420.jpg"
+            imgBg: "https://1.bp.blogspot.com/-vpxzao28QCM/VFZMUKYSwDI/AAAAAAAAi7o/NnnoyoI2HzM/s1600/IMG_7238.jpg"
         },
         {
             id: 2,

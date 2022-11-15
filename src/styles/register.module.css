@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Baloo+Bhaina+2:wght@400;500;600&family=Pontano+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Volkhov:ital@0;1&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #A6E3E9;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.column1 {
+    height: 100vh;
+    max-width: 40%;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 200px;
+    z-index: 0;
+}
+
+.headerBody {
+    margin-left: 20px;
+}
+
+.headerText {
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 35px;
+    color: #209AA0;
+    font-weight: '700';
+    margin: -1px;
+}
+
+.logo {
+    width: 320px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 180px;
+    position: relative;
+    z-index: 1;
+}
+
+.column2 {
+    padding-top: 100px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    width: 60%;
+}
+
+.header2 {
+    font-size: 30px;
+}
+
+.formBody {
+    padding-left: 70px;
+    padding-right: 100px;
+}
+
+.inputBody {
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.inputField {
+    max-width: 80% !important;
+    margin-bottom: 40px !important;
+    padding-left: 5px !important;
+    border-top-width: 0px !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+
+}
+
+
+.btnLogin {
+    color: #fff !important;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: '600';
+}
+
+.text {
+    margin-left: 3px;
+    color: #A0A0A0;
+    font-size: 15px;
+    font-weight: '400';
+}
+
+.textMasuk {
+    margin-left: 3px;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    color: #71C9CE;
+    font-size: 15px;
+    font-weight: '400';
+}
+
+.textMasuk:hover {
+    cursor: pointer;
+}

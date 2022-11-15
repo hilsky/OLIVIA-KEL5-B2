@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HelmetProvider} from 'react-helmet-async'
-import {legacy_createStore as createStore, compose, applyMiddleware} from 'redux'
-import {Provider} from 'react-redux';
+import { HelmetProvider } from 'react-helmet-async'
+import { legacy_createStore as createStore, compose, applyMiddleware } from 'redux'
+import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers';
 import logger from 'redux-logger';

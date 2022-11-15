@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Router } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Dashboard from './pages/Dashboard';
 import Footer from './components/Footer';
@@ -9,20 +9,24 @@ import Destinations from './pages/Destinations';
 import DetailGuides from './pages/DetailGuides';
 import DetailDestinasi from './pages/DetailDestinasi';
 import Search from './pages/Search';
-
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 
 function App() {
   return (
     <BrowserRouter>
-    <Navbar />
+      <Navbar />
       <Routes>
+
         <Route path='/' exact element={<Dashboard />} />
-        <Route path='/tour-guide' exact element={<TourGuide />} />
-        <Route path='/destinasi' exact element={<Destinations />} />
-        <Route path='/detail-guide/:id' exact element={<DetailGuides />} />
-        <Route path='/detail-destinasi/:id' exact element={<DetailDestinasi />} />
-        <Route path='/search' exact element={<Search />} />
+        <Route path='/tour-guide' element={<TourGuide />} />
+        <Route path='/destinasi' element={<Destinations />} />
+        <Route path='/detail-guide/:id' element={<DetailGuides />} />
+        <Route path='/detail-destinasi/:id' element={<DetailDestinasi />} />
+        <Route path='/search' element={<Search />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
       </Routes>
       <Footer />
     </BrowserRouter>
