@@ -10,6 +10,7 @@ import thunk from 'redux-thunk';
 import reducers from './reducers';
 import logger from 'redux-logger';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const store = createStore(reducers, compose(applyMiddleware(thunk, logger)))

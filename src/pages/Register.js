@@ -1,11 +1,12 @@
 import React, { useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Container } from 'react-bootstrap';
 import styles from '../styles/register.module.css';
 import LoginLogo from '../assets/logo/loginLogo.png'
 import { Form, Button } from 'react-bootstrap';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { register } from '../actions/auth';
+
+import { ToastContainer, toast } from 'react-toastify';
 
 const Register = () => {
 
@@ -42,6 +43,7 @@ const Register = () => {
         setSuccessful(false);
         const form = e.currentTarget;
 
+        var regexp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if (form.checkValidity() === false) {
             e.preventDefault();
             e.stopPropagation();
@@ -53,15 +55,49 @@ const Register = () => {
             setErrorFullName('Wajib diisi');
             setErrorPassword('Wajib diisi');
         }
+        else if (!(email.match(regexp))) {
+            toast.error('Email tidak valid', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
+        }
         else if (password.length < 8) {
-            setErrorPassword('Password diisi minimal 8 karakter')
+            toast.error('Password minimal 8 karakter', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
         }
         else {
             dispatch(register(fullName, email, password))
                 .then(() => {
                     setSuccessful(true)
+                    toast.success('Yeay, akun berhasil dibuat', {
+                        position: "top-center",
+                        autoClose: 2000,
+                        hideProgressBar: true,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: "colored",
+                    });
+                    setFullName('');
+                    setPassword('');
+                    setEmail('');
                 })
-                .catch(() => {
+                .catch((err) => {
                     setSuccessful(false)
                 })
         }
@@ -73,6 +109,7 @@ const Register = () => {
 
     return (
         <div className={styles.container}>
+
             <div className={styles.column1}>
                 <div className={styles.headerBody}>
                     <h1 className={styles.headerText}>SABA</h1>
@@ -81,9 +118,21 @@ const Register = () => {
                 <img src={LoginLogo} className={styles.logo} />
             </div>
             <div className={styles.column2}>
+                <ToastContainer
+                    position="top-center"
+                    autoClose={5000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                    theme="light"
+                />
                 <div className={styles.formBody}>
                     <h2 className={styles.header2}>Buat Akun</h2>
-                    <Form className={styles.inputBody} onSubmit={handleRegister} noValidate validated={validated}>
+                    <Form className={styles.inputBody} onSubmit={handleRegister} >
                         <Form.Group>
                             <Form.Control type="text" placeholder="Nama Lengkap" className={styles.inputField}
                                 value={fullName}
