@@ -130,6 +130,24 @@ header .nav-btn {
     background-color: var(--mainColorLight);
 }
 
+
+
+.icon-user {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-logout {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--btnColor);
+    font-weight: bold;
+    color: var(--textColor);
+    font-size: 15px;
+}
+
+
 @media only screen and (max-width: 1000px) {
     .header {
         display: flex;
