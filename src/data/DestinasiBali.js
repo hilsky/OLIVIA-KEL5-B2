@@ -15,7 +15,7 @@ const dataDestinasiBali = [
     },
     {
         id: "3",
-        imageBg: "https://cdn.kimkim.com/files/a/images/f4ef2e8d789632b74f48b7ce45d0184044b6f27f/big-de04a29f7323a9ff530a81d6349b0af5.jpg",
+        imageBg: "https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/bali-nusa-tenggara/bali/tanah-lot/thumb/page_thumb.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
         namaWisata: "Tanah Lot",
         lokasi: "Gilimanuk",
         kota: "Bali",
