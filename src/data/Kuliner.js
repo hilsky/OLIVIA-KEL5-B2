@@ -7,7 +7,7 @@ const dataKuliner =
             jadwal: "Senin - Sabtu",
             waktu: "09.00 WITA",
             waktu2: "18.00 WITA",
-            imgBg: "https://1.bp.blogspot.com/-vpxzao28QCM/VFZMUKYSwDI/AAAAAAAAi7o/NnnoyoI2HzM/s1600/IMG_7238.jpg"
+            imgBg: "https://farm2.staticflickr.com/1717/25813156125_157127b25f_o.jpg"
         },
         {
             id: 2,
