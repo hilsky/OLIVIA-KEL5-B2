@@ -1,10 +1,11 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from '../styles/register.module.css';
 import LoginLogo from '../assets/logo/loginLogo.png'
 import { Form, Button } from 'react-bootstrap';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { register } from '../actions/auth';
+import { getUser } from '../actions/userAction';
 
 import { ToastContainer, toast } from 'react-toastify';
 
@@ -19,9 +20,17 @@ const Register = () => {
     const [errorPassword, setErrorPassword] = useState('');
     const [validated, setValidated] = useState(false);
 
-
     const dispatch = useDispatch();
     const { message } = useSelector((state) => state.message)
+
+    useEffect(() => {
+        dispatch(getUser())
+    }, [dispatch])
+
+    const { getUserResult, getUserLoading, getUserError } =
+        useSelector((state) => state.userReducer);
+
+
 
     const onChangeFullName = (e) => {
         const fullName = e.target.value;
@@ -69,6 +78,19 @@ const Register = () => {
         }
         else if (password.length < 8) {
             toast.error('Password minimal 8 karakter', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
+        }
+
+        else if (email === getUserResult.email) {
+            toast.error('Email telah digunakan', {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: true,
