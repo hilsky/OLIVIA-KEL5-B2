@@ -12,7 +12,7 @@
     flex-direction: column;
     width: 315px;
     height: 457px;
-    background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+    background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
@@ -22,7 +22,7 @@
     z-index: 1;
     margin-bottom: 50px;
     text-decoration: none;
-    
+
 }
 
 .cardBody:hover {
@@ -41,8 +41,8 @@
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     align-self: center;
-    
-    
+
+
 }
 
 .img {
@@ -77,6 +77,7 @@
     color: #5E6282;
     font-family: 'Poppins', sans-serif;
     float: left;
+    text-transform: uppercase;
 }
 
 .descBody {
@@ -128,7 +129,7 @@
     .cardBody {
         width: 290px;
         height: 435px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -137,17 +138,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -156,26 +157,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 290px;
         height: 327px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -185,7 +186,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 16px;
         font-weight: bold;
@@ -193,26 +194,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 18px;
         height: 18px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
         font-weight: 400;
         margin-left: 10px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -222,13 +223,13 @@
         margin-top: 9px;
         margin-bottom: 9px;
     }
-    
+
     .locIcon {
         width: 19px;
         height: 19px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 13.5px;
         font-family: 'Poppins', sans-serif;
@@ -243,7 +244,7 @@
     .cardBody {
         width: 280px;
         height: 415px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -252,17 +253,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -271,26 +272,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 280px;
         height: 320px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -300,7 +301,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 16px;
         font-weight: bold;
@@ -308,26 +309,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 18px;
         height: 18px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
         font-weight: 400;
         margin-left: 10px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -337,13 +338,13 @@
         margin-top: 9px;
         margin-bottom: 9px;
     }
-    
+
     .locIcon {
         width: 19px;
         height: 19px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 13.5px;
         font-family: 'Poppins', sans-serif;
@@ -358,7 +359,7 @@
     .cardBody {
         width: 260px;
         height: 395px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -367,17 +368,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -386,26 +387,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 260px;
         height: 295px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -415,7 +416,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 15px;
         font-weight: bold;
@@ -423,26 +424,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 16px;
         height: 16px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 12.5px;
         font-weight: 400;
         margin-left: 10px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -452,13 +453,13 @@
         margin-top: 8px;
         margin-bottom: 8px;
     }
-    
+
     .locIcon {
         width: 18px;
         height: 18px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 12px;
         font-family: 'Poppins', sans-serif;
@@ -473,7 +474,7 @@
     .cardBody {
         width: 250px;
         height: 385px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -482,17 +483,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -501,26 +502,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 250px;
         height: 289px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -530,7 +531,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 14.5px;
         font-weight: bold;
@@ -538,26 +539,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 15.5px;
         height: 15.5px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
         font-weight: 400;
         margin-left: 10px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -567,13 +568,13 @@
         margin-top: 7.5px;
         margin-bottom: 7.5px;
     }
-    
+
     .locIcon {
         width: 17.5px;
         height: 17.5px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 11.5px;
         font-family: 'Poppins', sans-serif;
@@ -588,7 +589,7 @@
     .cardBody {
         width: 240px;
         height: 367px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -597,17 +598,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -616,26 +617,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 240px;
         height: 279px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -645,7 +646,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 14px;
         font-weight: bold;
@@ -653,26 +654,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 15px;
         height: 15px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 11.5px;
         font-weight: 400;
         margin-left: 10px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -682,13 +683,13 @@
         margin-top: 7px;
         margin-bottom: 7px;
     }
-    
+
     .locIcon {
         width: 17px;
         height: 17px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 11px;
         font-family: 'Poppins', sans-serif;
@@ -703,7 +704,7 @@
     .cardBody {
         width: 230px;
         height: 355px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -712,17 +713,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -731,26 +732,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 230px;
         height: 280px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -760,7 +761,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 12.5px;
         font-weight: bold;
@@ -768,26 +769,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 13.5px;
         height: 13.5px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 10.5px;
         font-weight: 400;
         margin-left: 10px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -797,13 +798,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 16px;
         height: 16px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 10px;
         font-family: 'Poppins', sans-serif;
@@ -818,7 +819,7 @@
     .cardBody {
         width: 220px;
         height: 347px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -827,17 +828,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -846,26 +847,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 220px;
         height: 267px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -875,7 +876,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 12.5px;
         font-weight: bold;
@@ -883,26 +884,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 13.5px;
         height: 13.5px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 10.5px;
         font-weight: 400;
         margin-left: 10px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -912,13 +913,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 16px;
         height: 16px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 10px;
         font-family: 'Poppins', sans-serif;
@@ -933,7 +934,7 @@
     .cardBody {
         width: 215px;
         height: 340px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -942,17 +943,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -961,26 +962,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 215px;
         height: 255px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -990,7 +991,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 11.5px;
         font-weight: bold;
@@ -998,26 +999,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 13px;
         height: 13px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 10px;
         font-weight: 400;
         margin-left: 9px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1027,13 +1028,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 15px;
         height: 15px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 9.5px;
         font-family: 'Poppins', sans-serif;
@@ -1048,7 +1049,7 @@
     .cardBody {
         width: 210px;
         height: 333px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1057,17 +1058,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1076,26 +1077,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 210px;
         height: 249px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -1105,7 +1106,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 11px;
         font-weight: bold;
@@ -1113,26 +1114,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 13px;
         height: 13px;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 10px;
         font-weight: 400;
         margin-left: 9px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1142,13 +1143,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 15px;
         height: 15px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 9.5px;
         font-family: 'Poppins', sans-serif;
@@ -1164,7 +1165,7 @@
     .cardBody {
         width: 200px;
         height: 318px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1173,17 +1174,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1192,26 +1193,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 200px;
         height: 242px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -1221,7 +1222,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 10.5px;
         font-weight: bold;
@@ -1229,26 +1230,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 12.5px;
         height: 12.5x;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 9.5px;
         font-weight: 400;
         margin-left: 7px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1258,13 +1259,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 14px;
         height: 14px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 9px;
         font-family: 'Poppins', sans-serif;
@@ -1279,7 +1280,7 @@
     .cardBody {
         width: 190px;
         height: 310px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1288,17 +1289,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1307,26 +1308,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 190px;
         height: 232px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -1336,7 +1337,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 10px;
         font-weight: bold;
@@ -1344,26 +1345,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 11.5px;
         height: 11.5x;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 9px;
         font-weight: 400;
         margin-left: 7px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1373,13 +1374,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 13px;
         height: 13px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 8.7px;
         font-family: 'Poppins', sans-serif;
@@ -1394,7 +1395,7 @@
     .cardBody {
         width: 185px;
         height: 300px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1403,17 +1404,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1422,26 +1423,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 185px;
         height: 225px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -1451,7 +1452,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 10px;
         font-weight: bold;
@@ -1459,26 +1460,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 11.5px;
         height: 11.5x;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 9px;
         font-weight: 400;
         margin-left: 7px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1488,13 +1489,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 13px;
         height: 13px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 8.7px;
         font-family: 'Poppins', sans-serif;
@@ -1509,7 +1510,7 @@
     .cardBody {
         width: 175px;
         height: 275px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1518,17 +1519,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1537,26 +1538,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 175px;
         height: 210px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -1566,7 +1567,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 9px;
         font-weight: bold;
@@ -1574,26 +1575,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 11px;
         height: 11x;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 8.5px;
         font-weight: 400;
         margin-left: 7px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1603,13 +1604,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 12.5px;
         height: 12.5px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 8.5px;
         font-family: 'Poppins', sans-serif;
@@ -1624,7 +1625,7 @@
     .cardBody {
         width: 170px;
         height: 275px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1633,17 +1634,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1652,26 +1653,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 170px;
         height: 205px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -1681,7 +1682,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 8.7px;
         font-weight: bold;
@@ -1689,26 +1690,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 10px;
         height: 10x;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 8.2px;
         font-weight: 400;
         margin-left: 5px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1718,13 +1719,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 11px;
         height: 11px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 8px;
         font-family: 'Poppins', sans-serif;
@@ -1739,7 +1740,7 @@
     .cardBody {
         width: 165px;
         height: 265px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1748,17 +1749,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1767,26 +1768,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 165px;
         height: 200px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -1796,7 +1797,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 8.7px;
         font-weight: bold;
@@ -1804,26 +1805,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 100px;
         margin-left: 50px;
     }
-    
+
     .icon {
         width: 10px;
         height: 10x;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 8.2px;
         font-weight: 400;
         margin-left: 5px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1833,13 +1834,13 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-    
+
     .locIcon {
         width: 11px;
         height: 11px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 8px;
         font-family: 'Poppins', sans-serif;
@@ -1854,7 +1855,7 @@
     .cardBody {
         width: 150px;
         height: 240px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1863,17 +1864,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1882,26 +1883,26 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 150px;
         height: 180px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -1911,7 +1912,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 7.5px;
         font-weight: bold;
@@ -1919,26 +1920,26 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 80px;
         margin-left: 40px;
     }
-    
+
     .icon {
         width: 8px;
         height: 8x;
     }
-    
+
     .like {
         font-family: 'Poppins', sans-serif;
         font-size: 7.5px;
         font-weight: 400;
         margin-left: 5px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -1948,13 +1949,13 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    
+
     .locIcon {
         width: 9px;
         height: 9px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 7px;
         font-family: 'Poppins', sans-serif;
@@ -1969,7 +1970,7 @@
     .cardBody {
         width: 135px;
         height: 210px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
@@ -1978,17 +1979,17 @@
         margin-left: 15px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -1997,26 +1998,26 @@
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 135px;
         height: 165px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 8px;
         margin-left: 8px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -2026,7 +2027,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 6.5px;
         font-weight: bold;
@@ -2034,19 +2035,19 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 40px;
         margin-left: 40px;
     }
-    
+
     .icon {
         width: 6px;
         height: 6x;
     }
-    
+
     .like {
         margin-top: 2px;
         font-family: 'Poppins', sans-serif;
@@ -2054,7 +2055,7 @@
         font-weight: 400;
         margin-left: 4px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -2064,13 +2065,13 @@
         margin-top: 2px;
         margin-bottom: 2px;
     }
-    
+
     .locIcon {
         width: 7px;
         height: 7px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 5.5px;
         font-family: 'Poppins', sans-serif;
@@ -2085,7 +2086,7 @@
     .cardBody {
         width: 125px;
         height: 195px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 12px;
         font-family: 'Poppins', sans-serif;
@@ -2094,17 +2095,17 @@
         margin-left: 10px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -2113,26 +2114,26 @@
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 125px;
         height: 150px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 6px;
         margin-left: 8px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -2142,7 +2143,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 6.5px;
         font-weight: bold;
@@ -2150,19 +2151,19 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 40px;
         margin-left: 40px;
     }
-    
+
     .icon {
         width: 6px;
         height: 6x;
     }
-    
+
     .like {
         margin-top: 2px;
         font-family: 'Poppins', sans-serif;
@@ -2170,7 +2171,7 @@
         font-weight: 400;
         margin-left: 4px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -2180,13 +2181,13 @@
         margin-top: 2px;
         margin-bottom: 2px;
     }
-    
+
     .locIcon {
         width: 7px;
         height: 7px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 5.5px;
         font-family: 'Poppins', sans-serif;
@@ -2201,7 +2202,7 @@
     .cardBody {
         width: 115px;
         height: 185px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 12px;
         font-family: 'Poppins', sans-serif;
@@ -2210,17 +2211,17 @@
         margin-left: 10px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -2229,26 +2230,26 @@
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 115px;
         height: 140px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 5px;
         margin-left: 3px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -2258,7 +2259,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 6.5px;
         font-weight: bold;
@@ -2266,20 +2267,20 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 40px;
         margin-left: 40px;
     }
-    
+
     .icon {
         margin-top: 1px;
         width: 6px;
         height: 6px;
     }
-    
+
     .like {
         margin-top: 0px;
         font-family: 'Poppins', sans-serif;
@@ -2287,7 +2288,7 @@
         font-weight: 400;
         margin-left: 4px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -2297,13 +2298,13 @@
         margin-top: 2px;
         margin-bottom: 2px;
     }
-    
+
     .locIcon {
         width: 7px;
         height: 7px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 5.5px;
         font-family: 'Poppins', sans-serif;
@@ -2318,7 +2319,7 @@
     .cardBody {
         width: 105px;
         height: 165px;
-        background-image: linear-gradient(#D9D9D9 75%, #fff 25% );
+        background-image: linear-gradient(#D9D9D9 75%, #fff 25%);
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
         border-radius: 12px;
         font-family: 'Poppins', sans-serif;
@@ -2327,17 +2328,17 @@
         margin-left: 10px;
         z-index: 1;
         margin-bottom: 50px;
-        
+
     }
-    
+
     .cardBody:hover {
         box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 5px 0 rgba(0, 0, 0, 0.19);
     }
-    
+
     /* .img {
     
     } */
-    
+
     .imgBody {
         /* border-width: 1px;
         border-style: solid; */
@@ -2346,26 +2347,26 @@
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
         align-self: center;
-        
-        
+
+
     }
-    
+
     .img {
         width: 105px;
         height: 125px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-    
+
     .titleBody {
         display: flex;
         flex-direction: row;
         align-self: flex-start;
         margin-top: 4px;
         margin-left: 3px;
-    
+
     }
-    
+
     .titleBody2 {
         display: flex;
         flex-direction: row;
@@ -2375,7 +2376,7 @@
         align-items: center;
         align-self: flex-start;
     }
-    
+
     .titleProv {
         font-size: 5.5px;
         font-weight: bold;
@@ -2383,21 +2384,21 @@
         font-family: 'Poppins', sans-serif;
         float: left;
     }
-    
+
     .descBody {
         display: flex;
         flex-direction: row;
         width: 40px;
         margin-left: 40px;
     }
-    
+
     .icon {
         margin-top: 1px;
         width: 5px;
         height: 5px;
         margin-left: -10px;
     }
-    
+
     .like {
         margin-top: 0px;
         font-family: 'Poppins', sans-serif;
@@ -2405,7 +2406,7 @@
         font-weight: 400;
         margin-left: 4px;
     }
-    
+
     .locBody {
         display: flex;
         flex-direction: row;
@@ -2415,13 +2416,13 @@
         margin-top: 2px;
         margin-bottom: 2px;
     }
-    
+
     .locIcon {
         width: 6px;
         height: 6px;
         color: var(--cardWork);
     }
-    
+
     .locText {
         font-size: 5px;
         font-family: 'Poppins', sans-serif;
