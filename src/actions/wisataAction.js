@@ -1,12 +1,12 @@
 import axios from "axios";
 
 export const GET_WISATA_LIST = "GET_WISATA_LIST";
-export const GET_WISATA_DETAIL = "GET_WISATA_DETAIL"; 
+export const GET_WISATA_DETAIL = "GET_WISATA_DETAIL";
 
 export const getWisataList = () => {
     return (dispatch) => {
         axios
-            .get("https://desolate-crag-78080.herokuapp.com/wisata")
+            .get("https://api-sabatour.cyclic.app/wisata")
             .then((response) => {
                 dispatch({
                     type: GET_WISATA_LIST,
@@ -33,7 +33,7 @@ export const getWisataList = () => {
 export const getWisataDetail = (id) => {
     return (dispatch) => {
         axios
-            .get("https://desolate-crag-78080.herokuapp.com/wisata/" + id)
+            .get("https://api-sabatour.cyclic.app/wisata/" + id)
             .then((response) => {
                 dispatch({
                     type: GET_WISATA_DETAIL,

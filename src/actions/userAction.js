@@ -6,7 +6,7 @@ export const GET_USER = "GET_USER";
 export const getUser = () => {
     return (dispatch) => {
         axios
-            .get("http://localhost:3500/api/auth/getUser")
+            .get("https://api-sabatour.cyclic.app/api/auth/getUser")
             .then((response) => {
                 dispatch({
                     type: GET_USER,
